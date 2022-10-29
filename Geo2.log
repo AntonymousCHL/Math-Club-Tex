@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  29 OCT 2022 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  29 OCT 2022 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,20 +352,26 @@ File: ./geo2//Picture20.png Graphic file (type png)
 <use ./geo2//Picture20.png>
 Package pdftex.def Info: ./geo2//Picture20.png  used on input line 187.
 (pdftex.def)             Requested size: 297.3602pt x 221.32631pt.
- [11 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture20.png>] [12] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux) ) 
+ [11 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture20.png>]
+<./geo2//Picture21.png, id=84, 289.08pt x 209.75926pt>
+File: ./geo2//Picture21.png Graphic file (type png)
+<use ./geo2//Picture21.png>
+Package pdftex.def Info: ./geo2//Picture21.png  used on input line 194.
+(pdftex.def)             Requested size: 289.07928pt x 209.75873pt.
+ [12 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture21.png>] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux) ) 
 Here is how much of TeX's memory you used:
- 2886 strings out of 479485
- 40843 string characters out of 5875909
+ 2892 strings out of 479485
+ 40980 string characters out of 5875909
  322168 words of memory out of 5000000
- 19870 multiletter control sequences out of 15000+600000
+ 19875 multiletter control sequences out of 15000+600000
  540471 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,72p,325b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf (12 pages, 458110 bytes).
+Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf (12 pages, 479285 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
