@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  29 OCT 2022 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  29 OCT 2022 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -137,20 +137,20 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux)
 \openout1 = `Geo2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -205,23 +205,173 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.tex:25: I can't write on file `Geo2.pdf'.
-(Press Enter to retry, or Control-Z to exit; default file extension is `.pdf')
-Please type another file name for output
-c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.tex:25: Emergency stop.
-<argument> \pdfximage 
-                      \ifnum 0\ifx \Gin@decode \@empty \else 1\fi \ifGin@int...
-l.25 ...raphics[width=0.4\textwidth]{Picture1.png}
-                                                  
-*** (job aborted, file error in nonstop mode)
+<./geo2//Picture1.png, id=1, 185.19188pt x 155.83218pt>
+File: ./geo2//Picture1.png Graphic file (type png)
+<use ./geo2//Picture1.png>
+Package pdftex.def Info: ./geo2//Picture1.png  used on input line 27.
+(pdftex.def)             Requested size: 173.44534pt x 145.94965pt.
 
- 
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+<./geo2//Picture2.png, id=3, 207.77625pt x 203.25937pt>
+File: ./geo2//Picture2.png Graphic file (type png)
+<use ./geo2//Picture2.png>
+Package pdftex.def Info: ./geo2//Picture2.png  used on input line 38.
+(pdftex.def)             Requested size: 207.77573pt x 203.25887pt.
+[1
+
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture1.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture2.png>]
+<./geo2//Picture3.png, id=15, 214.55156pt x 191.9672pt>
+File: ./geo2//Picture3.png Graphic file (type png)
+<use ./geo2//Picture3.png>
+Package pdftex.def Info: ./geo2//Picture3.png  used on input line 44.
+(pdftex.def)             Requested size: 214.55103pt x 191.96672pt.
+<./geo2//Picture4.png, id=16, 218.31563pt x 176.91093pt>
+File: ./geo2//Picture4.png Graphic file (type png)
+<use ./geo2//Picture4.png>
+Package pdftex.def Info: ./geo2//Picture4.png  used on input line 50.
+(pdftex.def)             Requested size: 218.31508pt x 176.91049pt.
+ [2 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture3.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture4.png>]
+<./geo2//Picture5.jpg, id=23, 262.73157pt x 162.6075pt>
+File: ./geo2//Picture5.jpg Graphic file (type jpg)
+<use ./geo2//Picture5.jpg>
+Package pdftex.def Info: ./geo2//Picture5.jpg  used on input line 56.
+(pdftex.def)             Requested size: 262.73091pt x 162.6071pt.
+<./geo2//Picture6.png, id=24, 168.63pt x 178.41656pt>
+File: ./geo2//Picture6.png Graphic file (type png)
+<use ./geo2//Picture6.png>
+Package pdftex.def Info: ./geo2//Picture6.png  used on input line 67.
+(pdftex.def)             Requested size: 168.62958pt x 178.4161pt.
+ [3 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture5.jpg> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture6.png>]
+<./geo2//Picture7.png, id=30, 313.9228pt x 163.3603pt>
+File: ./geo2//Picture7.png Graphic file (type png)
+<use ./geo2//Picture7.png>
+Package pdftex.def Info: ./geo2//Picture7.png  used on input line 73.
+(pdftex.def)             Requested size: 313.92203pt x 163.3599pt.
+<./geo2//Picture8.jpg, id=31, 221.32687pt x 179.16937pt>
+File: ./geo2//Picture8.jpg Graphic file (type jpg)
+<use ./geo2//Picture8.jpg>
+Package pdftex.def Info: ./geo2//Picture8.jpg  used on input line 79.
+(pdftex.def)             Requested size: 221.32631pt x 179.16893pt.
+ [4 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture7.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture8.jpg>]
+<./geo2//Picture9.png, id=36, 186.6975pt x 181.67876pt>
+File: ./geo2//Picture9.png Graphic file (type png)
+<use ./geo2//Picture9.png>
+Package pdftex.def Info: ./geo2//Picture9.png  used on input line 91.
+(pdftex.def)             Requested size: 149.35818pt x 145.34319pt.
+<./geo2//Picture10.png, id=37, 144.54pt x 130.98938pt>
+File: ./geo2//Picture10.png Graphic file (type png)
+<use ./geo2//Picture10.png>
+Package pdftex.def Info: ./geo2//Picture10.png  used on input line 99.
+(pdftex.def)             Requested size: 144.53963pt x 130.98904pt.
+<./geo2//Picture11.png, id=38, 134.5025pt x 130.4875pt>
+File: ./geo2//Picture11.png Graphic file (type png)
+<use ./geo2//Picture11.png>
+Package pdftex.def Info: ./geo2//Picture11.png  used on input line 103.
+(pdftex.def)             Requested size: 134.50215pt x 130.48717pt.
+ [5 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture9.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture10.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture11.png>]
+<./geo2//Picture12.jpg, id=46, 543.02875pt x 180.675pt>
+File: ./geo2//Picture12.jpg Graphic file (type jpg)
+<use ./geo2//Picture12.jpg>
+Package pdftex.def Info: ./geo2//Picture12.jpg  used on input line 111.
+(pdftex.def)             Requested size: 407.27055pt x 135.5059pt.
+<./geo2//Picture13.png, id=47, 338.01282pt x 137.01187pt>
+File: ./geo2//Picture13.png Graphic file (type png)
+<use ./geo2//Picture13.png>
+Package pdftex.def Info: ./geo2//Picture13.png  used on input line 123.
+(pdftex.def)             Requested size: 405.61333pt x 164.41342pt.
+ [6 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture12.jpg> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture13.png>]
+<./geo2//Picture14.png, id=52, 215.30438pt x 163.3603pt>
+File: ./geo2//Picture14.png Graphic file (type png)
+<use ./geo2//Picture14.png>
+Package pdftex.def Info: ./geo2//Picture14.png  used on input line 132.
+(pdftex.def)             Requested size: 215.30385pt x 163.3599pt.
+<./geo2//Picture15.png, id=53, 420.06938pt x 145.29282pt>
+File: ./geo2//Picture15.png Graphic file (type png)
+<use ./geo2//Picture15.png>
+Package pdftex.def Info: ./geo2//Picture15.png  used on input line 141.
+(pdftex.def)             Requested size: 420.06836pt x 145.29245pt.
+ [7 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture14.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture15.png>]
+<./geo2//Picture16.png, id=62, 179.92218pt x 157.33781pt>
+File: ./geo2//Picture16.png Graphic file (type png)
+<use ./geo2//Picture16.png>
+Package pdftex.def Info: ./geo2//Picture16.png  used on input line 154.
+(pdftex.def)             Requested size: 179.92174pt x 157.33742pt.
+<./geo2//Picture17.png, id=63, 271.76532pt x 185.94469pt>
+File: ./geo2//Picture17.png Graphic file (type png)
+<use ./geo2//Picture17.png>
+Package pdftex.def Info: ./geo2//Picture17.png  used on input line 162.
+(pdftex.def)             Requested size: 271.76465pt x 185.94421pt.
+ [8 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture16.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture17.png>]
+<./geo2//Picture18.png, id=69, 220.57407pt x 182.18062pt>
+File: ./geo2//Picture18.png Graphic file (type png)
+<use ./geo2//Picture18.png>
+Package pdftex.def Info: ./geo2//Picture18.png  used on input line 169.
+(pdftex.def)             Requested size: 220.57352pt x 182.18016pt.
+ [9 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture18.png>]
+<./geo2//Picture19.png, id=74, 319.1925pt x 181.42781pt>
+File: ./geo2//Picture19.png Graphic file (type png)
+<use ./geo2//Picture19.png>
+Package pdftex.def Info: ./geo2//Picture19.png  used on input line 180.
+(pdftex.def)             Requested size: 319.19171pt x 181.42737pt.
+ [10 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture19.png>]
+<./geo2//Picture20.png, id=79, 297.36093pt x 221.32687pt>
+File: ./geo2//Picture20.png Graphic file (type png)
+<use ./geo2//Picture20.png>
+Package pdftex.def Info: ./geo2//Picture20.png  used on input line 189.
+(pdftex.def)             Requested size: 297.3602pt x 221.32631pt.
+ [11 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture20.png>]
+<./geo2//Picture21.png, id=84, 289.08pt x 209.75926pt>
+File: ./geo2//Picture21.png Graphic file (type png)
+<use ./geo2//Picture21.png>
+Package pdftex.def Info: ./geo2//Picture21.png  used on input line 196.
+(pdftex.def)             Requested size: 289.07928pt x 209.75873pt.
+ [12 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture21.png>] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux) ) 
 Here is how much of TeX's memory you used:
- 2759 strings out of 479485
- 37960 string characters out of 5875909
- 320175 words of memory out of 5000000
- 19768 multiletter control sequences out of 15000+600000
- 539709 words of font info for 45 fonts, out of 8000000 for 9000
+ 2892 strings out of 479485
+ 40980 string characters out of 5875909
+ 322168 words of memory out of 5000000
+ 19875 multiletter control sequences out of 15000+600000
+ 540471 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,6n,72p,265b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
-c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.tex:25:  ==> Fatal error occurred, no output PDF file produced!
+ 66i,8n,72p,325b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf (12 pages, 479148 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
