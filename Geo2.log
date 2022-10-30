@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  29 OCT 2022 19:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  30 OCT 2022 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -139,27 +139,220 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box50
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/11/23 v3.1.7 (3.1.7)
+))
+Package: pgf 2020/11/23 v3.1.7 (3.1.7)
+ (c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/11/23 v3.1.7 (3.1.7)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count266
+\c@pgf@countb=\count267
+\c@pgf@countc=\count268
+\c@pgf@countd=\count269
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count270
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/11/23 v3.1.7 (3.1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/11/23 v3.1.7 (3.1.7)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/11/23 v3.1.7 (3.1.7)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgfsyssoftpath@smallbuffer@items=\count271
+\pgfsyssoftpath@bigbuffer@items=\count272
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/11/23 v3.1.7 (3.1.7)
+)) (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/11/23 v3.1.7 (3.1.7)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count273
+\pgfmath@box=\box51
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count274
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count275
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgflinewidth=\dimen191
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/11/23 v3.1.7 (3.1.7)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/11/23 v3.1.7 (3.1.7)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/11/23 v3.1.7 (3.1.7)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgfarrowsep=\dimen195
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count276
+\pgf@shadingcount=\count277
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/11/23 v3.1.7 (3.1.7)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgfexternal@startupbox=\box55
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/11/23 v3.1.7 (3.1.7)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/11/23 v3.1.7 (3.1.7)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/11/23 v3.1.7 (3.1.7)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/11/23 v3.1.7 (3.1.7)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgfnodeparttextbox=\box56
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/11/23 v3.1.7 (3.1.7)
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/11/23 v3.1.7 (3.1.7)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/11/23 v3.1.7 (3.1.7)
+)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/11/23 v3.1.7 (3.1.7)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/11/23 v3.1.7 (3.1.7)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgf@plot@mark@count=\count278
+\pgfplotmarksize=\dimen257
+)
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikz@lastmovetox=\dimen262
+\tikz@lastmovetoy=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count279
+\tikznumberofchildren=\count280
+\tikznumberofcurrentchild=\count281
+\tikz@fig@count=\count282
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/11/23 v3.1.7 (3.1.7)
+\pgfmatrixcurrentrow=\count283
+\pgfmatrixcurrentcolumn=\count284
+\pgf@matrix@numberofcolumns=\count285
+)
+\tikz@expandcount=\count286
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/11/23 v3.1.7 (3.1.7)
+))) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count266
-\l__pdf_internal_box=\box50
+\l__kernel_color_stack_int=\count287
+\l__pdf_internal_box=\box61
 ) (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux)
 \openout1 = `Geo2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -197,198 +390,192 @@ LaTeX Font Info:    ... okay on input line 18.
 
 (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count267
-\scratchdimen=\dimen160
-\scratchbox=\box51
-\nofMPsegments=\count268
-\nofMParguments=\count269
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count270
-\MPscratchDim=\dimen161
-\MPnumerator=\count271
-\makeMPintoPDFobject=\count272
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count288
+\scratchdimen=\dimen266
+\scratchbox=\box62
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen267
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks38
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
  (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./geo2//Picture1.png, id=1, 185.19188pt x 155.83218pt>
-File: ./geo2//Picture1.png Graphic file (type png)
-<use ./geo2//Picture1.png>
-Package pdftex.def Info: ./geo2//Picture1.png  used on input line 28.
-(pdftex.def)             Requested size: 173.44534pt x 145.94965pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
-<./geo2//Picture2.png, id=3, 207.77625pt x 203.25937pt>
+<./geo2//Picture2.png, id=4, 207.77625pt x 203.25937pt>
 File: ./geo2//Picture2.png Graphic file (type png)
 <use ./geo2//Picture2.png>
-Package pdftex.def Info: ./geo2//Picture2.png  used on input line 39.
+Package pdftex.def Info: ./geo2//Picture2.png  used on input line 68.
 (pdftex.def)             Requested size: 207.77573pt x 203.25887pt.
 [1
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture1.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture2.png>]
-<./geo2//Picture3.png, id=15, 214.55156pt x 191.9672pt>
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture2.png>]
+<./geo2//Picture3.png, id=16, 214.55156pt x 191.9672pt>
 File: ./geo2//Picture3.png Graphic file (type png)
 <use ./geo2//Picture3.png>
-Package pdftex.def Info: ./geo2//Picture3.png  used on input line 45.
+Package pdftex.def Info: ./geo2//Picture3.png  used on input line 74.
 (pdftex.def)             Requested size: 214.55103pt x 191.96672pt.
-<./geo2//Picture4.png, id=16, 218.31563pt x 176.91093pt>
+<./geo2//Picture4.png, id=17, 218.31563pt x 176.91093pt>
 File: ./geo2//Picture4.png Graphic file (type png)
 <use ./geo2//Picture4.png>
-Package pdftex.def Info: ./geo2//Picture4.png  used on input line 51.
+Package pdftex.def Info: ./geo2//Picture4.png  used on input line 80.
 (pdftex.def)             Requested size: 218.31508pt x 176.91049pt.
  [2 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture3.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture4.png>]
-<./geo2//Picture5.jpg, id=23, 262.73157pt x 162.6075pt>
+<./geo2//Picture5.jpg, id=24, 262.73157pt x 162.6075pt>
 File: ./geo2//Picture5.jpg Graphic file (type jpg)
 <use ./geo2//Picture5.jpg>
-Package pdftex.def Info: ./geo2//Picture5.jpg  used on input line 57.
+Package pdftex.def Info: ./geo2//Picture5.jpg  used on input line 86.
 (pdftex.def)             Requested size: 262.73091pt x 162.6071pt.
-<./geo2//Picture6.png, id=24, 168.63pt x 178.41656pt>
+<./geo2//Picture6.png, id=25, 168.63pt x 178.41656pt>
 File: ./geo2//Picture6.png Graphic file (type png)
 <use ./geo2//Picture6.png>
-Package pdftex.def Info: ./geo2//Picture6.png  used on input line 68.
+Package pdftex.def Info: ./geo2//Picture6.png  used on input line 97.
 (pdftex.def)             Requested size: 168.62958pt x 178.4161pt.
  [3 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture5.jpg> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture6.png>]
-<./geo2//Picture7.png, id=30, 313.9228pt x 163.3603pt>
+<./geo2//Picture7.png, id=31, 313.9228pt x 163.3603pt>
 File: ./geo2//Picture7.png Graphic file (type png)
 <use ./geo2//Picture7.png>
-Package pdftex.def Info: ./geo2//Picture7.png  used on input line 74.
+Package pdftex.def Info: ./geo2//Picture7.png  used on input line 103.
 (pdftex.def)             Requested size: 313.92203pt x 163.3599pt.
-<./geo2//Picture8.jpg, id=31, 221.32687pt x 179.16937pt>
+<./geo2//Picture8.jpg, id=32, 221.32687pt x 179.16937pt>
 File: ./geo2//Picture8.jpg Graphic file (type jpg)
 <use ./geo2//Picture8.jpg>
-Package pdftex.def Info: ./geo2//Picture8.jpg  used on input line 80.
+Package pdftex.def Info: ./geo2//Picture8.jpg  used on input line 109.
 (pdftex.def)             Requested size: 221.32631pt x 179.16893pt.
  [4 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture7.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture8.jpg>]
-<./geo2//Picture9.png, id=36, 186.6975pt x 181.67876pt>
+<./geo2//Picture9.png, id=37, 186.6975pt x 181.67876pt>
 File: ./geo2//Picture9.png Graphic file (type png)
 <use ./geo2//Picture9.png>
-Package pdftex.def Info: ./geo2//Picture9.png  used on input line 92.
+Package pdftex.def Info: ./geo2//Picture9.png  used on input line 121.
 (pdftex.def)             Requested size: 149.35818pt x 145.34319pt.
-<./geo2//Picture10.png, id=37, 144.54pt x 130.98938pt>
+<./geo2//Picture10.png, id=38, 144.54pt x 130.98938pt>
 File: ./geo2//Picture10.png Graphic file (type png)
 <use ./geo2//Picture10.png>
-Package pdftex.def Info: ./geo2//Picture10.png  used on input line 100.
+Package pdftex.def Info: ./geo2//Picture10.png  used on input line 129.
 (pdftex.def)             Requested size: 144.53963pt x 130.98904pt.
-<./geo2//Picture11.png, id=38, 134.5025pt x 130.4875pt>
+<./geo2//Picture11.png, id=39, 134.5025pt x 130.4875pt>
 File: ./geo2//Picture11.png Graphic file (type png)
 <use ./geo2//Picture11.png>
-Package pdftex.def Info: ./geo2//Picture11.png  used on input line 104.
+Package pdftex.def Info: ./geo2//Picture11.png  used on input line 133.
 (pdftex.def)             Requested size: 134.50215pt x 130.48717pt.
  [5 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture9.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture10.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture11.png>]
-<./geo2//Picture12.jpg, id=46, 543.02875pt x 180.675pt>
+<./geo2//Picture12.jpg, id=47, 543.02875pt x 180.675pt>
 File: ./geo2//Picture12.jpg Graphic file (type jpg)
 <use ./geo2//Picture12.jpg>
-Package pdftex.def Info: ./geo2//Picture12.jpg  used on input line 112.
+Package pdftex.def Info: ./geo2//Picture12.jpg  used on input line 141.
 (pdftex.def)             Requested size: 407.27055pt x 135.5059pt.
-<./geo2//Picture13.png, id=47, 338.01282pt x 137.01187pt>
+<./geo2//Picture13.png, id=48, 338.01282pt x 137.01187pt>
 File: ./geo2//Picture13.png Graphic file (type png)
 <use ./geo2//Picture13.png>
-Package pdftex.def Info: ./geo2//Picture13.png  used on input line 124.
+Package pdftex.def Info: ./geo2//Picture13.png  used on input line 153.
 (pdftex.def)             Requested size: 405.61333pt x 164.41342pt.
  [6 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture12.jpg> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture13.png>]
-<./geo2//Picture14.png, id=52, 215.30438pt x 163.3603pt>
+<./geo2//Picture14.png, id=53, 215.30438pt x 163.3603pt>
 File: ./geo2//Picture14.png Graphic file (type png)
 <use ./geo2//Picture14.png>
-Package pdftex.def Info: ./geo2//Picture14.png  used on input line 133.
+Package pdftex.def Info: ./geo2//Picture14.png  used on input line 162.
 (pdftex.def)             Requested size: 215.30385pt x 163.3599pt.
-<./geo2//Picture15.png, id=53, 420.06938pt x 145.29282pt>
+<./geo2//Picture15.png, id=54, 420.06938pt x 145.29282pt>
 File: ./geo2//Picture15.png Graphic file (type png)
 <use ./geo2//Picture15.png>
-Package pdftex.def Info: ./geo2//Picture15.png  used on input line 142.
+Package pdftex.def Info: ./geo2//Picture15.png  used on input line 171.
 (pdftex.def)             Requested size: 420.06836pt x 145.29245pt.
  [7 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture14.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture15.png>]
-<./geo2//Picture16.png, id=62, 179.92218pt x 157.33781pt>
+<./geo2//Picture16.png, id=63, 179.92218pt x 157.33781pt>
 File: ./geo2//Picture16.png Graphic file (type png)
 <use ./geo2//Picture16.png>
-Package pdftex.def Info: ./geo2//Picture16.png  used on input line 155.
+Package pdftex.def Info: ./geo2//Picture16.png  used on input line 184.
 (pdftex.def)             Requested size: 179.92174pt x 157.33742pt.
-<./geo2//Picture17.png, id=63, 271.76532pt x 185.94469pt>
+<./geo2//Picture17.png, id=64, 271.76532pt x 185.94469pt>
 File: ./geo2//Picture17.png Graphic file (type png)
 <use ./geo2//Picture17.png>
-Package pdftex.def Info: ./geo2//Picture17.png  used on input line 163.
+Package pdftex.def Info: ./geo2//Picture17.png  used on input line 192.
 (pdftex.def)             Requested size: 271.76465pt x 185.94421pt.
  [8 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture16.png> <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture17.png>]
-<./geo2//Picture18.png, id=69, 220.57407pt x 182.18062pt>
+<./geo2//Picture18.png, id=70, 220.57407pt x 182.18062pt>
 File: ./geo2//Picture18.png Graphic file (type png)
 <use ./geo2//Picture18.png>
-Package pdftex.def Info: ./geo2//Picture18.png  used on input line 170.
+Package pdftex.def Info: ./geo2//Picture18.png  used on input line 199.
 (pdftex.def)             Requested size: 220.57352pt x 182.18016pt.
  [9 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture18.png>]
-<./geo2//Picture19.png, id=74, 319.1925pt x 181.42781pt>
+<./geo2//Picture19.png, id=75, 319.1925pt x 181.42781pt>
 File: ./geo2//Picture19.png Graphic file (type png)
 <use ./geo2//Picture19.png>
-Package pdftex.def Info: ./geo2//Picture19.png  used on input line 181.
+Package pdftex.def Info: ./geo2//Picture19.png  used on input line 210.
 (pdftex.def)             Requested size: 319.19171pt x 181.42737pt.
  [10 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture19.png>]
-<./geo2//Picture20.png, id=79, 297.36093pt x 221.32687pt>
+<./geo2//Picture20.png, id=80, 297.36093pt x 221.32687pt>
 File: ./geo2//Picture20.png Graphic file (type png)
 <use ./geo2//Picture20.png>
-Package pdftex.def Info: ./geo2//Picture20.png  used on input line 190.
+Package pdftex.def Info: ./geo2//Picture20.png  used on input line 219.
 (pdftex.def)             Requested size: 297.3602pt x 221.32631pt.
  [11 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture20.png>]
-<./geo2//Picture21.png, id=84, 289.08pt x 209.75926pt>
+<./geo2//Picture21.png, id=85, 289.08pt x 209.75926pt>
 File: ./geo2//Picture21.png Graphic file (type png)
 <use ./geo2//Picture21.png>
-Package pdftex.def Info: ./geo2//Picture21.png  used on input line 197.
+Package pdftex.def Info: ./geo2//Picture21.png  used on input line 226.
 (pdftex.def)             Requested size: 289.07928pt x 209.75873pt.
  [12 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo2//Picture21.png>] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux) ) 
 Here is how much of TeX's memory you used:
- 3401 strings out of 479485
- 46413 string characters out of 5875909
- 322636 words of memory out of 5000000
- 20365 multiletter control sequences out of 15000+600000
+ 13725 strings out of 479485
+ 266723 string characters out of 5875909
+ 521760 words of memory out of 5000000
+ 30476 multiletter control sequences out of 15000+600000
  542951 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,6n,72p,346b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,7n,85p,431b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf (12 pages, 477811 bytes).
+Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf (12 pages, 467018 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

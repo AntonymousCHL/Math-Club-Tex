@@ -12,6 +12,7 @@
 \usepackage{wrapfig}
 \usepackage{graphicx}
 \usepackage{amssymb}
+\usepackage{tikz}
 
 \graphicspath{ {./geo2/} }
 
@@ -25,7 +26,35 @@
 \subsection{Terms to describe geometric object related to circles}
 \begin{wrapfigure}{R}{0.4\textwidth} %this figure will be at the right
     \centering
-    \includegraphics[width=0.4\textwidth]{Picture1.png}
+    
+
+    \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+    \begin{tikzpicture}[x=0.6pt,y=0.6pt,yscale=-1,xscale=1]
+    %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+    %Shape: Circle [id:dp17379134999161217] 
+    \draw   (28,148.36) .. controls (28,79.68) and (83.68,24) .. (152.36,24) .. controls (221.04,24) and (276.72,79.68) .. (276.72,148.36) .. controls (276.72,217.04) and (221.04,272.72) .. (152.36,272.72) .. controls (83.68,272.72) and (28,217.04) .. (28,148.36) -- cycle ;
+    %Straight Lines [id:da45878936702265327] 
+    \draw    (152.36,148.36) -- (232.72,243.03) ;
+    %Straight Lines [id:da6953334630723775] 
+    \draw    (152.36,148.36) -- (98.72,261.03) ;
+    %Straight Lines [id:da21878844711573953] 
+    \draw    (97.72,37.03) -- (98.72,261.03) ;
+    %Straight Lines [id:da3182172562914929] 
+    \draw    (97.72,37.03) -- (232.72,243.03) ;
+
+    % Text Node
+    \draw (154.36,151.36) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+    % Text Node
+    \draw (99.72,40.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+    % Text Node
+    \draw (100.72,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+    % Text Node
+    \draw (234.72,246.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+
+
+    \end{tikzpicture}
 \end{wrapfigure}
 Center: \\ \\
 Radius: \\ \\
