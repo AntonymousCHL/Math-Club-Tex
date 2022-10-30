@@ -1,17 +1,19 @@
 \documentclass{article}
+
 \usepackage[utf8]{inputenc}
 \usepackage[letterpaper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{natbib}
+
 
 
 \title{Geometry 2 - Circles}
 \author{TSS Math Club}
 \date{Oct 2022}
 
-\usepackage{amsmath}
-\usepackage{natbib}
 \usepackage{wrapfig}
 \usepackage{graphicx}
-\usepackage{amssymb}
 \usepackage{tikz}
 
 \graphicspath{ {./geo2/} }
@@ -20,6 +22,7 @@
 \large
 
 \maketitle
+
 
 \section{Basic property of Circles}
 \subsection{Definition of Circles}
@@ -30,28 +33,30 @@
 
     \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-    \begin{tikzpicture}[x=0.6pt,y=0.6pt,yscale=-1,xscale=1]
-    %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+    \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+        %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-    %Shape: Circle [id:dp17379134999161217] 
-    \draw   (28,148.36) .. controls (28,79.68) and (83.68,24) .. (152.36,24) .. controls (221.04,24) and (276.72,79.68) .. (276.72,148.36) .. controls (276.72,217.04) and (221.04,272.72) .. (152.36,272.72) .. controls (83.68,272.72) and (28,217.04) .. (28,148.36) -- cycle ;
-    %Straight Lines [id:da45878936702265327] 
-    \draw    (152.36,148.36) -- (232.72,243.03) ;
-    %Straight Lines [id:da6953334630723775] 
-    \draw    (152.36,148.36) -- (98.72,261.03) ;
-    %Straight Lines [id:da21878844711573953] 
-    \draw    (97.72,37.03) -- (98.72,261.03) ;
-    %Straight Lines [id:da3182172562914929] 
-    \draw    (97.72,37.03) -- (232.72,243.03) ;
+        %Shape: Circle [id:dp17379134999161217] 
+        \draw   (28,148.36) .. controls (28,79.68) and (83.68,24) .. (152.36,24) .. controls (221.04,24) and (276.72,79.68) .. (276.72,148.36) .. controls (276.72,217.04) and (221.04,272.72) .. (152.36,272.72) .. controls (83.68,272.72) and (28,217.04) .. (28,148.36) -- cycle ;
+        %Straight Lines [id:da45878936702265327] 
+        \draw    (152.36,148.36) -- (232.72,243.03) ;
+        %Straight Lines [id:da6953334630723775] 
+        \draw    (152.36,148.36) -- (98.72,261.03) ;
+        %Straight Lines [id:da21878844711573953] 
+        \draw    (97.72,37.03) -- (98.72,261.03) ;
+        %Straight Lines [id:da3182172562914929] 
+        \draw    (97.72,37.03) -- (232.72,243.03) ;
+        %Straight Lines [id:da9967812564105096] 
+        \draw    (98.72,261.03) -- (232.72,243.03) ;
 
-    % Text Node
-    \draw (154.36,151.36) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
-    % Text Node
-    \draw (99.72,40.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
-    % Text Node
-    \draw (100.72,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
-    % Text Node
-    \draw (234.72,246.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+        % Text Node
+        \draw (154.36,151.36) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+        % Text Node
+        \draw (99.72,40.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+        % Text Node
+        \draw (100.72,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+        % Text Node
+        \draw (234.72,246.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
 
 
     \end{tikzpicture}
@@ -213,7 +218,7 @@ Prove AFG is an isosceles triangle.
 
 \subsection{Ptolemy's theorem}
 
-If a quadrilateral is inscribable in a circle then the product of the lengths of its diagonals is equal to the sum of the products of the lengths of the pairs of opposite sides.
+If a quadrilateral is inscribed in a circle then the product of the lengths of its diagonals is equal to the sum of the products of the lengths of the pairs of opposite sides.
 \\Or ab+cd=xy where a,b,c,d are the sides of the quadrilateral and x,y are the diagonals.
 
 \includegraphics{Picture20.png}

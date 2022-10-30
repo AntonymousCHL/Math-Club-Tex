@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1667144265 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf" "Geo2" 1667144285
+["pdflatex"] 1667145650 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf" "Geo2" 1667145654
   "./geo2//Picture10.png" 1667065515 6783 4f40fd15241b127bc2e598bf77c5ec46 ""
   "./geo2//Picture11.png" 1667065547 5582 c650938c319033e8e29ba7ff653211d2 ""
   "./geo2//Picture12.jpg" 1667065761 21430 b585b41fba678161e6589ce44d4c9349 ""
@@ -20,10 +20,10 @@
   "./geo2//Picture7.png" 1667065220 23673 82f2954800223c4f9a8c02b0743fef45 ""
   "./geo2//Picture8.jpg" 1667065314 9344 de9b4984a7dd9a3db0f7845dc55951aa ""
   "./geo2//Picture9.png" 1667065451 8842 f588b68b4f78d1095d9d61ce68d03904 ""
-  "Geo2.aux" 1667144268 4592 2750fbf7fd7968169b61e98c5617fdd4 "pdflatex"
-  "Geo2.tex" 1667144284 6075 04b88887b4711e1ab466ff07ca770b86 ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux" 1667144268 4592 2750fbf7fd7968169b61e98c5617fdd4 ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.tex" 1667144284 6075 04b88887b4711e1ab466ff07ca770b86 ""
+  "Geo2.aux" 1667145653 4592 2750fbf7fd7968169b61e98c5617fdd4 "pdflatex"
+  "Geo2.tex" 1667145118 6261 5122ab55730214bdd626a174d17d7e1d ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.aux" 1667145653 4592 2750fbf7fd7968169b61e98c5617fdd4 ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.tex" 1667145118 6261 5122ab55730214bdd626a174d17d7e1d ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1606335183 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1606332830 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1606332830 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -175,7 +175,7 @@
   "geo2//Picture9.png" 1667065451 8842 f588b68b4f78d1095d9d61ce68d03904 ""
   (generated)
   "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.pdf"
-  "Geo2.pdf"
-  "Geo2.log"
   "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo2.log"
   "Geo2.aux"
+  "Geo2.log"
+  "Geo2.pdf"
