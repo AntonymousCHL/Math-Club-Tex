@@ -1,0 +1,455 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tikz}
+\graphicspath{ {./geo3/} }
+
+\title{Geometry 3 - Miscellaneous}
+\author{TSS Math Club}
+\date{Nov 2022}
+
+\begin{document}
+\large
+
+\maketitle
+
+\section{Pythagorean Theorem}
+
+\begin{wrapfigure}{R}{0.4\textwidth} %this figure will be at the right
+    \centering
+    
+    \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+    \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+    %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+    %Straight Lines [id:da7810882093328524] 
+    \draw    (99.61,122) -- (99.01,208.55) ;
+    %Straight Lines [id:da0001872892319363384] 
+    \draw    (99.61,122) -- (243.01,209.92) ;
+    %Straight Lines [id:da14609712871080904] 
+    \draw    (99.01,208.55) -- (243.01,209.92) ;
+
+    % Text Node
+    \draw (98.41,121.4) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+    % Text Node
+    \draw (241.81,209.32) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+    % Text Node
+    \draw (97.61,207.94) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+    % Text Node
+    \draw (165,146) node [anchor=north west][inner sep=0.75pt]   [align=left] {c};
+    % Text Node
+    \draw (155,211) node [anchor=north west][inner sep=0.75pt]   [align=left] {a};
+    % Text Node
+    \draw (87,161) node [anchor=north west][inner sep=0.75pt]   [align=left] {b};
+
+
+    \end{tikzpicture}
+
+\end{wrapfigure}
+
+In a right-triangle, 
+$$a^2+b^2=c^2$$
+where a and b are two sides and c is the hypotenuse.
+
+\subsection{Proof}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+
+%Straight Lines [id:da7810882093328524] 
+\draw    (132.61,28) -- (132.01,114.55) ;
+%Straight Lines [id:da0001872892319363384] 
+\draw    (132.61,28) -- (276.01,115.92) ;
+%Straight Lines [id:da14609712871080904] 
+\draw    (132.01,114.55) -- (276.01,115.92) ;
+%Straight Lines [id:da17225998918083474] 
+\draw    (44.47,170.87) -- (131.02,171.51) ;
+%Straight Lines [id:da9772684531569544] 
+\draw    (44.47,170.87) -- (132.47,27.51) ;
+%Straight Lines [id:da0643086164519977] 
+\draw    (131.02,171.51) -- (132.47,27.51) ;
+%Straight Lines [id:da6587126862106818] 
+\draw    (188.03,257.21) -- (187.58,170.66) ;
+%Straight Lines [id:da6536516511809205] 
+\draw    (188.03,257.21) -- (43.57,171.02) ;
+%Straight Lines [id:da004505283584124831] 
+\draw    (187.58,170.66) -- (43.57,171.02) ;
+%Straight Lines [id:da0382305085022161] 
+\draw    (275.77,115.49) -- (189.22,114.99) ;
+%Straight Lines [id:da11791847320342042] 
+\draw    (275.77,115.49) -- (188,258.99) ;
+%Straight Lines [id:da5759579560679966] 
+\draw    (189.22,114.99) -- (188,258.99) ;
+
+% Text Node
+\draw (198,52) node [anchor=north west][inner sep=0.75pt]   [align=left] {c};
+% Text Node
+\draw (188,117) node [anchor=north west][inner sep=0.75pt]   [align=left] {a};
+% Text Node
+\draw (120,67) node [anchor=north west][inner sep=0.75pt]   [align=left] {b};
+% Text Node
+\draw (68.51,105.49) node [anchor=north west][inner sep=0.75pt]  [rotate=-270.03] [align=left] {c};
+% Text Node
+\draw (133.5,115.53) node [anchor=north west][inner sep=0.75pt]  [rotate=-270.03] [align=left] {a};
+% Text Node
+\draw (83.47,183.5) node [anchor=north west][inner sep=0.75pt]  [rotate=-270.03] [align=left] {b};
+% Text Node
+\draw (122.35,234) node [anchor=north west][inner sep=0.75pt]  [rotate=-179.31] [align=left] {c};
+% Text Node
+\draw (131.57,168.88) node [anchor=north west][inner sep=0.75pt]  [rotate=-179.31] [align=left] {a};
+% Text Node
+\draw (200.16,218.06) node [anchor=north west][inner sep=0.75pt]  [rotate=-179.31] [align=left] {b};
+% Text Node
+\draw (251.84,180.91) node [anchor=north west][inner sep=0.75pt]  [rotate=-89.94] [align=left] {c};
+% Text Node
+\draw (186.83,170.98) node [anchor=north west][inner sep=0.75pt]  [rotate=-89.94] [align=left] {a};
+% Text Node
+\draw (236.76,102.93) node [anchor=north west][inner sep=0.75pt]  [rotate=-89.94] [align=left] {b};
+
+
+\end{tikzpicture}
+
+
+\pagebreak
+
+\section{Trigonometry}
+
+\subsection{Definitions}
+
+Sine or $\sin(\theta)$ :
+\\ \\
+Cosine or $\cos(\theta)$ :
+\\ \\
+Tangent or $\tan(\theta)$ :
+
+\subsection{Pythagorean Theorem}
+$$\sin (\theta)+\cos (\theta)=1$$
+
+\subsection{Triangle Area Formula with Sine}
+
+$$S=\frac{ab\sin C}{2}$$
+
+\subsubsection{Proof}
+\vspace{40px}
+
+
+\subsection{Law of Sines}
+
+$$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R=d$$
+
+\subsubsection{Proof}
+\vspace{100px}
+
+\subsection{Law of Cosines}
+$$c^2=a^2+b^2-2 a b \cos C $$
+
+\subsubsection{Proof}
+
+\pagebreak
+
+\subsection{Problem}
+\subsubsection{Heron's Formula}
+$$S= \sqrt {s (s-a) (s-b) (s-c)}, \mathrm{where} s=\frac{a+b+c}{2}$$
+
+
+\vspace{200px}
+
+
+\subsubsection{Problem}
+Given AB=3,BD=1,DC=3,AC=2. Find AD.
+
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+
+%Straight Lines [id:da28332928208796315] 
+\draw    (128.06,259.03) -- (364.06,261.03) ;
+%Straight Lines [id:da647118791580753] 
+\draw    (285.96,124.03) -- (128.06,259.03) ;
+%Straight Lines [id:da4424909815278173] 
+\draw    (285.96,124.03) -- (364.06,261.03) ;
+%Straight Lines [id:da11044244004039627] 
+\draw    (285.96,124.03) -- (205.06,259.03) ;
+
+% Text Node
+\draw (287.96,127.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (130.06,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (366.06,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (207.06,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (209.01,194.53) node [anchor=north west][inner sep=0.75pt]   [align=left] {3};
+% Text Node
+\draw (170,262) node [anchor=north west][inner sep=0.75pt]   [align=left] {1};
+% Text Node
+\draw (279,263) node [anchor=north west][inner sep=0.75pt]   [align=left] {3};
+% Text Node
+\draw (327.01,195.53) node [anchor=north west][inner sep=0.75pt]   [align=left] {2};
+% Text Node
+\draw (247.51,194.53) node [anchor=north west][inner sep=0.75pt]   [align=left] {x};
+
+
+\end{tikzpicture}
+
+\pagebreak
+
+\subsubsection{Problem}
+In the figure, equilateral hexagon $ABCDEF$ has three nonadjacent acute interior angles that each measure $30^\circ$. 
+The enclosed area of the hexagon is $6\sqrt{3}$. What is the perimeter of the hexagon?
+
+\includegraphics[scale=.4]{1.png}
+
+\pagebreak
+
+\section{Transversals}
+
+\subsection{Directed Segments}
+Definition
+\vspace{30px}
+
+\subsection{Stewart's Theorem}
+If A,B,C collinear and P is any other point, then
+$$PA^2\cdot BC+PB^2\cdot CA+PC^2\cdot AB+BC \cdot CA \cdot AB =0$$ 
+
+\pagebreak
+
+\subsection{Menelaus' Theorem}
+
+Suppose we have a triangle ABC, and a transversal line that crosses BC, AC, and AB at points D, E, and F respectively, with D, E, and F distinct from A, B, and C, then
+
+$$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=-1$$
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da01433999833467725] 
+\draw    (131,196) -- (522.91,204.03) ;
+%Straight Lines [id:da17936156092470434] 
+\draw    (172.91,51.03) -- (310.91,200.03) ;
+%Straight Lines [id:da243500674973548] 
+\draw    (172.91,51.03) -- (131,196) ;
+%Straight Lines [id:da01379280330610988] 
+\draw    (110,95) -- (535.91,260.03) ;
+
+% Text Node
+\draw (174.91,54.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (133,199) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (312.91,203.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (381,202) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (272.91,160.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (155,115) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+
+
+\end{tikzpicture}
+
+\vspace{200px}
+
+\subsection{Menelaus' Inverse Theorem}
+
+Suppose we have a triangle ABC with D on BC, E on AC, F on AB, such that,
+
+$$PA^2\cdot BC+PB^2\cdot CA+PC^2\cdot AB+BC \cdot CA \cdot AB =0$$ 
+
+then D,E, F collinear.
+
+
+\pagebreak
+
+\subsection{Ceva's Theorem}
+Given a triangle ABC, let the lines AO, BO and CO be drawn from the vertices to a common point O (not on one of the sides of ABC), to meet opposite sides at D, E and F respectively, then
+
+$$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=1$$
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da711612096145047] 
+\draw    (211.91,30.03) -- (145.91,260.03) ;
+%Straight Lines [id:da728293619031698] 
+\draw    (145.91,260.03) -- (422.91,257.03) ;
+%Straight Lines [id:da6290146606670881] 
+\draw    (211.91,30.03) -- (422.91,257.03) ;
+%Straight Lines [id:da9579416581915836] 
+\draw    (211.91,30.03) -- (241.91,259.03) ;
+%Straight Lines [id:da21071318124650795] 
+\draw    (349.91,180.03) -- (145.91,260.03) ;
+%Straight Lines [id:da20346105516117619] 
+\draw    (159.91,210.03) -- (422.91,257.03) ;
+
+% Text Node
+\draw (213.91,33.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (147.91,263.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (424.91,260.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (236,225) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+% Text Node
+\draw (243.91,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (351.91,183.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (161.91,213.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+
+
+\end{tikzpicture}
+
+\vspace{200px}
+
+\subsection{Ceva's Inverse Theorem}
+
+Suppose we have a triangle ABC with D on BC, E on AC, F on AB, such that,
+$$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=1$$
+then AD,BE,CF concurrent.
+
+\pagebreak
+
+\section{Barycentric Coordinate}
+\subsection{Definition}
+The barycentric coordinates of a point can be interpreted as masses placed at the vertices of the simplex, such that the point is the center of mass (or barycenter) of these masses.
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da9034961562868877] 
+\draw    (262.91,41.03) -- (166.91,245.03) ;
+%Straight Lines [id:da38322702999878766] 
+\draw    (451.91,239.03) -- (166.91,245.03) ;
+%Straight Lines [id:da8608907326548492] 
+\draw    (262.91,41.03) -- (451.91,239.03) ;
+%Straight Lines [id:da9987380023335841] 
+\draw    (262.91,41.03) -- (253.91,184.03) ;
+%Straight Lines [id:da3386128853211863] 
+\draw    (253.91,184.03) -- (166.91,245.03) ;
+%Straight Lines [id:da20853567056026168] 
+\draw    (253.91,184.03) -- (451.91,239.03) ;
+
+% Text Node
+\draw (264.91,44.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (168.91,248.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (453.91,242.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (255.91,187.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (281,43) node [anchor=north west][inner sep=0.75pt]   [align=left] {m1};
+% Text Node
+\draw (182,247) node [anchor=north west][inner sep=0.75pt]   [align=left] {m2};
+% Text Node
+\draw (472,241) node [anchor=north west][inner sep=0.75pt]   [align=left] {m3};
+% Text Node
+\draw (269,188) node [anchor=north west][inner sep=0.75pt]   [align=left] {(m1,m2,m3)};
+
+
+\end{tikzpicture}
+
+
+\subsection{Example}
+
+Given BD:DC=1:2, AE:EC=1:1. Find AF:FD.
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da7675617641029677] 
+\draw    (248.91,41.03) -- (200,210) ;
+%Straight Lines [id:da08477900268519623] 
+\draw    (248.91,41.03) -- (455.91,205.03) ;
+%Straight Lines [id:da9475888247486965] 
+\draw    (455.91,205.03) -- (200,210) ;
+%Straight Lines [id:da019733232113179566] 
+\draw    (248.91,41.03) -- (286.91,207.03) ;
+%Straight Lines [id:da6042356170051348] 
+\draw    (200,210) -- (352.41,123.03) ;
+
+% Text Node
+\draw (250.91,44.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (202,213) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (457.91,208.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (288.91,210.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (354.41,126.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (278.21,169.52) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+
+
+\end{tikzpicture}
+
+\subsection{Problem}
+
+Given BD:DC=1:5, AE:EC=1:4. Find AF:FD.
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da7675617641029677] 
+\draw    (248.91,41.03) -- (200,210) ;
+%Straight Lines [id:da08477900268519623] 
+\draw    (248.91,41.03) -- (455.91,205.03) ;
+%Straight Lines [id:da9475888247486965] 
+\draw    (455.91,205.03) -- (200,210) ;
+%Straight Lines [id:da019733232113179566] 
+\draw    (248.91,41.03) -- (243.91,209.03) ;
+%Straight Lines [id:da6042356170051348] 
+\draw    (200,210) -- (296.91,79.03) ;
+
+% Text Node
+\draw (250.91,44.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (202,213) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (457.91,208.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (245.91,212.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (298.91,82.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (247.46,152.52) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+
+
+\end{tikzpicture}
+
+\pagebreak
+
+\end{document}
