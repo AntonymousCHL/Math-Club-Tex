@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  17 NOV 2022 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  17 NOV 2022 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,20 +432,20 @@ File: ./geo3//1.png Graphic file (type png)
 <use ./geo3//1.png>
 Package pdftex.def Info: ./geo3//1.png  used on input line 216.
 (pdftex.def)             Requested size: 286.06367pt x 270.10434pt.
- [4 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo3//1.png>] [5] [6] [7] [8] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.aux) ) 
+ [4 <c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/./geo3//1.png>] [5] [6] [7] [8] [9] [10] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.aux) ) 
 Here is how much of TeX's memory you used:
  13608 strings out of 479485
  264183 string characters out of 5875909
- 526764 words of memory out of 5000000
+ 526766 words of memory out of 5000000
  30381 multiletter control sequences out of 15000+600000
  541252 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,7n,85p,457b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.pdf (8 pages, 130873 bytes).
+<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.pdf (10 pages, 139390 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

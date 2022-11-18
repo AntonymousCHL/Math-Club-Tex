@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1668743339 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.pdf" "Geo3" 1668743343
+["pdflatex"] 1668744298 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.pdf" "Geo3" 1668744300
   "./geo3//1.png" 1636647827 20431 0374d30a3e99c081b9ca9084464776ab ""
-  "Geo3.aux" 1668743341 2804 566522085576b7bfc88483681ef956a3 "pdflatex"
-  "Geo3.tex" 1668743335 15660 4458b0501b37b261a924d3d9be62d4ed ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.aux" 1668743341 2804 566522085576b7bfc88483681ef956a3 ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.tex" 1668743335 15660 4458b0501b37b261a924d3d9be62d4ed ""
+  "Geo3.aux" 1668744300 3357 9e85151899e4f162f96c499595c3100a "pdflatex"
+  "Geo3.tex" 1668744293 16979 1bdffd85a40812ae20a40eeb660229ba ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.aux" 1668744300 3357 9e85151899e4f162f96c499595c3100a ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.tex" 1668744293 16979 1bdffd85a40812ae20a40eeb660229ba ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1606331583 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1606329230 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1606329230 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -35,6 +35,7 @@
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1606329230 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1606329230 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1606329230 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
+  "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1606329230 31764 459c573c03a4949a528c2cc7f557e217 ""
   "c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1606333338 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty" 1606332158 6501 4011d89d9621e0b0901138815ba5ff29 ""
   "c:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty" 1606332158 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -133,8 +134,8 @@
   "c:/texlive/2020/texmf.cnf" 1606336332 713 e69b156964470283e0530f5060668171 ""
   "geo3//1.png" 1636647827 20431 0374d30a3e99c081b9ca9084464776ab ""
   (generated)
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.pdf"
   "Geo3.pdf"
   "Geo3.log"
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.log"
   "Geo3.aux"
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.log"
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.pdf"
