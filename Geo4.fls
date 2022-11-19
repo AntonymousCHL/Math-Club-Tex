@@ -1,0 +1,6 @@
+PWD c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex
+INPUT c:/texlive/2020/texmf.cnf
+INPUT c:/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo4.tex
+OUTPUT c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo4.log
