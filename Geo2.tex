@@ -24,11 +24,20 @@
 \section{Basic property of Circles}
 \subsection{Definition of Circles}
 \subsection{Terms to describe geometric object related to circles}
-\begin{wrapfigure}{R}{0.4\textwidth} %this figure will be at the right
-    \centering
-    
-    
-    \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{minipage}{.7\linewidth}
+\begin{itemize}
+  \item Center: Point O.
+  \item Radius: Length from center to perimeter.
+  \item Arc: A curved line on the circumference of a circle.
+  \item Chord: A straight line between two points on a circle.
+  \item Central angle: \(\angle BOC\) would be an example of a central angle.
+  \item Inscribed angle: \(\angle BAC\) would be an example of an inscribed angle.
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{.3\linewidth}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
     
     \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.8,xscale=0.8]
         %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
@@ -59,23 +68,15 @@
         
         
     \end{tikzpicture}
-\end{wrapfigure}
-Center: \\ \\
-Radius: \\ \\
-Arc: \\ \\
-Chord: \\ \\
-Central angle: \\ \\
-Inscribed angle: \\ \\
-
+\end{minipage}
 
 \subsection{Central angle is twice any inscribed angle}
 
 
-
-
+\begin{minipage}{.2\linewidth}
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.8,xscale=0.8]
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.7,xscale=0.7]
 %uncomment if require: \path (0,419); %set diagram left start at 0, and has height of 419
 
 %Shape: Circle [id:dp5403186956911956] 
@@ -109,6 +110,16 @@ Inscribed angle: \\ \\
 \draw (345,20) node [anchor=north west][inner sep=0.75pt]    {$C$};
 
 \end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{.6\linewidth}
+
+Create a line from point C that goes through point O and hits the circumference of the circle. Name this point P, and label \(\angle ACO\) as \(y\).\\
+Since triangle \(\triangle COA\) is an isosceles (\(CO=AO\)), \(\angle ACO\) and \(\angle CAO\) are the same, and thus \(\angle AOP\) is equal to \(2y\).\\
+Label \(\angle BCO\) as \(z\), and since \(\triangle COB\) is also an isosceles triangle, \(\angle BOC\) is equivalent to \(2z\).\\
+Therefore, \(\angle AOB=2y+2z=2y+z=2x\). 
+
+\end{minipage}
 
 
 
@@ -117,10 +128,10 @@ Inscribed angle: \\ \\
 \subsection{Inscribed angles subtended by the same arc are equal}
 
 
-
+\begin{minipage}{0.3\linewidth}
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.8,xscale=0.8]
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.7,xscale=0.7]
 %uncomment if require: \path (0,419); %set diagram left start at 0, and has height of 419
 
 %Shape: Circle [id:dp5403186956911956] 
@@ -158,16 +169,21 @@ Inscribed angle: \\ \\
 \draw (440.33,272.4) node [anchor=north west][inner sep=0.75pt]    {$B$};
 
 \end{tikzpicture}
-
+\end{minipage}
+\hfill
+\begin{minipage}{0.6\linewidth}
+Since an inscribed angle is half of its center angle with the same arc (ref 1.3), and all three angles share the same arc, the inscribed angles are all equal.
+\end{minipage}
 
 \vspace{40px}
 
 \subsection{Angle subtended by a diameter is \(90^{\circ}\)}
 
+\begin{minipage}{0.5\linewidth}
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.8,xscale=.8]
 %uncomment if require: \path (0,419); %set diagram left start at 0, and has height of 419
 
 %Shape: Circle [id:dp5403186956911956] 
@@ -196,18 +212,22 @@ Inscribed angle: \\ \\
 
 
 \end{tikzpicture}
-
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\linewidth}
+Both angles share the same arc, thus $\angle ACB$ is half of $\angle AOB$ $90^{\circ}$ is half of $180^{\circ}$.
+\end{minipage}
 
 
 \pagebreak
 
 \subsection{Perpendicular chord theorem}
 
-
+\begin{minipage}{0.4\linewidth}
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.7,xscale=.7]
 %uncomment if require: \path (0,419); %set diagram left start at 0, and has height of 419
 
 %Shape: Circle [id:dp5403186956911956] 
@@ -255,22 +275,26 @@ Inscribed angle: \\ \\
 \draw [shift={(270,273.92)}, rotate = 156.49] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 
 \end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.425\linewidth}
 
+Connect point A to O, and point O to B. Note: AO and BO are both the radii of the circle.
+As a result, $\triangle AOC$ and $\triangle BOC$ are congruent triangles, with $AB=CB$. Therefore, the radius bisects AB.
+\end{minipage}
 
 \vspace{50px}
 
 \subsection{Tangent to a circle}
 
-\subsubsection{Definition:}
+\subsubsection{Definition: A line that intersects a circle at only one point.}
 \vspace{20px}
 
 \subsubsection{The radius from the center of the circle to the point of tangency is perpendicular to the tangent line}
-
-
-
+\begin{minipage}{0.2\linewidth}
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.8,xscale=0.8]
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.65,xscale=0.65]
 %uncomment if require: \path (0,419); %set diagram left start at 0, and has height of 419
 
 %Shape: Circle [id:dp5403186956911956] 
@@ -307,7 +331,56 @@ Inscribed angle: \\ \\
 
 
 \end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\linewidth}
 
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.8,xscale=.8]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp9462086222707395] 
+\draw   (210.83,130.33) .. controls (210.83,75.38) and (255.38,30.83) .. (310.33,30.83) .. controls (365.29,30.83) and (409.83,75.38) .. (409.83,130.33) .. controls (409.83,185.29) and (365.29,229.83) .. (310.33,229.83) .. controls (255.38,229.83) and (210.83,185.29) .. (210.83,130.33) -- cycle ;
+%Shape: Circle [id:dp047578291925302274] 
+\draw   (308.83,130.33) .. controls (308.83,129.5) and (309.5,128.83) .. (310.33,128.83) .. controls (311.16,128.83) and (311.83,129.5) .. (311.83,130.33) .. controls (311.83,131.16) and (311.16,131.83) .. (310.33,131.83) .. controls (309.5,131.83) and (308.83,131.16) .. (308.83,130.33) -- cycle ;
+%Straight Lines [id:da164533467123273] 
+\draw    (310.33,130.33) -- (397,82) ;
+%Straight Lines [id:da6876805606476655] 
+\draw    (310.33,130.33) -- (399,176.33) ;
+%Straight Lines [id:da2683999503020207] 
+\draw    (310.33,130.33) -- (344,224) ;
+%Straight Lines [id:da5819396491391264] 
+\draw    (310.33,130.33) -- (272.33,221.67) ;
+%Straight Lines [id:da526688893527204] 
+\draw    (196,189.83) -- (363.33,260.67) ;
+%Shape: Square [id:dp49735363204371774] 
+\draw   (278.19,208.12) -- (291.73,213.98) -- (285.88,227.52) -- (272.33,221.67) -- cycle ;
+%Straight Lines [id:da7088460943857118] 
+\draw [line width=0.75]  [dash pattern={on 4.5pt off 4.5pt}]  (191,219.75) -- (405.5,225.5) ;
+%Straight Lines [id:da7797532755668244] 
+\draw [line width=0.75]  [dash pattern={on 4.5pt off 4.5pt}]  (186.25,253) -- (477.25,147.25) ;
+%Straight Lines [id:da04071479399088074] 
+\draw [line width=0.75]  [dash pattern={on 4.5pt off 4.5pt}]  (226.75,272.5) -- (439,34.5) ;
+%Shape: Triangle [id:dp8516868808756333] 
+\draw   (459.96,58.67) -- (478.92,109.67) -- (441,109.67) -- cycle ;
+%Shape: Triangle [id:dp9288674500496883] 
+\draw   (520.71,58.67) -- (530.17,109.67) -- (511.25,109.67) -- cycle ;
+%Shape: Triangle [id:dp887898710535237] 
+\draw   (561.08,59.42) -- (560.92,110.42) -- (561.25,110.42) -- cycle ;
+%Right Arrow [id:dp7969460603432355] 
+\draw   (483,81.73) -- (497.5,81.73) -- (497.5,78.67) -- (507.17,84.79) -- (497.5,90.92) -- (497.5,87.85) -- (483,87.85) -- cycle ;
+%Right Arrow [id:dp10153549174619747] 
+\draw   (533.25,81.98) -- (547.75,81.98) -- (547.75,78.92) -- (557.42,85.04) -- (547.75,91.17) -- (547.75,88.1) -- (533.25,88.1) -- cycle ;
+
+
+
+\end{tikzpicture}
+
+\end{minipage}
+\\\\
+By having a line intersect a circle at random, a triangle is made when connecting the points of intersection to the center of the circle. The interior angle that is made can then be measured to be, presumably, less than $90^{\circ}$ (when there are two points of intersection made). \\
+By bringing one of the points of intersection closer to the other, the triangle created becomes thinner and thinner, until it becomes a line that has an interior angle of $90^{\circ}$, and thus becomes tangent to the circle (intersects the circle at 1 point, and at a  $90^{\circ}$ angle).
 
 \pagebreak
 
@@ -316,7 +389,7 @@ Inscribed angle: \\ \\
 
 
 
-
+\begin{minipage}{0.2\linewidth}
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.8,xscale=0.8]
@@ -374,58 +447,152 @@ Inscribed angle: \\ \\
 
 
 \end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.35\linewidth}
 
-
+Since $AO=BO$, OC is shared, and $\angle OAC=\angle OBC$ (SSA), $AC=BC$ (Hypotenuse Length Theorem).
+\end{minipage}
 
 \vspace{50px}
 
 \subsubsection{Tangent-Chord Theorem: the angle formed between a chord and a tangent line to a circle is equal to the inscribed angle on the other side of the chord}
 
 
+\begin{minipage}{0.2\linewidth}
+
+
+
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.86,xscale=0.86]
-%uncomment if require: \path (0,419); %set diagram left start at 0, and has height of 419
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-%Shape: Ellipse [id:dp5403186956911956] 
-\draw  [line width=1.5]  (158.37,284.87) .. controls (158.37,225.39) and (207.18,177.17) .. (267.39,177.17) .. controls (327.59,177.17) and (376.4,225.39) .. (376.4,284.87) .. controls (376.4,344.35) and (327.59,392.57) .. (267.39,392.57) .. controls (207.18,392.57) and (158.37,344.35) .. (158.37,284.87) -- cycle ;
-%Straight Lines [id:da2529972826216105] 
-\draw    (98.4,209.73) -- (380,151.33) ;
-%Straight Lines [id:da24490325767999077] 
-\draw    (243.6,179.33) -- (318.4,188.93) ;
-%Straight Lines [id:da7066815250038527] 
-\draw    (243.6,179.33) -- (159.2,293.33) ;
-%Straight Lines [id:da354126616106069] 
-\draw    (318.4,188.93) -- (159.2,293.33) ;
+%Shape: Circle [id:dp9462086222707395] 
+\draw   (210.17,180.83) .. controls (210.17,125.88) and (254.71,81.33) .. (309.67,81.33) .. controls (364.62,81.33) and (409.17,125.88) .. (409.17,180.83) .. controls (409.17,235.79) and (364.62,280.33) .. (309.67,280.33) .. controls (254.71,280.33) and (210.17,235.79) .. (210.17,180.83) -- cycle ;
+%Shape: Circle [id:dp047578291925302274] 
+\draw   (308.17,180.83) .. controls (308.17,180) and (308.84,179.33) .. (309.67,179.33) .. controls (310.5,179.33) and (311.17,180) .. (311.17,180.83) .. controls (311.17,181.66) and (310.5,182.33) .. (309.67,182.33) .. controls (308.84,182.33) and (308.17,181.66) .. (308.17,180.83) -- cycle ;
+%Straight Lines [id:da8877718960135994] 
+\draw    (143.94,125.97) -- (437.81,39.44) ;
+%Straight Lines [id:da14504871147163279] 
+\draw    (282.33,85) -- (212.33,200) ;
+%Straight Lines [id:da273202169691396] 
+\draw    (212.33,200) -- (374.33,105.33) ;
+%Straight Lines [id:da15786714847918626] 
+\draw [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ]   (282.33,85) -- (374.33,105.33) ;
+%Straight Lines [id:da30413004913216546] 
+\draw [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ]   (282.33,85) -- (337,277) ;
+%Straight Lines [id:da6346846203224932] 
+\draw [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ]   (212.33,200) -- (337,277) ;
+%Shape: Arc [id:dp43638639977515226] 
+\draw  [draw opacity=0] (238.2,184.81) .. controls (241.77,190.89) and (243.23,198.24) .. (241.79,205.7) .. controls (241.1,209.24) and (239.82,212.51) .. (238.07,215.43) -- (212.33,200) -- cycle ; \draw  [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ] (238.2,184.81) .. controls (241.77,190.89) and (243.23,198.24) .. (241.79,205.7) .. controls (241.1,209.24) and (239.82,212.51) .. (238.07,215.43) ;  
+%Shape: Arc [id:dp055476701941292506] 
+\draw  [draw opacity=0] (222.95,182.5) .. controls (226.07,184.08) and (228.73,186.43) .. (230.59,189.39) -- (212.33,200) -- cycle ; \draw   (222.95,182.5) .. controls (226.07,184.08) and (228.73,186.43) .. (230.59,189.39) ;  
+%Shape: Arc [id:dp4757574294397169] 
+\draw  [draw opacity=0] (301.94,79.13) .. controls (303.2,82.4) and (303.59,85.93) .. (302.99,89.37) -- (282.33,85) -- cycle ; \draw   (301.94,79.13) .. controls (303.2,82.4) and (303.59,85.93) .. (302.99,89.37) ;  
+%Shape: Arc [id:dp7955973919503874] 
+\draw  [draw opacity=0] (311.66,91.3) .. controls (309.94,99.32) and (304.96,106.6) .. (297.29,111.01) .. controls (295.19,112.21) and (293,113.14) .. (290.78,113.79) -- (282.33,85) -- cycle ; \draw  [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ] (311.66,91.3) .. controls (309.94,99.32) and (304.96,106.6) .. (297.29,111.01) .. controls (295.19,112.21) and (293,113.14) .. (290.78,113.79) ;  
+%Shape: Square [id:dp25354834815042304] 
+\draw   (212.7,200.25) -- (217.43,192.29) -- (225.39,197.02) -- (220.66,204.98) -- cycle ;
+%Shape: Square [id:dp9082911411710133] 
+\draw   (282.33,85) -- (291.25,82.52) -- (293.73,91.44) -- (284.81,93.92) -- cycle ;
 
 % Text Node
-\draw (136.91,287.74) node [anchor=north west][inner sep=0.75pt]    {$B$};
+\draw (125.33,117.73) node [anchor=north west][inner sep=0.75pt]    {$D$};
 % Text Node
-\draw (323.8,171.71) node [anchor=north west][inner sep=0.75pt]    {$C$};
+\draw (440.08,20.82) node [anchor=north west][inner sep=0.75pt]    {$E$};
 % Text Node
-\draw (233.17,155.26) node [anchor=north west][inner sep=0.75pt]    {$A$};
+\draw (275.33,63.07) node [anchor=north west][inner sep=0.75pt]    {$A$};
 % Text Node
-\draw (73.31,204.14) node [anchor=north west][inner sep=0.75pt]    {$D$};
+\draw (380.33,85.4) node [anchor=north west][inner sep=0.75pt]    {$C$};
 % Text Node
-\draw (386.51,145.34) node [anchor=north west][inner sep=0.75pt]    {$E$};
+\draw (192,193.73) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (327,174.07) node [anchor=north west][inner sep=0.75pt]    {$O$};
+% Text Node
+\draw (230.19,169.97) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$Bx$};
+% Text Node
+\draw (248.19,198.22) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$By$};
+% Text Node
+\draw (326.69,75.22) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$Ax$};
+% Text Node
+\draw (302.69,105.97) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$Ay$};
+% Text Node
+\draw (340.56,279.47) node [anchor=north west][inner sep=0.75pt]    {$F$};
 
 
 \end{tikzpicture}
 
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\linewidth}
+To prove that $\angle EAC$ is eqivalent to $\angle ABC$, draw a line from point A that passes through the center and intersects with the circumference of the circle. Since DE is tangent to the circle, $\angle EAF$ is  $90^{\circ}$. $\angle CBF$ is also  $90^{\circ}$, since $\angle CBF$ shares the same arc as $\angle EAF$ (ref. 1.4). \\
+$\angle EAF$ can be considered as the sum of $Ax$ and $Ay$. We know that $By$ and $Ay$ are the same angle because the share the same arc. Thus, we know $Ax=Bx$, since  $90^{\circ}-Ay=$  $90^{\circ}-By=Ax=Bx$. 
+\end{minipage}
 
 \pagebreak
 
 \section{Cyclic Quadrilateral (Four points cyclic)}
 
 \subsection{Definition}
-
+A quadrilateral which has all its four vertices lying on the perimeter of a circle.
 \vspace{20px}
 
 \subsection{Opposite angles are added up to \(180^{\circ}\)}
 
-\includegraphics[scale=.8]{Picture9.png}
+\begin{minipage}{0.2\linewidth}
 
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp9462086222707395] 
+\draw   (210.17,180.83) .. controls (210.17,125.88) and (254.71,81.33) .. (309.67,81.33) .. controls (364.62,81.33) and (409.17,125.88) .. (409.17,180.83) .. controls (409.17,235.79) and (364.62,280.33) .. (309.67,280.33) .. controls (254.71,280.33) and (210.17,235.79) .. (210.17,180.83) -- cycle ;
+%Shape: Circle [id:dp047578291925302274] 
+\draw   (308.17,180.83) .. controls (308.17,180) and (308.84,179.33) .. (309.67,179.33) .. controls (310.5,179.33) and (311.17,180) .. (311.17,180.83) .. controls (311.17,181.66) and (310.5,182.33) .. (309.67,182.33) .. controls (308.84,182.33) and (308.17,181.66) .. (308.17,180.83) -- cycle ;
+%Straight Lines [id:da273202169691396] 
+\draw    (212.33,200) -- (349.06,89.19) ;
+%Straight Lines [id:da5600512377516604] 
+\draw    (349.06,89.19) -- (405.56,206.44) ;
+%Straight Lines [id:da21810832902148203] 
+\draw    (247.56,258.19) -- (405.56,206.44) ;
+%Straight Lines [id:da21582352436200725] 
+\draw    (247.56,258.19) -- (212.33,200) ;
+%Straight Lines [id:da4047868315915173] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (309.67,180.83) -- (247.56,258.19) ;
+%Straight Lines [id:da9433547871534407] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (349.06,89.19) -- (309.67,180.83) ;
+%Shape: Circle [id:dp8970580016855083] 
+\draw   (303.06,180.83) .. controls (303.06,177.18) and (306.02,174.23) .. (309.67,174.23) .. controls (313.32,174.23) and (316.27,177.18) .. (316.27,180.83) .. controls (316.27,184.48) and (313.32,187.44) .. (309.67,187.44) .. controls (306.02,187.44) and (303.06,184.48) .. (303.06,180.83) -- cycle ;
+%Shape: Arc [id:dp80004155117314] 
+\draw  [draw opacity=0] (221.05,193) .. controls (222.32,194.97) and (223.07,197.39) .. (223.07,200) .. controls (223.07,204.11) and (221.22,207.74) .. (218.38,209.89) -- (212.33,200) -- cycle ; \draw   (221.05,193) .. controls (222.32,194.97) and (223.07,197.39) .. (223.07,200) .. controls (223.07,204.11) and (221.22,207.74) .. (218.38,209.89) ;  
+%Shape: Arc [id:dp7002495093878305] 
+\draw  [draw opacity=0] (394.96,209.98) .. controls (394.45,207.69) and (394.58,205.17) .. (395.49,202.71) .. controls (396.55,199.85) and (398.48,197.59) .. (400.8,196.19) -- (405.56,206.44) -- cycle ; \draw   (394.96,209.98) .. controls (394.45,207.69) and (394.58,205.17) .. (395.49,202.71) .. controls (396.55,199.85) and (398.48,197.59) .. (400.8,196.19) ;  
+
+% Text Node
+\draw (297.92,190.73) node [anchor=north west][inner sep=0.75pt]    {$O$};
+% Text Node
+\draw (283.81,160.22) node [anchor=north west][inner sep=0.75pt]    {$2y$};
+% Text Node
+\draw (316.06,175.22) node [anchor=north west][inner sep=0.75pt]    {$2x$};
+% Text Node
+\draw (224.56,192.97) node [anchor=north west][inner sep=0.75pt]    {$x$};
+% Text Node
+\draw (385.81,189.72) node [anchor=north west][inner sep=0.75pt]    {$y$};
+
+
+\end{tikzpicture}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.6\linewidth}
+$2x+2y=360^\circ$\\
+$(x+y)/2=360^\circ /2$\\
+$x+y=180^\circ$
+\end{minipage}
 \subsection{How to prove four points cyclic}
 
 \subsubsection{Prove these four points lies equally distance to another point — the center of the circle}
@@ -433,10 +600,6 @@ Inscribed angle: \\ \\
 \subsubsection{Two equal angles subtend a segment (chord in the circle)}
 
 \includegraphics{Picture10.png}
-
-\subsubsection{Opposite angles are added up to \(180^{\circ}\)}
-
-\includegraphics{Picture11.png}
 
 \pagebreak
 

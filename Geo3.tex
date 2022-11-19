@@ -159,7 +159,7 @@ $$c^2=a^2+b^2-2 a b \cos C $$
 
 \subsection{Problem}
 \subsubsection{Heron's Formula}
-$$S= \sqrt {s (s-a) (s-b) (s-c)}, \mathrm{where} s=\frac{a+b+c}{2}$$
+$$S= \sqrt {s (s-a) (s-b) (s-c)}, s=\frac{a+b+c}{2}$$
 
 
 \vspace{200px}
@@ -209,11 +209,16 @@ Given AB=3,BD=1,DC=3,AC=2. Find AD.
 
 \pagebreak
 
-\subsubsection{Problem}
-In the figure, equilateral hexagon $ABCDEF$ has three nonadjacent acute interior angles that each measure $30^\circ$. 
-The enclosed area of the hexagon is $6\sqrt{3}$. What is the perimeter of the hexagon?
+\subsubsection{Problem, Euclid 2022 Q8 b)}
+Consider the following statement:
+\begin{quote}
+There is a triangle that is not equilateral whose side lengths form
+a geometric sequence, and the measures of whose angles form an
+arithmetic sequence.
+\end{quote}
+Show that this statement is true by finding such a triangle or prove that it is false
+by demonstrating that there cannot be such a triangle.
 
-\includegraphics[scale=.4]{1.png}
 
 \pagebreak
 
@@ -226,6 +231,35 @@ Definition
 \subsection{Stewart's Theorem}
 If A,B,C collinear and P is any other point, then
 $$PA^2\cdot BC+PB^2\cdot CA+PC^2\cdot AB+BC \cdot CA \cdot AB =0$$ 
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da5905118684092199] 
+\draw    (52.91,172.03) -- (504.91,177.03) ;
+%Straight Lines [id:da9618382085114188] 
+\draw    (124,172) -- (233.91,52.03) ;
+%Straight Lines [id:da976888364842182] 
+\draw    (233.91,52.03) -- (205.91,174.03) ;
+%Straight Lines [id:da13878852480396842] 
+\draw    (233.91,52.03) -- (442.91,176.03) ;
+
+% Text Node
+\draw (126,175) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (207.91,177.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (444.91,179.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (235.91,55.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {P};
+
+
+\end{tikzpicture}
+
 
 \pagebreak
 
@@ -272,9 +306,7 @@ $$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=-1$$
 \subsection{Menelaus' Inverse Theorem}
 
 Suppose we have a triangle ABC with D on BC, E on AC, F on AB, such that,
-
-$$PA^2\cdot BC+PB^2\cdot CA+PC^2\cdot AB+BC \cdot CA \cdot AB =0$$ 
-
+$$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=-1$$
 then D,E, F collinear.
 
 
@@ -494,10 +526,257 @@ $$\frac{BD}{CD}=\frac{AB}{AC}$$
 
 \vspace{100px}
 
-\subsection{Angle bisectors of a trinagle are concurrent}
+\subsection{Theorem}
+Angle bisectors of a trinagle are concurrent, the point is called the incenter of the triangle
+
+\pagebreak
+
+\subsection{Theorem}
+In $\triangle ABC$ with incenter I,  $\angle BIC = 90^{\circ}+\frac{1}{2}\angle A$
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da5905118684092199] 
+\draw    (124,172) -- (442.91,176.03) ;
+%Straight Lines [id:da9618382085114188] 
+\draw    (124,172) -- (233.91,52.03) ;
+%Straight Lines [id:da13878852480396842] 
+\draw    (233.91,52.03) -- (442.91,176.03) ;
+%Straight Lines [id:da09073327189026714] 
+\draw    (243.96,125.03) -- (124,172) ;
+%Straight Lines [id:da05856932878848253] 
+\draw    (243.96,125.03) -- (442.91,176.03) ;
+
+% Text Node
+\draw (235.91,55.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (126,175) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (444.91,179.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (245.96,128.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {I};
+
+
+\end{tikzpicture}
+
+\vspace{30px}
+
+\subsection{Theorem}
+In $\triangle ABC$ with incenter I, the circumcenter of $\triangle BIC$ is the mid point of the arc $\overset{\LARGE\frown}{BC}$.
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,515); %set diagram left start at 0, and has height of 515
+
+%Straight Lines [id:da5905118684092199] 
+\draw    (113,151) -- (387.96,219.03) ;
+%Straight Lines [id:da9618382085114188] 
+\draw    (113,151) -- (222.91,31.03) ;
+%Straight Lines [id:da13878852480396842] 
+\draw    (222.91,31.03) -- (387.96,219.03) ;
+%Shape: Circle [id:dp8689296114246079] 
+\draw   (113,168.48) .. controls (113,90.34) and (176.34,27) .. (254.48,27) .. controls (332.62,27) and (395.96,90.34) .. (395.96,168.48) .. controls (395.96,246.62) and (332.62,309.96) .. (254.48,309.96) .. controls (176.34,309.96) and (113,246.62) .. (113,168.48) -- cycle ;
+%Shape: Circle [id:dp4372612009831265] 
+\draw   (32.96,304.46) .. controls (32.96,200.91) and (116.91,116.96) .. (220.46,116.96) .. controls (324.01,116.96) and (407.96,200.91) .. (407.96,304.46) .. controls (407.96,408.01) and (324.01,491.96) .. (220.46,491.96) .. controls (116.91,491.96) and (32.96,408.01) .. (32.96,304.46) -- cycle ;
+%Straight Lines [id:da035413888005204175] 
+\draw    (113,151) -- (228.96,116.56) ;
+%Straight Lines [id:da6238963393874986] 
+\draw    (228.96,116.56) -- (387.96,219.03) ;
+
+% Text Node
+\draw (224.91,34.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (115,154) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (389.96,222.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (222.46,307.46) node [anchor=north west][inner sep=0.75pt]   [align=left] {X};
+% Text Node
+\draw (230.96,119.56) node [anchor=north west][inner sep=0.75pt]   [align=left] {I};
+
+
+\end{tikzpicture}
+
 
 \pagebreak
 
 \section{Median}
+
+\subsection{Definition}
+\vspace{30px}
+
+\subsection{Theorem}
+Medians of triangle are concurrent. The point is called the centroid of the triangle.
+
+
+\vspace{50px}
+
+\subsection{Theorem}
+In $\triangle ABC$ with centroid G and A' as the midpoint of BC, AG=2GA'.
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+
+%Straight Lines [id:da28332928208796315] 
+\draw    (128.06,259.03) -- (364.06,261.03) ;
+%Straight Lines [id:da647118791580753] 
+\draw    (285.96,124.03) -- (128.06,259.03) ;
+%Straight Lines [id:da4424909815278173] 
+\draw    (285.96,124.03) -- (364.06,261.03) ;
+%Straight Lines [id:da11044244004039627] 
+\draw    (285.96,124.03) -- (246.06,260.03) ;
+
+% Text Node
+\draw (287.96,127.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (130.06,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (366.06,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (248.06,263.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+% Text Node
+\draw (263,215) node [anchor=north west][inner sep=0.75pt]   [align=left] {G};
+
+
+\end{tikzpicture}
+
+
+\vspace{50px}
+
+\subsection{Median Length Formula}
+
+In $\triangle ABC$ with median AA'=m, then $\frac{1}{2}m^2=b^2+c^2-\frac{1}{2}a^2$
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+
+%Straight Lines [id:da28332928208796315] 
+\draw    (128.06,259.03) -- (364.06,261.03) ;
+%Straight Lines [id:da647118791580753] 
+\draw    (285.96,124.03) -- (128.06,259.03) ;
+%Straight Lines [id:da4424909815278173] 
+\draw    (285.96,124.03) -- (364.06,261.03) ;
+%Straight Lines [id:da11044244004039627] 
+\draw    (285.96,124.03) -- (246.06,260.03) ;
+
+% Text Node
+\draw (287.96,127.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (130.06,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (366.06,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (248.06,263.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+
+
+\end{tikzpicture}
+
+\pagebreak
+
+\section{Height}
+
+\subsection{Definition}
+\vspace{30px}
+
+\subsection{Theorem}
+
+Heights of triangle are concurrent. The point is called the orthocenter of the triangle.
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+
+%Straight Lines [id:da28332928208796315] 
+\draw    (128.06,259.03) -- (364.06,261.03) ;
+%Straight Lines [id:da647118791580753] 
+\draw    (255.96,83.55) -- (128.06,259.03) ;
+%Straight Lines [id:da4424909815278173] 
+\draw    (255.96,83.55) -- (364.06,261.03) ;
+%Straight Lines [id:da11044244004039627] 
+\draw    (255.96,83.55) -- (258.96,258.55) ;
+%Straight Lines [id:da25307184265762905] 
+\draw    (295.96,150.55) -- (128.06,259.03) ;
+%Straight Lines [id:da47902736207552743] 
+\draw    (214.96,141.55) -- (364.06,261.03) ;
+
+% Text Node
+\draw (257.96,86.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (130.06,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (366.06,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (259.46,174.05) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
+
+
+\end{tikzpicture}
+
+
+\vspace{100px}
+
+\subsection{Theorem}
+
+In $\triangle ABC$ with orthocenter H, A' the midpoint of BC, and the circumcenter O, AH=2OA'.
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+
+%Shape: Circle [id:dp9162436210882785] 
+\draw   (138,201.48) .. controls (138,120.03) and (204.03,54) .. (285.48,54) .. controls (366.93,54) and (432.96,120.03) .. (432.96,201.48) .. controls (432.96,282.93) and (366.93,348.96) .. (285.48,348.96) .. controls (204.03,348.96) and (138,282.93) .. (138,201.48) -- cycle ;
+%Straight Lines [id:da7741878669053166] 
+\draw    (156.96,274.55) -- (210.96,74.55) ;
+%Straight Lines [id:da3851763576282945] 
+\draw    (414.96,271.55) -- (156.96,274.55) ;
+%Straight Lines [id:da10655267360857046] 
+\draw    (210.96,74.55) -- (414.96,271.55) ;
+%Straight Lines [id:da08513658544714886] 
+\draw    (285.96,273.05) -- (285.48,201.48) ;
+%Straight Lines [id:da351408405309773] 
+\draw    (210.96,272.55) -- (210.96,74.55) ;
+%Straight Lines [id:da09103761919117792] 
+\draw    (282.96,143.55) -- (156.96,274.55) ;
+%Straight Lines [id:da9902153949193253] 
+\draw    (174.96,209.55) -- (414.96,271.55) ;
+
+% Text Node
+\draw (212.96,77.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (158.96,277.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (416.96,274.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (211,220) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
+% Text Node
+\draw (287.48,204.48) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+% Text Node
+\draw (287.96,276.05) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+
+
+\end{tikzpicture}
+
+\pagebreak
+
+\subsection{Theorem:}
+O the circumcenter,G the centroid,H the orthocenter are collinear. This line is called the Euler line of the triangle.
+
 
 \end{document}
