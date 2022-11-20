@@ -287,8 +287,9 @@ As a result, $\triangle AOC$ and $\triangle BOC$ are congruent triangles, with $
 
 \subsection{Tangent to a circle}
 
-\subsubsection{Definition: A line that intersects a circle at only one point.}
-\vspace{20px}
+\subsubsection{Definition}
+
+A line that intersects a circle at only one point.
 
 \subsubsection{The radius from the center of the circle to the point of tangency is perpendicular to the tangent line}
 \begin{minipage}{0.2\linewidth}
@@ -451,10 +452,10 @@ By bringing one of the points of intersection closer to the other, the triangle 
 \hfill
 \begin{minipage}{0.35\linewidth}
 
-Since $AO=BO$, OC is shared, and $\angle OAC=\angle OBC$ (SSA), $AC=BC$ (Hypotenuse Length Theorem).
+Since $AO=BO$, OC is shared, and $\angle OAC=\angle OBC$ (SSA), $AC=BC$ (Hypotenuse Leg Theorem).
 \end{minipage}
 
-\vspace{50px}
+\vspace{20px}
 
 \subsubsection{Tangent-Chord Theorem: the angle formed between a chord and a tangent line to a circle is equal to the inscribed angle on the other side of the chord}
 
@@ -538,7 +539,6 @@ $\angle EAF$ can be considered as the sum of $Ax$ and $Ay$. We know that $By$ an
 
 \subsection{Definition}
 A quadrilateral which has all its four vertices lying on the perimeter of a circle.
-\vspace{20px}
 
 \subsection{Opposite angles are added up to \(180^{\circ}\)}
 
@@ -599,28 +599,144 @@ $x+y=180^\circ$
 
 \subsubsection{Two equal angles subtend a segment (chord in the circle)}
 
-\includegraphics{Picture10.png}
+\begin{minipage}{0.2\linewidth}
 
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.9,xscale=.9]
+%uncomment if require: \path (0,411); %set diagram left start at 0, and has height of 411
+
+%Shape: Circle [id:dp921091011277742] 
+\draw   (125.97,202.01) .. controls (125.97,137.94) and (177.91,86) .. (241.99,86) .. controls (306.06,86) and (358,137.94) .. (358,202.01) .. controls (358,266.09) and (306.06,318.03) .. (241.99,318.03) .. controls (177.91,318.03) and (125.97,266.09) .. (125.97,202.01) -- cycle ;
+%Straight Lines [id:da5459468360103272] 
+\draw    (145.01,140.03) -- (191.01,307.03) ;
+%Straight Lines [id:da588908423869051] 
+\draw    (145.01,140.03) -- (358.01,216.03) ;
+%Straight Lines [id:da0661291040591152] 
+\draw    (258.01,105.03) -- (191.01,307.03) ;
+%Straight Lines [id:da9044187873024561] 
+\draw    (241.99,86) -- (358.01,216.03) ;
+%Straight Lines [id:da12052154539862125] 
+\draw    (241.99,86) -- (191.01,307.03) ;
+
+% Text Node
+\draw (128.01,124.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (260.01,108.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (360.01,219.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (193.01,310.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (241.99,70) node [anchor=north west][inner sep=0.75pt]   [align=left] {B'};
+
+
+\end{tikzpicture}
+
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.55\linewidth}
+If not, then let BC intersect circle at B'. \\
+By 1.4, $\angle B'=\angle A$ \\
+By Hypothesis, $\angle DBC = \angle A$ \\
+Then $\angle BDB'=\angle B'-\angle DBC=0$ \\
+Therefore, B and B' must be the same point.
+\end{minipage}
+
+\subsection{The sum of the opposite angle is $180^\circ$}
+
+Proof is similar to 2.3.2
 \pagebreak
 
 \section{Similar triangles involving a circle}
 
 \subsection{Identify as many similar triangles as possible}
 
-\includegraphics[scale=.75]{Picture12.jpg}
 
-\vspace{100px}
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp9462086222707395] 
+\draw   (56,135.58) .. controls (56,100.1) and (84.77,71.33) .. (120.25,71.33) .. controls (155.73,71.33) and (184.5,100.1) .. (184.5,135.58) .. controls (184.5,171.07) and (155.73,199.83) .. (120.25,199.83) .. controls (84.77,199.83) and (56,171.07) .. (56,135.58) -- cycle ;
+%Shape: Circle [id:dp2794602066066383] 
+\draw   (215.5,134.08) .. controls (215.5,98.6) and (244.27,69.83) .. (279.75,69.83) .. controls (315.23,69.83) and (344,98.6) .. (344,134.08) .. controls (344,169.57) and (315.23,198.33) .. (279.75,198.33) .. controls (244.27,198.33) and (215.5,169.57) .. (215.5,134.08) -- cycle ;
+%Shape: Circle [id:dp2098638970822193] 
+\draw   (376,134.58) .. controls (376,99.1) and (404.77,70.33) .. (440.25,70.33) .. controls (475.73,70.33) and (504.5,99.1) .. (504.5,134.58) .. controls (504.5,170.07) and (475.73,198.83) .. (440.25,198.83) .. controls (404.77,198.83) and (376,170.07) .. (376,134.58) -- cycle ;
+%Straight Lines [id:da5152896269286067] 
+\draw    (87,81) -- (71,176.5) ;
+%Straight Lines [id:da15239096947011244] 
+\draw    (150,78.5) -- (71,176.5) ;
+%Straight Lines [id:da25778811178108385] 
+\draw    (87,81) -- (168.75,177.5) ;
+%Straight Lines [id:da2120560799189919] 
+\draw    (150,78.5) -- (168.75,177.5) ;
+%Straight Lines [id:da44778435792701554] 
+\draw    (230.33,175.33) -- (300,41.67) ;
+%Straight Lines [id:da6755479195347789] 
+\draw    (329.67,175) -- (300,41.67) ;
+%Straight Lines [id:da6392213661182822] 
+\draw    (307.33,76) -- (230.33,175.33) ;
+%Straight Lines [id:da8530718760752225] 
+\draw    (285.33,70) -- (329.67,175) ;
+%Straight Lines [id:da6101067773970859] 
+\draw    (412.67,76.67) -- (467.33,76.33) ;
+%Straight Lines [id:da34512543218122715] 
+\draw    (462,41.67) -- (482.67,183.33) ;
+%Straight Lines [id:da9715744468004663] 
+\draw    (462,41.67) -- (412.67,76.67) ;
+%Straight Lines [id:da2338671063220683] 
+\draw    (412.67,76.67) -- (482.67,183.33) ;
+
+% Text Node
+\draw (269.17,52.07) node [anchor=north west][inner sep=0.75pt]    {$A$};
+% Text Node
+\draw (331.67,178.4) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (309.33,58.73) node [anchor=north west][inner sep=0.75pt]    {$C$};
+% Text Node
+\draw (215.25,175.98) node [anchor=north west][inner sep=0.75pt]    {$D$};
+% Text Node
+\draw (300.67,19.23) node [anchor=north west][inner sep=0.75pt]    {$P$};
+% Text Node
+\draw (366.67,58.73) node [anchor=north west][inner sep=0.75pt]    {$A( D)$};
+% Text Node
+\draw (489.08,191.48) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (479.83,68.4) node [anchor=north west][inner sep=0.75pt]    {$C$};
+% Text Node
+\draw (459.83,16.57) node [anchor=north west][inner sep=0.75pt]    {$P$};
+% Text Node
+\draw (69.58,61.32) node [anchor=north west][inner sep=0.75pt]    {$A$};
+% Text Node
+\draw (56,178.73) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (150.42,59.98) node [anchor=north west][inner sep=0.75pt]    {$C$};
+% Text Node
+\draw (166.67,179.57) node [anchor=north west][inner sep=0.75pt]    {$D$};
+% Text Node
+\draw (115.75,128.82) node [anchor=north west][inner sep=0.75pt]    {$P$};
+
+
+\end{tikzpicture}
+
+
+\vspace{40px}
 
 \subsection{Power of a point}
 
 \subsubsection{Definition:}
-
-\vspace{20px}
+A real number that demonstrates the distance a point from a circle.
 
 \subsubsection{Power of point is fixed regardless the choice of chord}
 
 \includegraphics[scale=1.2]{Picture13.png}
-
+\\
+A ratio between the side lengths of the two similar triangles DEC and AEB can be made by having a fraction with one line over it's "pair". Therefore, for the first figure, $EA/DE=BE/CE\longrightarrow EA\times EC=BE\times DE$. As a result, the power of a point is the same for any two intersections made by a straight line from a single point. As a result, we can determine that $BA\times BA=BC\times BD$, and $CB\times CA=CD\times CE$, for figure 2 and 3 respectively.
 \pagebreak
 
 \subsubsection{Power of a point formula}
@@ -630,7 +746,7 @@ $x+y=180^\circ$
 \begin{center}
 \includegraphics{Picture14.png}
 \end{center}
-
+We know that $PoP=PT^2$, and that PT is tangent to the circle, therefore making $\angle PTO=90^\circ$. We can then use the Pythagorean theorem, resulting in: $PT^2=PO^2-r^2$.
 \vspace{60px}
 
 \subsection{Homothety involving circles}
@@ -638,9 +754,10 @@ $x+y=180^\circ$
 \subsubsection{Homothety of a circle is a circle}
 
 \includegraphics{Picture15.png}
-
+\\
+The ratio between the two circles can be displayed as a fraction: $OP_1/OP_2$. Therefore, $P_1A_1=R$, and $P_2A_2=R\times r$. 
 \subsubsection{Ratios in the homothety}
-
+$R/r$ is the ratio of homothety (ref. 3.3.1).
 \pagebreak
 
 \section{Problems}
@@ -657,16 +774,81 @@ Given AD AE are the internal, external angle bisector of angle A,
 \subsection{Problem}
 Given Circle C1, C2 intersect at A, B, CD is the common tangent to both circles, 
 E is the intersection of AB and CD. Prove E is the midpoint of CD.
-
+\\\\
+\begin{minipage}{0.2\linewidth}
 \includegraphics{Picture17.png}
-
+\end{minipage}
+\hfill
+\begin{minipage}{0.35\linewidth}
+$EC^2=EA\times EB$\\
+$ED^2=EA\times EB$\\
+Since, $EC^2=ED^2$\\
+Therefore, $EC=ED$
+\end{minipage}
 \pagebreak
 
 \subsection{Theorem}
 In a triangle abc=4RS
 
-\includegraphics{Picture18.png}
+\begin{minipage}{0.2\linewidth}
 
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp2794602066066383] 
+\draw   (215.42,134.22) .. controls (215.42,98.74) and (244.18,69.97) .. (279.67,69.97) .. controls (315.15,69.97) and (343.92,98.74) .. (343.92,134.22) .. controls (343.92,169.71) and (315.15,198.47) .. (279.67,198.47) .. controls (244.18,198.47) and (215.42,169.71) .. (215.42,134.22) -- cycle ;
+%Straight Lines [id:da562992416038582] 
+\draw    (250.42,47.59) -- (250,198.33) ;
+%Straight Lines [id:da7994376896201953] 
+\draw    (242,68.67) -- (353.42,172.92) ;
+%Straight Lines [id:da9295963036997694] 
+\draw    (183.75,160.59) -- (407.09,159.59) ;
+%Straight Lines [id:da06964743659693018] 
+\draw [fill={rgb, 255:red, 183; green, 10; blue, 10 }  ,fill opacity=1 ]   (258.42,53.59) -- (207.09,199.59) ;
+%Straight Lines [id:da5647560629982864] 
+\draw    (250.33,77) -- (309,191.44) ;
+%Straight Lines [id:da4600410665130259] 
+\draw    (309,191.44) -- (338.75,159.94) ;
+%Shape: Square [id:dp9549672722698885] 
+\draw   (244.38,154.57) -- (250,154.57) -- (250,160.19) -- (244.38,160.19) -- cycle ;
+%Shape: Square [id:dp8467083766989931] 
+\draw   (330.8,160.14) -- (334.68,156.06) -- (338.75,159.94) -- (334.87,164.02) -- cycle ;
+%Shape: Arc [id:dp13227288253715686] 
+\draw  [draw opacity=0] (250.44,91.51) .. controls (250.4,91.51) and (250.37,91.51) .. (250.33,91.51) .. controls (248.6,91.51) and (246.93,91.27) .. (245.36,90.82) -- (250.33,77) -- cycle ; \draw  [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ] (250.44,91.51) .. controls (250.4,91.51) and (250.37,91.51) .. (250.33,91.51) .. controls (248.6,91.51) and (246.93,91.27) .. (245.36,90.82) ;  
+%Shape: Arc [id:dp22862431958153073] 
+\draw  [draw opacity=0] (261.12,86.71) .. controls (261.09,86.74) and (261.07,86.76) .. (261.05,86.79) .. controls (259.88,88.07) and (258.57,89.14) .. (257.18,89.99) -- (250.33,77) -- cycle ; \draw  [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ] (261.12,86.71) .. controls (261.09,86.74) and (261.07,86.76) .. (261.05,86.79) .. controls (259.88,88.07) and (258.57,89.14) .. (257.18,89.99) ;  
+%Shape: Arc [id:dp596211273778789] 
+\draw  [draw opacity=0] (223.48,153.78) .. controls (225.05,154.63) and (226.35,156.11) .. (227.02,158.03) .. controls (227.28,158.77) and (227.43,159.52) .. (227.46,160.25) -- (220.89,160.17) -- cycle ; \draw  [color={rgb, 255:red, 96; green, 0; blue, 255 }  ,draw opacity=1 ] (223.48,153.78) .. controls (225.05,154.63) and (226.35,156.11) .. (227.02,158.03) .. controls (227.28,158.77) and (227.43,159.52) .. (227.46,160.25) ;  
+%Shape: Arc [id:dp37441445566940357] 
+\draw  [draw opacity=0] (305.84,185.32) .. controls (307.5,184.68) and (309.48,184.65) .. (311.37,185.39) .. controls (312.1,185.68) and (312.76,186.06) .. (313.35,186.51) -- (309,191.44) -- cycle ; \draw  [color={rgb, 255:red, 49; green, 0; blue, 255 }  ,draw opacity=1 ] (305.84,185.32) .. controls (307.5,184.68) and (309.48,184.65) .. (311.37,185.39) .. controls (312.1,185.68) and (312.76,186.06) .. (313.35,186.51) ;  
+%Shape: Circle [id:dp0198050007406807] 
+\draw   (279.67,134.22) .. controls (279.67,133.88) and (279.95,133.6) .. (280.29,133.6) .. controls (280.63,133.6) and (280.91,133.88) .. (280.91,134.22) .. controls (280.91,134.56) and (280.63,134.84) .. (280.29,134.84) .. controls (279.95,134.84) and (279.67,134.56) .. (279.67,134.22) -- cycle ;
+
+% Text Node
+\draw (230.64,66.68) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$A$};
+% Text Node
+\draw (280.14,123.43) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$O$};
+% Text Node
+\draw (345.39,148.93) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$C$};
+% Text Node
+\draw (250.39,150.93) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$E$};
+% Text Node
+\draw (204.14,149.68) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$B$};
+% Text Node
+\draw (310.14,193.93) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$D$};
+
+
+\end{tikzpicture}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\linewidth}
+We know $\triangle AEB$ is similar to $\triangle ACD$, since $\angle BAE=\angle DAC$ ($\angle ABC=\angle ADC$ since they share the same arc, and AE is perpendicular to EB, similar to how AC is perpendicular to DC).\\
+Therefore, we can state $AE/AB=AC/AD\longrightarrow AE\times 2r=AC\times AD$.
+\end{minipage}
 \pagebreak
 
 \subsection{Problem}
