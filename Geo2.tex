@@ -175,7 +175,7 @@ Therefore, \(\angle AOB=2y+2z=2y+z=2x\).
 Since an inscribed angle is half of its center angle with the same arc (ref 1.3), and all three angles share the same arc, the inscribed angles are all equal.
 \end{minipage}
 
-\vspace{40px}
+\vspace{140px}
 
 \subsection{Angle subtended by a diameter is \(90^{\circ}\)}
 
@@ -455,7 +455,7 @@ By bringing one of the points of intersection closer to the other, the triangle 
 Since $AO=BO$, OC is shared, and $\angle OAC=\angle OBC$ (SSA), $AC=BC$ (Hypotenuse Leg Theorem).
 \end{minipage}
 
-\vspace{20px}
+\vspace{100px}
 
 \subsubsection{Tangent-Chord Theorem: the angle formed between a chord and a tangent line to a circle is equal to the inscribed angle on the other side of the chord}
 
@@ -539,6 +539,7 @@ $\angle EAF$ can be considered as the sum of $Ax$ and $Ay$. We know that $By$ an
 
 \subsection{Definition}
 A quadrilateral which has all its four vertices lying on the perimeter of a circle.
+\vspace{20px}
 
 \subsection{Opposite angles are added up to \(180^{\circ}\)}
 
@@ -769,7 +770,10 @@ Given AD AE are the internal, external angle bisector of angle A,
 
 \includegraphics{Picture16.png}
 
-\vspace{50px}
+Since $EAD =90^\circ$, $DE$ is a diameter of the circumcircle.
+In addition, since $AD$ is the internal angle bisector,
+$D$ is the midpoint of arc $AB$ as $\angle BAD = \angle CAD$.
+Similarly, $E$ is the midpoint of arc $BAC$.
 
 \subsection{Problem}
 Given Circle C1, C2 intersect at A, B, CD is the common tangent to both circles, 
@@ -847,9 +851,10 @@ In a triangle abc=4RS
 \hfill
 \begin{minipage}{0.5\linewidth}
 We know $\triangle AEB$ is similar to $\triangle ACD$, since $\angle BAE=\angle DAC$ ($\angle ABC=\angle ADC$ since they share the same arc, and AE is perpendicular to EB, similar to how AC is perpendicular to DC).\\
-Therefore, we can state $AE/AB=AC/AD\longrightarrow AE\times 2r=AC\times AD$.
+Therefore, we can state $AE/AB=AC/AD\longrightarrow AE\times 2r=AC\times AB=bc$.\\
+Finally, $abc=2R\times AE\times a=4R\times (\frac{AE\times BC}{2})=4RS$, where S is the area of ABC
+
 \end{minipage}
-\pagebreak
 
 \subsection{Problem}
 
@@ -858,7 +863,49 @@ AE intersects BC at G,
 the tangent at A intersects BC at F. 
 Prove AFG is an isosceles triangle.
 
-\includegraphics{Picture19.png}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp7743386354543087] 
+\draw   (272,153.77) .. controls (272,93.14) and (321.14,44) .. (381.77,44) .. controls (442.39,44) and (491.53,93.14) .. (491.53,153.77) .. controls (491.53,214.39) and (442.39,263.53) .. (381.77,263.53) .. controls (321.14,263.53) and (272,214.39) .. (272,153.77) -- cycle ;
+%Straight Lines [id:da47145245486689236] 
+\draw    (23.53,197.03) -- (639.53,194.03) ;
+%Straight Lines [id:da7467273744841061] 
+\draw    (332.53,4.03) -- (279.53,193.03) ;
+%Straight Lines [id:da8376954192631836] 
+\draw    (313.53,66.03) -- (482.53,193.03) ;
+%Straight Lines [id:da08661975676931188] 
+\draw    (313.53,66.03) -- (186.53,195.03) ;
+%Straight Lines [id:da05307429520515172] 
+\draw    (23.53,197.03) -- (444.53,9.03) ;
+
+% Text Node
+\draw (297.53,49.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (267,195) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (484.53,196.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (361,50) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (188.53,198.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+% Text Node
+\draw (25.53,200.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {G};
+% Text Node
+\draw (334.53,7.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+
+
+\end{tikzpicture}
+Since $AE$ is the external angle bisector \\
+$\angle GAB=\angle DAE = \angle EAC$\\
+Also by Tangent-Chord Theorem, $\angle FAB = \angle ACB$ \\
+Therefore, $\angle G = \angle EAC - \angle ACB = \angle GAB - \angle FAB = \angle GAF$\\
+Therefore, AFG is an isosceles triangle
+
 
 \pagebreak
 
