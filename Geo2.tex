@@ -920,15 +920,72 @@ Since $AE$ is the external angle bisector, $\angle GAB= \angle EAC$.\\
 Also, by Tangent-Chord Theorem, $\angle FAB = \angle ACB$. \\
 Therefore, $\angle G = \angle EAC - \angle ACB = \angle GAB - \angle FAB = \angle GAF$ (External Angle Theorem), and thus, AFG is an isosceles triangle.
 
-
 \pagebreak
 
 \subsection{Ptolemy's theorem}
-
 If a quadrilateral is inscribed in a circle then the product of the lengths of its diagonals is equal to the sum of the products of the lengths of the pairs of opposite sides.
-\\Or ab+cd=xy where a,b,c,d are the sides of the quadrilateral and x,y are the diagonals.
+\\Or ab+cd=xy where a,b,c,d are the sides of the quadrilateral and x,y are the diagonals.\\
+\begin{center}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\includegraphics{Picture20.png}
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1.6,xscale=1.6]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Ellipse [id:dp2794602066066383] 
+\draw   (262.15,125.49) .. controls (262.15,77.72) and (301.03,39) .. (349,39) .. controls (396.97,39) and (435.86,77.72) .. (435.86,125.49) .. controls (435.86,173.25) and (396.97,211.97) .. (349,211.97) .. controls (301.03,211.97) and (262.15,173.25) .. (262.15,125.49) -- cycle ;
+%Straight Lines [id:da9295963036997694] 
+\draw    (147.25,160) -- (480.75,160) ;
+%Straight Lines [id:da9694228198901165] 
+\draw    (269.35,159.85) -- (321.06,43.41) ;
+%Straight Lines [id:da4602575786504073] 
+\draw    (435.86,125.49) -- (321.06,43.41) ;
+%Straight Lines [id:da9298960848238496] 
+\draw    (435.86,125.49) -- (269.35,159.85) ;
+%Straight Lines [id:da520223449903894] 
+\draw    (428.76,159.81) -- (321.06,43.41) ;
+%Straight Lines [id:da36761229289035535] 
+\draw    (321.06,43.41) -- (222.38,159.51) ;
+%Straight Lines [id:da8712946570592159] 
+\draw    (428.76,159.81) -- (435.86,125.49) ;
+
+% Text Node
+\draw (253.64,160.68) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$A$};
+% Text Node
+\draw (428.14,161.93) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$C$};
+% Text Node
+\draw (304.14,24.93) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$B$};
+% Text Node
+\draw (435.89,110.43) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$D$};
+% Text Node
+\draw (364.39,100.68) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$x$};
+% Text Node
+\draw (421.14,134.93) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$b$};
+% Text Node
+\draw (296.14,101.18) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$a$};
+% Text Node
+\draw (250.14,102.68) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$z$};
+% Text Node
+\draw (360.39,139.18) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$y$};
+% Text Node
+\draw (344.14,160.68) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$c$};
+% Text Node
+\draw (376.64,68.68) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$d$};
+% Text Node
+\draw (232.64,161.43) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$w$};
+% Text Node
+\draw (207.64,161.18) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$E$};
+
+
+\end{tikzpicture}
+\end{center}
+
+First, draw a reference line between point B that intersects the extended line AC with the same angle as $\angle DBC$ and label this point E. We know that $\triangle BEA$ is similar to $\triangle BCD$, and since they both share $\angle ABC$, $\triangle EBC$ is similar to $\triangle ABD$. Thus, we can create equivalent ratios with the various side lengths available:
+$$\frac{z}{x}=\frac{a}{d}=\frac{w}{b}\Longrightarrow ab=wd$$\\
+Since $\triangle BEC$ is similar to $\triangle BAD$,
+$$\frac{z}{a}=\frac{x}{d}=\frac{w+c}{y}$$
+$$wd+cd=xy$$
+$$ab+cd=xy$$
+
 
 \pagebreak
 
