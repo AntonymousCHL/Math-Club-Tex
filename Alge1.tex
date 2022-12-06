@@ -1,0 +1,143 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tikz}
+
+
+\title{Algebra 1 - Set Theory and Logic}
+\author{TSS Math Club}
+\date{Dec 2022}
+
+\begin{document}
+\large
+
+\maketitle
+
+\section{Four Fundamental Proof Techniques:}
+
+\subsection{Direct Proof (Proof by Construction)}
+In a constructive proof one attempts to demonstrate $P \implies Q$ directly. This is
+the simplest and easiest method of proof available to us. There are only two
+steps to a direct proof (the second step is, of course, the tricky part):
+\begin{itemize}
+    \item Assume that P is true.
+    \item Use P to show that Q must be true.
+\end{itemize}
+\subsubsection{Example}
+Prove odd number + odd number = even number.
+\vspace{40px}
+
+\subsection{Proof by Contradiction}
+The proof by contradiction is grounded in the fact that any proposition must
+be either true or false, but not both true and false at the same time. The method of proof by contradiction:
+\begin{itemize}
+    \item Assume that P is true.
+    \item Assume that $\neg$ Q is true
+    \item Use P and $\neg$ Q to demonstrate a contradiction.
+\end{itemize}
+\subsubsection{Example}
+Prove $\sqrt{2}$ is irrational number.
+\pagebreak
+\subsection{Proof by Induction}
+Proof by induction is a very powerful method in which we use recursion to
+demonstrate an infinite number of facts in a finite amount of space. In order to prove by induction, you need to:
+\begin{itemize}
+    \item Show that a propositional form P(x) is true for some basis case.
+    \item Assume that P(n) is true for some n, and show that this implies that
+    P(n + 1) is true.
+    \item  Then, by the principle of induction, the propositional form P(x) is true
+    for all n greater or equal to the basis case.
+\end{itemize}
+\subsubsection{Example}
+Prove $\sum_{i=1}^n i =\frac{n(n+1)}{2}$
+\vspace{60px}
+\subsection{Proof by Contrapositive}
+From first-order logic we know that the implication $P \implies Q$ is equivalent
+to $\neg P \implies \neg Q$. The second proposition is called the contrapositive of the first
+proposition. By saying that the two propositions are equivalent we mean that
+if one can prove $P \implies Q$ then they have also proved $\neg P \implies \neg Q$, and vice versa.
+\subsubsection{Example}
+Prove $n^2$ even implies $n$ even.
+\pagebreak
+
+\section{Set Theory}
+\subsection{Definition of a Set:}
+\vspace{20px}
+\subsection{Construct a Set}
+\subsubsection{Construct a Set from a List of Ojbects:}
+\vspace{30px}
+\subsubsection{Construct a Set from a Given Set by Setting Restrictions:}
+\vspace{30px}
+
+\subsection{Basic Sets:}
+\vspace{50px}
+
+\subsection{Relations:}
+\subsubsection{Definition: $x \in A$}
+\vspace{30px}
+\subsubsection{Definition: $A \subset B$}
+\vspace{30px}
+\subsubsection{Definition: $A=B$}
+\vspace{30px}
+\subsubsection{Lemma: $A=B \iff A \subset B \land B \subset A$}
+\pagebreak
+
+\subsection{Operations:}
+\subsubsection{Definition: $A-B$}
+\vspace{30px}
+\subsubsection{Definition: $A \cup B$}
+\vspace{30px}
+\subsubsection{Definition: $A \cap B$}
+\vspace{30px}
+\subsection{Ordered Pair:}
+
+\subsubsection{Definition:}
+\vspace{20px}
+
+\subsubsection{Property:}
+\vspace{30px}
+
+\subsection{Cartesian Product}
+
+\subsubsection{Definition:}
+\vspace{30px}
+
+\pagebreak
+\section{Relation and Function}
+\subsection{Relation}
+\subsubsection{Definition:}
+\vspace{30px}
+\subsection{Function}
+\subsubsection{Definition:}
+\begin{itemize}
+    \item Function
+    \item Domain
+    \item Codomain
+    \item Range
+\end{itemize}
+\subsubsection{Injection (one-to-one):}
+\vspace{40px}
+\subsubsection{Surjection (onto):}
+\vspace{40px}
+\subsubsection{Bijection (one-to-one and onto):}
+\vspace{40px}
+\subsubsection{Inverse Function:}
+\pagebreak
+\section{Cardinality}
+\subsection{Index Set $J_n$}
+\vspace{30px}
+\subsection{Cardinlity of Finite Set}
+\vspace{30px}
+\subsection{Infinite Countable Set}
+\vspace{30px}
+\subsection{Infinite Uncountable Set}
+\vspace{30px}
+\subsection{Two Sets with the Same Cardinality}
+\end{document}
+
