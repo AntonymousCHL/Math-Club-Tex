@@ -1,0 +1,229 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tikz}
+
+
+\title{Algebra 2 - Sequence and Series}
+\author{TSS Math Club}
+\date{Jan-Feb 2023}
+
+\begin{document}
+\large
+
+\maketitle
+
+\section{Sequence}
+
+\subsection{Definition}
+A sequence can be thought of as a list of numbers written in a definite order:
+$$a_1, a_2, a_3, a_4,\dots , a_n, \dots$$
+The number $a_1$ is called the first term, $a_2$ is the second term, and in general $a_n$ is the n-th
+term.
+
+\subsection{Notation}
+The sequence $\{a_1, a_2, a_3, \dots\}$ is also denoted by $\{a_n\}$ or $\{a_n\}_{n \ge 1}$
+
+
+\subsection{Examples}
+
+\begin{itemize}
+    \item $a_n = \frac{1}{n}$
+    \item $a_1 = 1, a_{n+1}=a_{n}+2$
+    \item $a_1=1, a_2=1, a_{n+2}=a_{n+1}+a_{n} $
+\end{itemize}
+
+
+\subsection{Arithmetic Sequence}
+
+\subsubsection{Definition}
+
+An arithmetic sequence is a sequence where each term increases by adding/subtracting some constant $d$ (the common difference).
+
+$$a_{n+1}=a_{n}+d$$
+
+\subsubsection{Useful Formulae}
+
+\begin{itemize}
+    \item $a_{n}=a_1+(n-1)d$
+    \item $2a_{n}=a_{n-1}+a_{n+1}$
+\end{itemize}
+
+\subsection{Geometric Sequence}
+
+\subsubsection{Definition}
+
+A geometric sequence is a sequence in which each term is found by multiplying the preceding term by the same value $r$ (common ratio).
+
+$$a_{n+1}=ra_{n}$$
+
+\subsubsection{Useful Formulae}
+
+\begin{itemize}
+    \item $a_{n}=a_1r^{n-1}$
+    \item $a_{n}^2=a_{n-1}a_{n+1}$
+\end{itemize}
+
+\subsection{Arithmetico-Geometric Sequence}
+
+\subsubsection{Definition}
+
+In mathematics, arithmetico-geometric sequence is the result of term-by-term multiplication of a geometric progression with the corresponding terms of an arithmetic progression. 
+
+$$a_n=[a+(n-1)d]br^{n-1}$$
+
+\subsection{Recursive Sequence}
+A recursive sequence is a sequence in which terms are defined using one or more previous terms which are given.
+
+\subsubsection{Periodic Sequence}
+
+Example : $a_1=x,a_2=y, a_n=\frac{a_{n-1}+1}{a_{n-2}}$
+\\
+
+$a_1=x,a_2=y,a_3=\frac{y+1}{x}, a_4=\frac{x+y+1}{xy}, a_5 = \frac{x+1}{y}, a_6=x, a_7=y, \dots$
+
+\subsubsection{Linear Difference Equation}
+
+Example : $a_1=1, a_2=1, a_{n+2}=a_{n+1}+a_{n} $
+\\
+How to solve:
+\begin{itemize}
+    \item Step 1: find the characteristic equation $x^2=x+1$
+    \item Step 2: Solve the characteristic equation $x_{1,2}=\phi,\frac{1}{\phi}$
+    \item Step 3: the general term $a_n = c_1 x_1^n+ c_2 a_2^n$ for some constant $c_i$
+    \item Step 4: sub $a_1$ and $a_2$ in and get $c_i$
+\end{itemize}
+
+\section{Series}
+
+\subsection{Defnition}
+
+A series is the cumulative sum of a given sequence of terms.
+
+$$S_n=\sum_{i=1}^{n}a_i \mathrm{,for \ some} \{a_i\}$$ 
+
+\subsection{Arithmetic Series}
+
+Let $\{a_n\}_{n\ge1}$ be a arithmetic sequence, then 
+
+$$S_n=\sum_{i=1}^{n}a_i$$ 
+is the arithmetic series.
+
+\subsubsection{General Term}
+
+$a_n = \frac{(a_1+a_n)}{2}$
+
+\subsubsection{Prove for $a_n=n$}
+
+consider:
+\\
+1,2,3,4,5,...,n-2,n-1,n\\
+n,n-1,n-2,...,5,4,3,2,1
+
+If we add vertically, we'll get n+1 for n terms.
+But because this is for $2S_n$, $$S_n=\frac{(n+1)n}{2}$$
+
+\subsubsection{Property of sum operator}
+
+IT IS A LINEAR OPPERATOR:
+
+\begin{itemize}
+    \item $\sum (a_i+b_i) = \sum a_i + \sum b_i$
+    \item $\sum ca_i = c \sum a_i$ for constant $c$
+\end{itemize}
+
+\subsubsection{Proof of genral term}
+\newpage
+
+\subsection{Geometric Series}
+
+Let $\{a_n\}_{n\ge1}$ be a geometric sequence, then 
+
+$$S_n=\sum_{i=1}^{n}a_i$$ 
+is the geometric series.
+
+\subsubsection{General Term}
+
+$a_n = \frac{a_1(r^{n+1}-1)}{r-1}$
+
+\subsubsection{Prove for $a_n=r^{n-1}$}
+By definition, we have
+$$S_n=1+r+r^2+\dots+r^{n-1}$$
+Now, consider the identity $$x^n-1=(x-1)(x^{n-1}+\dots+x^2+x+1)$$
+Therefore,
+$$S_n=1+r+r^2+\dots+r^{n-1}=\frac{r^n-1}{r-1}$$
+
+\subsubsection{Proof of genral term}
+\vspace{30px}
+\subsubsection{Push to infinity}
+
+Note if $-1<r<1$, we have $\lim_{n \to \infty} r^n=0$
+Therefore, we have $$\lim_{n \to \infty} S_n = \lim_{n \to \infty} \frac{a_1(r^{n+1}-1)}{r-1} = \frac{a_1(\lim_{n \to \infty} r^{n+1}-1)}{r-1} = \frac{-a_1}{r-1} = \frac{a_1}{1-r}$$
+
+\subsection{Arithmetico-Geometric Series}
+
+Let $\{a_n\}_{n\ge1}$ be a arithmetico-geometric sequence, then 
+
+$$S_n=\sum_{i=1}^{n}a_i$$ 
+is the arithmetico-geometric series.
+
+\subsection{General term}
+$x_n=(a_1+d(n-1))(g_1\cdot r^{n-1})$\\
+Let $S_n$ represent the sum of the first $n$ terms. \\
+$S_n=a_1g_1+(a_1+d)(g_1r)+(a_1+2d)(g_1r^2)+\ldots+(a_1+(n-1)d)(g_1r^{n-1})$\\
+$S_n=a_1g_1+(a_1g_1+dg_1)r+(a_1g_1+2dg_1)r^2+\ldots+(a_1g_1+(n-1)dg_1)r^{n-1}$\\
+$rS_n=a_1g_1r+(a_1g_1+dg_1)r^2+(a_1g_1+2dg_1)r^3+\ldots+(a_1g_1+(n-1)dg_1)r^{n}$\\
+$rS_n-S_n=-a_1g_1-dg_1r-dg_1r^2-dg_1r^3-\ldots-dg_1r^{n-1}+(a_1g_1+(n-1)dg_1)r^n$\\
+$S_n(r-1)=(a_1+(n-1)d)g_1r^n-a_1g_1-\frac{dg_1r(r^{n-1}-1)}{r-1}$\\
+$S_n=\frac{(a_1+(n-1)d)g_1r^n}{r-1}-\frac{a_1g_1}{r-1}-\frac{dg_1r(r^{n-1}-1)}{(r-1)^2}=\frac{a_ng_{n+1}}{r-1}-\frac{x_1}{r-1}-\frac{d(g_{n+1}-g_2)}{(r-1)^2}$
+
+\subsection{Telescoping Series}
+
+\subsubsection{Example}
+
+What's the value of $$\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\dots+\frac{1}{(n-1)\cdot n}$$
+\vspace{100px}
+
+\section{Practice Problems}
+
+\subsection{2021 CIMC Part A Q5}
+
+A list of numbers is created using the following rules:
+\begin{itemize}
+    \item The first number is 3 and the second number is 4.
+    \item Each number after the second is the result of adding 1 to the previous number
+    and then dividing by the number before that. In other words, for any three
+    consecutive numbers in the list, $a, b, c,$ we have $\frac{b+1}{a}$
+\end{itemize}
+What is the smallest positive integer $N$ for which the sum of the first $N$ numbers in
+the list is equal to an odd integer that is greater than 2021?
+\newpage
+\subsection{2022 Euclid Q5}
+A list $a_1, a_2, a_3, a_4$ of rational numbers is defined so that if one term is equal to $r$,
+then  the next term is equal to $1+\frac{1}{1+r}$.  If $a_3=\frac{41}{29}$, what is the value of a1?
+\vspace{100px}
+
+\subsection{2005 AIME II Q3}
+
+An infinite geometric series has sum 2005. A new series, obtained by squaring each term of the original series, has 10 times the sum of the original series. The common ratio of the original series is $\frac mn$ where $m$ and $n$ are relatively prime integers. Find $m+n.$
+
+\vspace{100px}
+
+\subsubsection{2022 AMC 12A Q8}
+The infinite product\[\sqrt[3]{10} \cdot \sqrt[3]{\sqrt[3]{10}} \cdot \sqrt[3]{\sqrt[3]{\sqrt[3]{10}}} \ldots\]evaluates to a real number. What is that number?
+
+\pagebreak
+
+\subsection{2020 AMC 10A 21}
+
+There exists a unique strictly increasing sequence of nonnegative integers $a_1 < a_2 < … < a_k$ such that\[\frac{2^{289}+1}{2^{17}+1} = 2^{a_1} + 2^{a_2} + … + 2^{a_k}.\]What is $k?$
+
+
+
+\end{document}

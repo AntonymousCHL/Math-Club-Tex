@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  12 DEC 2022 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  12 FEB 2023 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.tex
-(c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.tex
+**c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge2.tex
+(c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge2.tex
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -336,8 +336,8 @@ File: tikzlibrarytopaths.code.tex 2020/11/23 v3.1.7 (3.1.7)
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count287
 \l__pdf_internal_box=\box61
-) (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.aux)
-\openout1 = `Geo3.aux'.
+) (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge2.aux)
+\openout1 = `Alge2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -414,51 +414,34 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (149.19795pt too wide) in paragraph at lines 126--127
-[][] 
- []
-
-[1
+) [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 145--150
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
+[2] [3] [4] [5] [6]
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--150
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 225.
 
 
-Overfull \hbox (131.4075pt too wide) in paragraph at lines 218--219
-[][] 
- []
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 225.
 
-[3] [4] [5] [6] [7] [8] [9] [10] [11]
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 668.
-
-[12] [13] [14] [15] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.aux) ) 
+[7] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge2.aux) ) 
 Here is how much of TeX's memory you used:
- 13597 strings out of 479485
- 264030 string characters out of 5875909
- 530766 words of memory out of 5000000
- 30373 multiletter control sequences out of 15000+600000
- 541252 words of font info for 52 fonts, out of 8000000 for 9000
+ 13564 strings out of 479485
+ 263023 string characters out of 5875909
+ 527762 words of memory out of 5000000
+ 30337 multiletter control sequences out of 15000+600000
+ 543288 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,9n,85p,457b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo3.pdf (15 pages, 147024 bytes).
+ 80i,15n,85p,432b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge2.pdf (7 pages, 194759 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
