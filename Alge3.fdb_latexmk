@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1676252474 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.pdf" "Alge3" 1676252477
-  "Alge3.aux" 1676252477 4119 39138e5faf7ae05b1684410eda0647c9 "pdflatex"
-  "Alge3.tex" 1676252465 7051 2a4d94683f672d1c210727c71dbc2957 ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.aux" 1676252477 4119 39138e5faf7ae05b1684410eda0647c9 ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.tex" 1676252465 7051 2a4d94683f672d1c210727c71dbc2957 ""
+["pdflatex"] 1676252761 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.pdf" "Alge3" 1676252792
+  "Alge3.aux" 1676252763 4121 22eec16cb9e69e306b1447e0e3e09bea "pdflatex"
+  "Alge3.tex" 1676252755 7055 58b6a298beb1a04bc906c40e8bd20e17 ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.aux" 1676252763 4121 22eec16cb9e69e306b1447e0e3e09bea ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.tex" 1676252755 7055 58b6a298beb1a04bc906c40e8bd20e17 ""
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1606330302 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1606331583 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1606331052 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -144,8 +144,8 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1606336531 2549468 6a97027fa328ef62eb40bdc4381ccaff ""
   "c:/texlive/2020/texmf.cnf" 1606336332 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "Alge3.pdf"
+  "Alge3.aux"
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.pdf"
   "Alge3.log"
   "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.log"
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Alge3.pdf"
-  "Alge3.aux"
+  "Alge3.pdf"
