@@ -61,7 +61,7 @@ $$a_{n+1}=a_{n}+d$$
 
 A geometric sequence is a sequence in which each term is found by multiplying the preceding term by the same value $r$ (common ratio).
 
-$$a_{n+1}=ra_{n}$$
+$$a_{n+1}=r a_{n}$$
 
 \subsubsection{Useful Formulae}
 
@@ -117,7 +117,7 @@ is the arithmetic series.
 
 \subsubsection{General Term}
 
-$a_n = \frac{(a_1+a_n)}{2}$
+$S_n = \frac{(a_1+a_n)n}{2}$
 
 \subsubsection{Prove for $a_n=n$}
 
@@ -150,7 +150,7 @@ is the geometric series.
 
 \subsubsection{General Term}
 
-$a_n = \frac{a_1(r^{n+1}-1)}{r-1}$
+$a_n = \frac{a_1(r^{n}-1)}{r-1}$
 
 \subsubsection{Prove for $a_n=r^{n-1}$}
 By definition, we have
@@ -164,7 +164,7 @@ $$S_n=1+r+r^2+\dots+r^{n-1}=\frac{r^n-1}{r-1}$$
 \subsubsection{Push to infinity}
 
 Note if $-1<r<1$, we have $\lim_{n \to \infty} r^n=0$
-Therefore, we have $$\lim_{n \to \infty} S_n = \lim_{n \to \infty} \frac{a_1(r^{n+1}-1)}{r-1} = \frac{a_1(\lim_{n \to \infty} r^{n+1}-1)}{r-1} = \frac{-a_1}{r-1} = \frac{a_1}{1-r}$$
+Therefore, we have $$\lim_{n \to \infty} S_n = \lim_{n \to \infty} \frac{a_1(r^{n}-1)}{r-1} = \frac{a_1(\lim_{n \to \infty} r^{n}-1)}{r-1} = \frac{-a_1}{r-1} = \frac{a_1}{1-r}$$
 
 \subsection{Arithmetico-Geometric Series}
 
@@ -173,7 +173,7 @@ Let $\{a_n\}_{n\ge1}$ be a arithmetico-geometric sequence, then
 $$S_n=\sum_{i=1}^{n}a_i$$ 
 is the arithmetico-geometric series.
 
-\subsection{General term}
+\subsubsection{General term}
 $x_n=(a_1+d(n-1))(g_1\cdot r^{n-1})$\\
 Let $S_n$ represent the sum of the first $n$ terms. \\
 $S_n=a_1g_1+(a_1+d)(g_1r)+(a_1+2d)(g_1r^2)+\ldots+(a_1+(n-1)d)(g_1r^{n-1})$\\
