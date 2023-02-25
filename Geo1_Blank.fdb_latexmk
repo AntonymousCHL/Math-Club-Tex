@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1677356545 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.pdf" "Geo1_Blank" 1677366830
+["pdflatex"] 1677367839 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.pdf" "Geo1_Blank" 1677367852
   "./geo1//Similar-Triangles-Rules.jpg" 1677352938 85510 3997ccdae49daad88752c8d76584b696 ""
-  "Geo1_Blank.aux" 1677356548 5577 e632cc4234c226a9e4d6580a7596c92a "pdflatex"
-  "Geo1_Blank.tex" 1677356539 31224 123b4ff83fb10de2b0124359156527c3 ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.aux" 1677356548 5577 e632cc4234c226a9e4d6580a7596c92a ""
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.tex" 1677356539 31224 123b4ff83fb10de2b0124359156527c3 ""
+  "Geo1_Blank.aux" 1677367843 5577 e632cc4234c226a9e4d6580a7596c92a "pdflatex"
+  "Geo1_Blank.tex" 1677367851 31384 a999591c15ef12228d7f5d025be82ec1 ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.aux" 1677367843 5577 e632cc4234c226a9e4d6580a7596c92a ""
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.tex" 1677367851 31384 a999591c15ef12228d7f5d025be82ec1 ""
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1606330302 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1606331583 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1606331052 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -138,8 +138,8 @@
   "geo1//Similar-Triangles-Rules.jpg" 1677352938 85510 3997ccdae49daad88752c8d76584b696 ""
   "geo1//congruent-triangles.png" 1677348197 92807 0ce1b10089dcc34a45f0b516fe781b8c ""
   (generated)
+  "Geo1_Blank.log"
   "Geo1_Blank.pdf"
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.log"
   "Geo1_Blank.aux"
   "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.pdf"
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1_Blank.log"
-  "Geo1_Blank.log"
