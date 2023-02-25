@@ -270,7 +270,6 @@ Given AB=3,BD=1,DC=3,AC=2. Find AD.
 
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
 %uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
 
@@ -304,7 +303,25 @@ Given AB=3,BD=1,DC=3,AC=2. Find AD.
 
 
 \end{tikzpicture}
-
+\\\\\\
+First, use cosine law to find $\angle ACD$ and $\angle ADB$:
+\begin{align}
+    2^2&=x^2+3^2-2(x)(3)\cos \theta\\
+    4&=x^2+9-6x\cos \theta
+\end{align} 
+\begin{align}
+    3^2&=x^2+1^2-2(x)(1)\cos 180^\circ -\theta \\
+    9&=x^2+1+2x\cos \theta\\
+    27&=3x^2+3+6x\cos \theta
+\end{align}
+Combine / add (2) and (5) together, therefore cancelling out the $6x\cos \theta$:
+\begin{align*}
+    4+27&=x^2+9-6x\cos \theta + 3x^2+3+6x\cos \theta\\
+    31&=4x^2+12\\
+    4x^2&=19\\
+    x^2&=\frac{19}{4}\\
+    x&=\frac{\sqrt{19}}{2}
+\end{align*}
 \pagebreak
 
 \subsubsection{Problem, Euclid 2022 Q8 b)}
@@ -315,15 +332,94 @@ a geometric sequence, and the measures of whose angles form an
 arithmetic sequence.
 \end{quote}
 Show that this statement is true by finding such a triangle or prove that it is false
-by demonstrating that there cannot be such a triangle.
+by demonstrating that there cannot be such a triangle.\\
 
 
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.8,xscale=0.8]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Triangle [id:dp8389982585740936] 
+\draw   (362.33,51.33) -- (469.67,225.67) -- (255,225.67) -- cycle ;
+%Shape: Arc [id:dp8881312346304651] 
+\draw  [draw opacity=0] (271.05,200.32) .. controls (276.47,203.75) and (280.83,208.92) .. (283.19,215.41) .. controls (284.42,218.79) and (285.01,222.26) .. (285.01,225.67) -- (255,225.67) -- cycle ; \draw   (271.05,200.32) .. controls (276.47,203.75) and (280.83,208.92) .. (283.19,215.41) .. controls (284.42,218.79) and (285.01,222.26) .. (285.01,225.67) ;  
+%Shape: Arc [id:dp6708474487566618] 
+\draw  [draw opacity=0] (439.67,225.33) .. controls (439.73,218.93) and (441.84,212.49) .. (446.12,207.08) .. controls (448.35,204.25) and (450.99,201.93) .. (453.89,200.14) -- (469.67,225.67) -- cycle ; \draw   (439.67,225.33) .. controls (439.73,218.93) and (441.84,212.49) .. (446.12,207.08) .. controls (448.35,204.25) and (450.99,201.93) .. (453.89,200.14) ;  
+%Shape: Arc [id:dp6286388230575226] 
+\draw  [draw opacity=0] (378.1,76.86) .. controls (371.93,80.67) and (364.36,82.27) .. (356.67,80.79) .. controls (353.13,80.11) and (349.85,78.83) .. (346.93,77.08) -- (362.33,51.33) -- cycle ; \draw   (378.1,76.86) .. controls (371.93,80.67) and (364.36,82.27) .. (356.67,80.79) .. controls (353.13,80.11) and (349.85,78.83) .. (346.93,77.08) ;  
+
+% Text Node
+\draw (287.33,197.4) node [anchor=north west][inner sep=0.75pt]    {$60^{\circ }$};
+% Text Node
+\draw (386.67,196.07) node [anchor=north west][inner sep=0.75pt]    {$60^{\circ } -x$};
+% Text Node
+\draw (335.67,94.4) node [anchor=north west][inner sep=0.75pt]    {$60^{\circ } +x$};
+% Text Node
+\draw (363.33,32.73) node [anchor=north west][inner sep=0.75pt]    {$A$};
+% Text Node
+\draw (241,227.73) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (471.67,229.07) node [anchor=north west][inner sep=0.75pt]    {$C$};
+% Text Node
+\draw (457.67,45.73) node [anchor=north west][inner sep=0.75pt]    {$WLOG=AC=1$};
+% Text Node
+\draw (421.67,119.07) node [anchor=north west][inner sep=0.75pt]    {$1$};
+% Text Node
+\draw (353.33,231.4) node [anchor=north west][inner sep=0.75pt]    {$r$};
+% Text Node
+\draw (280,108.07) node [anchor=north west][inner sep=0.75pt]    {$\frac{1}{r}$};
+
+
+\end{tikzpicture}
+\\\\
+First, we are able to assume "Without Loss of Generality" (WLOG) since we know that changing the side lengths by a certain factor wont change its angle. Thus, we can have $AC$ as 1.\\
+\begin{align*}
+    \frac{\sin (60^\circ)}{1}=\frac{\sin (60^\circ+x)}{r}&=\frac{\sin (60^\circ-x)}{\frac{1}{r}}=\frac{\sqrt{3}}{2}\\
+    \frac{\sin (60^\circ-x)}{\frac{1}{r}}&=\sin (60^\circ-x)\times r\\
+    (\sin (60^\circ-x)\times r)\times \frac{\sin (60^\circ+x)}{r}&=( \frac{\sqrt{3}}{2})^2\\
+    \sin (60^\circ-x)\times \sin (60^\circ+x)&=\frac{3}{4}
+\end{align*}
+Trig identities: $\sin a+b=\sin a\cos b+\cos a\sin b$ and $\sin a-b=\sin a\cos b-\cos a\sin b$ 
+\begin{align*}
+    (\sin 60^\circ\cos x+\cos 60^\circ\sin x)\times (\sin 60^\circ\cos x-\cos 60^\circ\sin x)&=\frac{3}{4}\\
+    \frac{\sqrt{3}}{2}\cos^2 x-\frac{1}{2}\sin^2 x&=\frac{3}{4}\\
+    \frac{3}{4}\cos^2 x+\frac{3}{4}\sin^2 x-\sin^2 x&=\frac{3}{4}\\
+    \frac{3}{4}(\cos^2 x+\sin^2 x)-\sin^2 x&=\frac{3}{4}\\
+    \frac{3}{4}-\sin^2 x&=\frac{3}{4}\\
+    \sin^2 x&=0
+\end{align*}
+Therefore, $x=0$, and thus all three angles in the triangle are $60^\circ$, proving that no triangle exists that fit the statement provided.
 \pagebreak
 
 \section{Transversals}
 
 \subsection{Directed Segments}
-Definition
+Definition: Lines with a direction.\\
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da2454900674821967] 
+\draw    (226.33,96.33) -- (426.33,96.67) ;
+
+% Text Node
+\draw (212,98.4) node [anchor=north west][inner sep=0.75pt]    {$A$};
+% Text Node
+\draw (428.33,100.07) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (483,77.07) node [anchor=north west][inner sep=0.75pt]    {$ \begin{array}{l}
+AB=-BA\\
+AB=5\\
+BA=-5
+\end{array}$};
+
+
+\end{tikzpicture}
+
 \vspace{30px}
 
 \subsection{Stewart's Theorem}
@@ -356,9 +452,37 @@ $$PA^2\cdot BC+PB^2\cdot CA+PC^2\cdot AB+BC \cdot CA \cdot AB =0$$
 \draw (235.91,55.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {P};
 
 
-\end{tikzpicture}
-
-
+\end{tikzpicture}\\
+Apply cosine law in triangle $\triangle ABP$ and $\triangle CBP$ \\
+\begin{equation}
+\label{cos1}
+AP^2 = BP^2+AB^2-2\cdot AB \cdot BP \cdot \cos(\angle ABP)
+\end{equation}
+\begin{equation}
+\label{cos2}
+CP^2 = BP^2+CB^2-2\cdot CB \cdot BP \cdot \cos(\angle CBP)
+\end{equation}
+(\ref{cos1}) and (\ref{cos2}) $\implies$ \\
+\begin{equation}
+\label{cos3}
+AP^2\cdot CB = BP^2 \cdot CB +AB^2 \cdot CB -2\cdot AB \cdot BP \cdot CB \cdot \cos(\angle ABP)
+\end{equation}
+\begin{equation}
+\label{cos4}
+CP^2 \cdot AB = BP^2 \cdot AB +CB^2 \cdot AB -2\cdot CB \cdot BP \cdot  AB \cdot \cos(\angle CBP)
+\end{equation}
+Since $\angle ABP + \angle PBC = \pi$, (\ref{cos3}) + (\ref{cos4}) $\implies$
+\begin{equation}
+AP^2\cdot CB + CP^2 \cdot AB = BP^2 \cdot CB +AB^2 \cdot CB + BP^2 \cdot AB +CB^2 \cdot AB
+\end{equation}
+\begin{equation}
+AP^2\cdot CB + CP^2 \cdot AB = BP^2 \cdot (CB+AB) +AB \cdot CB \cdot (AB+BC)
+\end{equation}
+\begin{equation}
+\label{StewartUnsimplified}
+AP^2\cdot CB + CP^2 \cdot AB = BP^2 \cdot AC +AB \cdot CB \cdot AC
+\end{equation}
+Checking the direction for these directed segments, (\ref{StewartUnsimplified}) implies Stewart’s Theorem.
 \pagebreak
 
 \subsection{Menelaus' Theorem}
@@ -369,43 +493,60 @@ $$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=-1$$
 
 
 
+
+
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
 %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-%Straight Lines [id:da01433999833467725] 
-\draw    (131,196) -- (522.91,204.03) ;
-%Straight Lines [id:da17936156092470434] 
-\draw    (172.91,51.03) -- (310.91,200.03) ;
-%Straight Lines [id:da243500674973548] 
-\draw    (172.91,51.03) -- (131,196) ;
-%Straight Lines [id:da01379280330610988] 
-\draw    (110,95) -- (535.91,260.03) ;
+%Straight Lines [id:da6022439883372588] 
+\draw    (79,140.5) -- (370,141) ;
+%Shape: Triangle [id:dp3107100836360235] 
+\draw   (107,39) -- (209.5,140.5) -- (79,140.5) -- cycle ;
+%Straight Lines [id:da16837717229751448] 
+\draw    (49,49.5) -- (360,181) ;
+%Straight Lines [id:da48224126119218624] 
+\draw    (186,226.5) -- (214,125) ;
+%Straight Lines [id:da49725778940543064] 
+\draw    (214,125) -- (242,23.5) ;
+%Shape: Right Angle [id:dp31614681371123354] 
+\draw   (192.01,177.99) -- (200.98,173.21) -- (205.42,181.53) ;
+%Shape: Right Angle [id:dp10639599189965154] 
+\draw   (79.01,113.99) -- (87.98,109.21) -- (92.42,117.53) ;
 
 % Text Node
-\draw (174.91,54.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+\draw (92,21.9) node [anchor=north west][inner sep=0.75pt]    {$A$};
 % Text Node
-\draw (133,199) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+\draw (63.5,142.9) node [anchor=north west][inner sep=0.75pt]    {$B$};
 % Text Node
-\draw (312.91,203.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+\draw (211.5,143.9) node [anchor=north west][inner sep=0.75pt]    {$C$};
 % Text Node
-\draw (381,202) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+\draw (252,144.9) node [anchor=north west][inner sep=0.75pt]    {$D$};
 % Text Node
-\draw (272.91,160.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+\draw (169,79.9) node [anchor=north west][inner sep=0.75pt]    {$E$};
 % Text Node
-\draw (155,115) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+\draw (78.5,70.4) node [anchor=north west][inner sep=0.75pt]    {$F$};
 
 
 \end{tikzpicture}
-
-\vspace{200px}
+\\\\
+Since $CG$ is parallel to $BA$, $\triangle AFE$ is similar to $\triangle CGE$, and therefore:
+$$\frac{AF}{CG}=\frac{EA}{CE}=\frac{EF}{EG}$$
+Since $\triangle FBD$ is similar to $\triangle GCD$, therefore:
+$$\frac{GC}{FB}=\frac{DC}{BD}=\frac{DG}{DF}$$\\
+We are able to multiply together certain parts of the relation listed above to get:
+\begin{align*}
+    \frac{AF}{CG}\times\frac{GC}{FB}&=\frac{EA}{CE}\times\frac{DC}{BD}\\
+    -\frac{AF}{FB}\times(-\frac{CE}{EA}\times\frac{BD}{DC})&=(\frac{EA}{CE}\times\frac{DC}{BD})\times(-\frac{CE}{EA}\times\frac{BD}{DC})\\
+    \frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}&=-1    
+\end{align*}
 
 \subsection{Menelaus' Inverse Theorem}
 
 Suppose we have a triangle ABC with D on BC, E on AC, F on AB, such that,
 $$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=-1$$
-then D,E, F collinear.
+then D,E, F collinear.\\\\
 
 
 \pagebreak
@@ -419,40 +560,109 @@ $$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=1$$
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
+
+Note:\\
+
+\begin{minipage}{0.3\linewidth}
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
 %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-%Straight Lines [id:da711612096145047] 
-\draw    (211.91,30.03) -- (145.91,260.03) ;
-%Straight Lines [id:da728293619031698] 
-\draw    (145.91,260.03) -- (422.91,257.03) ;
-%Straight Lines [id:da6290146606670881] 
-\draw    (211.91,30.03) -- (422.91,257.03) ;
-%Straight Lines [id:da9579416581915836] 
-\draw    (211.91,30.03) -- (241.91,259.03) ;
-%Straight Lines [id:da21071318124650795] 
-\draw    (349.91,180.03) -- (145.91,260.03) ;
-%Straight Lines [id:da20346105516117619] 
-\draw    (159.91,210.03) -- (422.91,257.03) ;
+%Shape: Triangle [id:dp2868878057078903] 
+\draw   (76.6,45.4) -- (180.2,103) -- (40,103) -- cycle ;
+%Straight Lines [id:da18136882666626764] 
+\draw    (76.6,45.4) -- (118.2,103) ;
 
 % Text Node
-\draw (213.91,33.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+\draw (60.7,25.2) node [anchor=north west][inner sep=0.75pt]    {$O$};
 % Text Node
-\draw (147.91,263.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+\draw (64.8,107) node [anchor=north west][inner sep=0.75pt]    {$a$};
 % Text Node
-\draw (424.91,260.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+\draw (142.4,107.8) node [anchor=north west][inner sep=0.75pt]    {$b$};
 % Text Node
-\draw (236,225) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+\draw (66,74.8) node [anchor=north west][inner sep=0.75pt]    {$S_{1}$};
 % Text Node
-\draw (243.91,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+\draw (118,76.4) node [anchor=north west][inner sep=0.75pt]    {$S_{2}$};
+
+\end{tikzpicture}
+    
+\end{minipage}
+\begin{minipage}{0.8\linewidth}
+    If $S_1=\frac{ah}{2}$ and $S_2=\frac{bh}{2}$, therefore $\frac{S_1}{S_2}=\frac{\frac{ah}{2}}{\frac{bh}{2}}=\frac{a}{b}$.\\
+\end{minipage}
+\\\\
+\begin{minipage}{0.4\linewidth}
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Triangle [id:dp7900101777669155] 
+\draw   (280.2,54.6) -- (403,223.4) -- (211.6,223.4) -- cycle ;
+%Straight Lines [id:da2657456500431752] 
+\draw    (332.2,125.8) -- (211.6,223.4) ;
+%Straight Lines [id:da8688743189791881] 
+\draw    (280.2,54.6) -- (304.6,223.4) ;
+%Straight Lines [id:da32512355801970805] 
+\draw    (250.6,128.2) -- (403,223.4) ;
+
 % Text Node
-\draw (351.91,183.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+\draw (279.5,164) node [anchor=north west][inner sep=0.75pt]    {$O$};
 % Text Node
-\draw (161.91,213.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+\draw (229.6,118.6) node [anchor=north west][inner sep=0.75pt]    {$F$};
+% Text Node
+\draw (334.8,112.2) node [anchor=north west][inner sep=0.75pt]    {$E$};
+% Text Node
+\draw (302.8,225) node [anchor=north west][inner sep=0.75pt]    {$D$};
+% Text Node
+\draw (404.8,223.8) node [anchor=north west][inner sep=0.75pt]    {$C$};
+% Text Node
+\draw (197.6,226.2) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (266.4,37.8) node [anchor=north west][inner sep=0.75pt]    {$A$};
+% Text Node
+\draw (239.2,81.4) node [anchor=north west][inner sep=0.75pt]    {$a$};
+% Text Node
+\draw (321.6,70.2) node [anchor=north west][inner sep=0.75pt]    {$f$};
+% Text Node
+\draw (376.4,157.4) node [anchor=north west][inner sep=0.75pt]    {$e$};
+% Text Node
+\draw (356,230.6) node [anchor=north west][inner sep=0.75pt]    {$d$};
+% Text Node
+\draw (267.6,231.4) node [anchor=north west][inner sep=0.75pt]    {$c$};
+% Text Node
+\draw (200,175.8) node [anchor=north west][inner sep=0.75pt]    {$b$};
 
 
 \end{tikzpicture}
-
+    
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+    $$[BOC]=(c+d)(h/2)$$
+    \begin{align}
+        \frac{[BOC]}{[BOA]}&=\frac{e}{f}\\
+        [BOA]&=\frac{f(c+d)(h/2)}{e}
+    \end{align}
+    \begin{align}
+        \frac{[AOC]}{[BOC]}&=\frac{a}{b}\\
+        [AOC]&=\frac{a(c+d)(h/2)}{b}
+    \end{align}
+    \hfill
+\end{minipage}
+\\
+Combine (7) and (9):\\
+\begin{align*}
+    \frac{[AOC]}{[AOB]}&=\frac{d}{c}\\
+    &=\frac{\frac{a(c+d)(h/2)}{b}}{\frac{f(c+d)(h/2)}{e}}\\
+    &=\frac{a}{b}\times\frac{e}{f}
+\end{align*}
+Therefore,
+$$\frac{d}{c}=\frac{a}{b}\times\frac{e}{f}\longrightarrow\frac{a}{b}\times\frac{c}{d}\times\frac{e}{f}=1$$
+or,
+$$\frac{AF}{FB}\times \frac{BD}{DC} \times \frac{CE}{EA}=1$$
 \vspace{200px}
 
 \subsection{Ceva's Inverse Theorem}
@@ -460,8 +670,6 @@ $$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=1$$
 Suppose we have a triangle ABC with D on BC, E on AC, F on AB, such that,
 $$\frac{AF}{FB}\cdot \frac{BD}{DC} \cdot \frac{CE}{EA}=1$$
 then AD,BE,CF concurrent.
-
-\pagebreak
 
 \section{Barycentric Coordinate}
 \subsection{Definition}
@@ -510,7 +718,8 @@ The barycentric coordinates of a point can be interpreted as masses placed at th
 
 \subsection{Example}
 
-Given BD:DC=1:2, AE:EC=1:1. Find AF:FD.
+Given BD:DC=1:2, AE:EC=1:1. Find AF:FD.\\
+\begin{minipage}{0.5\linewidth}
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
@@ -543,11 +752,19 @@ Given BD:DC=1:2, AE:EC=1:1. Find AF:FD.
 
 
 \end{tikzpicture}
-
+    
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+    if $A=m$, then $C=m$\\
+    if $C=m$, then $B=2m$\\
+    therefore $D=3m$, and $AF:FD=1:3$
+    
+\end{minipage}
 \subsection{Problem}
 
-Given BD:DC=1:5, AE:EC=1:4. Find AF:FD.
-
+Given BD:DC=1:5, AE:EC=1:4. Find AF:FD.\\
+\begin{minipage}{0.5\linewidth}
+ 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
@@ -579,64 +796,152 @@ Given BD:DC=1:5, AE:EC=1:4. Find AF:FD.
 
 
 \end{tikzpicture}
-
-\pagebreak
+   
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+    First, let $C=1$:\\
+    Since $C$ equals 1, $B$ must equal 5 and $A$ must equal 4.\\
+    As a result, by adding $B$ and $C$, $D$ must be 6.\\
+    Therefore $AF:FD=4:6=2:3$
+\end{minipage}
 
 \section{Angle Bisector}
 
 
 \subsection{Definition}
-
-\vspace{30px}
+A ray that bisects an angle.
 
 \subsection{Angle Bisector  Theorem}
 
 
 If AD bisects $\angle A$, then
 
-$$\frac{BD}{CD}=\frac{AB}{AC}$$
+$$\frac{BD}{CD}=\frac{AB}{AC}$$\\\\
+
+
+
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
 %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-%Straight Lines [id:da711612096145047] 
-\draw    (139.91,73.03) -- (107.91,180.03) ;
-%Straight Lines [id:da728293619031698] 
-\draw    (107.91,180.03) -- (384.91,177.03) ;
-%Straight Lines [id:da6290146606670881] 
-\draw    (139.91,73.03) -- (384.91,177.03) ;
-%Straight Lines [id:da9579416581915836] 
-\draw    (139.91,73.03) -- (200.91,180.03) ;
+%Shape: Triangle [id:dp23420178669904668] 
+\draw   (204.02,76.15) -- (548.2,200.08) -- (176,200.08) -- cycle ;
+%Straight Lines [id:da10521333010274803] 
+\draw    (204.02,76.15) -- (291.16,249.4) ;
+%Straight Lines [id:da8232632334372048] 
+\draw    (291.16,249.4) -- (176,200.08) ;
+%Straight Lines [id:da8021364977010002] 
+\draw    (235.26,219.77) -- (230.06,231.63) ;
+%Straight Lines [id:da7737510285253735] 
+\draw    (239.73,221.28) -- (234.52,233.14) ;
+%Straight Lines [id:da43087736985352687] 
+\draw    (182.19,146.27) -- (194.17,150.75) ;
+%Straight Lines [id:da33230006794261135] 
+\draw    (183.37,141.63) -- (195.35,146.12) ;
 
 % Text Node
-\draw (139.91,55.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+\draw (188.71,49.12) node [anchor=north west][inner sep=0.75pt]    {$A$};
 % Text Node
-\draw (109.91,183.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+\draw (200.72,100.71) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$\frac{A}{2}$};
 % Text Node
-\draw (386.91,180.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+\draw (253.92,204.31) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$\frac{A}{2}$};
 % Text Node
-\draw (202.91,183.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+\draw (225.92,92.31) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$\frac{A}{2}$};
+% Text Node
+\draw (461.6,65.4) node [anchor=north west][inner sep=0.75pt]    {$ \begin{array}{l}
+ADC=EDB\\
+\\
+\frac{BD}{DC} =\frac{BE}{AC} =\frac{AB}{AC}
+\end{array}$};
+% Text Node
+\draw (155.21,200.62) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (550.71,197.12) node [anchor=north west][inner sep=0.75pt]    {$C$};
+% Text Node
+\draw (267.21,177.62) node [anchor=north west][inner sep=0.75pt]    {$D$};
+% Text Node
+\draw (285.71,261.62) node [anchor=north west][inner sep=0.75pt]    {$E$};
 
 
 \end{tikzpicture}
 
-\vspace{100px}
+
+
+\vspace{60px}
 
 \subsection{Theorem}
-Angle bisectors of a trinagle are concurrent, the point is called the incenter of the triangle
-
-\pagebreak
-
-\subsection{Theorem}
-In $\triangle ABC$ with incenter I,  $\angle BIC = 90^{\circ}+\frac{1}{2}\angle A$
+Angle bisectors of a trinagle are concurrent, the point is called the incenter of the triangle.\\
+\\
+Proof 1:\\
+$$\frac{AF}{FB}\times\frac{BD}{DC}\times\frac{CE}{EA}$$
+\begin{align*}
+&=\frac{b}{a}\times\frac{c}{b}\times\frac{a}{c}\\
+&=1
+\end{align*}
+By using Ceva's Inverse Theorem (ref. 3.5, 3.6), we can state that $AD$, $BE$, and $CF$ are concurrent!\\
+\\
+Proof 2:
 
 
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp03363624454868308] 
+\draw   (166,172.86) .. controls (166,149.74) and (184.74,131) .. (207.86,131) .. controls (230.98,131) and (249.72,149.74) .. (249.72,172.86) .. controls (249.72,195.98) and (230.98,214.72) .. (207.86,214.72) .. controls (184.74,214.72) and (166,195.98) .. (166,172.86) -- cycle ;
+%Straight Lines [id:da16702483763259202] 
+\draw    (72.72,232.17) -- (238.72,89.17) ;
+%Straight Lines [id:da017342402565662107] 
+\draw    (254.72,208.17) -- (238.72,89.17) ;
+%Straight Lines [id:da34842330322080173] 
+\draw    (254.72,208.17) -- (72.72,232.17) ;
+%Straight Lines [id:da440457276206375] 
+\draw    (72.72,232.17) -- (207.86,172.86) ;
+%Straight Lines [id:da6374694696980359] 
+\draw    (207.86,172.86) -- (254.72,208.17) ;
+%Straight Lines [id:da6546015267230736] 
+\draw    (212.72,212.17) -- (207.86,172.86) ;
+%Straight Lines [id:da7915018804006162] 
+\draw    (179.72,140.17) -- (207.86,172.86) ;
+%Straight Lines [id:da4411219242332338] 
+\draw    (248.72,166.17) -- (207.86,172.86) ;
+
+% Text Node
+\draw (240,75) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (65,239) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (264,210) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (209.86,216.72) node [anchor=north west][inner sep=0.75pt]   [align=left] {X};
+% Text Node
+\draw (248.72,151.67) node [anchor=north west][inner sep=0.75pt]   [align=left] {Y};
+% Text Node
+\draw (165,130) node [anchor=north west][inner sep=0.75pt]   [align=left] {Z};
+% Text Node
+\draw (205,154) node [anchor=north west][inner sep=0.75pt]   [align=left] {I};
+
+
+\end{tikzpicture}\\
+Let $I$ be the intersection of angle bisector from $B$ and $C$, we only need to show $AI$ also bisects $\angle A$.\\
+Draw $IX$,$IY$,$IZ$ perpendicular to $BC,CA,AB$.\\
+By hypotenuse-side congruence, $\triangle BIX \cong \triangle BIZ$, $\triangle CIX \cong \triangle CIY$.\\
+Therefore, $IZ=IX=IY$.\\
+Thus, $\triangle AIY \cong \triangle AIZ$, and $AI$ is the angle bisector from $A$.
+
+\subsection{Theorem}
+In $\triangle ABC$ with incenter I,  $\angle BIC = 90^{\circ}+\frac{1}{2}\angle A$
+
+
+\begin{minipage}{0.4\linewidth}
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.71,xscale=.71]
 %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
 %Straight Lines [id:da5905118684092199] 
@@ -661,47 +966,71 @@ In $\triangle ABC$ with incenter I,  $\angle BIC = 90^{\circ}+\frac{1}{2}\angle 
 
 
 \end{tikzpicture}
-
-\vspace{30px}
+\end{minipage}
+\begin{minipage}{0.2\linewidth}
+    \begin{align*}
+        \angle I &= 180^\circ-\frac{1}{2}\angle B-\frac{1}{2}\angle C-\frac{1}{2}\angle A+\frac{1}{2}\angle A\\
+        &=180^\circ-\frac{1}{2}(\angle A+\angle B+\angle C)+\frac{1}{2}\angle A\\
+        &=90^\circ +\frac{1}{2}\angle A
+    \end{align*}
+\end{minipage}
+\pagebreak
 
 \subsection{Theorem}
 In $\triangle ABC$ with incenter I, the circumcenter of $\triangle BIC$ is the mid point of the arc $\overset{\LARGE\frown}{BC}$.
 
 
 
+
+
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1.2,xscale=1.2]
 %uncomment if require: \path (0,515); %set diagram left start at 0, and has height of 515
 
-%Straight Lines [id:da5905118684092199] 
-\draw    (113,151) -- (387.96,219.03) ;
-%Straight Lines [id:da9618382085114188] 
-\draw    (113,151) -- (222.91,31.03) ;
-%Straight Lines [id:da13878852480396842] 
-\draw    (222.91,31.03) -- (387.96,219.03) ;
-%Shape: Circle [id:dp8689296114246079] 
-\draw   (113,168.48) .. controls (113,90.34) and (176.34,27) .. (254.48,27) .. controls (332.62,27) and (395.96,90.34) .. (395.96,168.48) .. controls (395.96,246.62) and (332.62,309.96) .. (254.48,309.96) .. controls (176.34,309.96) and (113,246.62) .. (113,168.48) -- cycle ;
-%Shape: Circle [id:dp4372612009831265] 
-\draw   (32.96,304.46) .. controls (32.96,200.91) and (116.91,116.96) .. (220.46,116.96) .. controls (324.01,116.96) and (407.96,200.91) .. (407.96,304.46) .. controls (407.96,408.01) and (324.01,491.96) .. (220.46,491.96) .. controls (116.91,491.96) and (32.96,408.01) .. (32.96,304.46) -- cycle ;
-%Straight Lines [id:da035413888005204175] 
-\draw    (113,151) -- (228.96,116.56) ;
-%Straight Lines [id:da6238963393874986] 
-\draw    (228.96,116.56) -- (387.96,219.03) ;
+%Shape: Ellipse [id:dp8341671878060917] 
+\draw   (114.2,309.3) .. controls (114.2,201.95) and (202.39,114.93) .. (311.18,114.93) .. controls (419.97,114.93) and (508.16,201.95) .. (508.16,309.3) .. controls (508.16,416.64) and (419.97,503.67) .. (311.18,503.67) .. controls (202.39,503.67) and (114.2,416.64) .. (114.2,309.3) -- cycle ;
+%Shape: Ellipse [id:dp19642093522126958] 
+\draw   (220.97,163.1) .. controls (220.97,88.62) and (282.16,28.24) .. (357.64,28.24) .. controls (433.12,28.24) and (494.31,88.62) .. (494.31,163.1) .. controls (494.31,237.58) and (433.12,297.96) .. (357.64,297.96) .. controls (282.16,297.96) and (220.97,237.58) .. (220.97,163.1) -- cycle ;
+%Straight Lines [id:da22666611648945834] 
+\draw    (224.69,135.6) -- (483.16,215.61) ;
+%Straight Lines [id:da5199610100088321] 
+\draw    (224.69,135.6) -- (350.71,118.93) ;
+%Straight Lines [id:da6381171376392452] 
+\draw    (224.69,135.6) -- (350.04,28.91) ;
+%Straight Lines [id:da5927231246625995] 
+\draw    (350.04,28.91) -- (483.16,215.61) ;
+%Straight Lines [id:da6732922234415006] 
+\draw    (350.71,118.93) -- (483.16,215.61) ;
+%Straight Lines [id:da42612706751497575] 
+\draw    (224.69,135.6) -- (316.25,290.96) ;
+%Straight Lines [id:da19197914127659788] 
+\draw    (316.25,290.96) -- (483.16,215.61) ;
+%Shape: Arc [id:dp7439648235097325] 
+\draw  [draw opacity=0] (328.35,284.81) .. controls (331.08,289.64) and (330.78,295.67) .. (327.11,299.98) .. controls (322.3,305.61) and (313.54,306.14) .. (307.54,301.16) .. controls (301.55,296.18) and (300.59,287.57) .. (305.4,281.94) .. controls (306.49,280.65) and (307.8,279.63) .. (309.23,278.89) -- (316.25,290.96) -- cycle ; \draw   (328.35,284.81) .. controls (331.08,289.64) and (330.78,295.67) .. (327.11,299.98) .. controls (322.3,305.61) and (313.54,306.14) .. (307.54,301.16) .. controls (301.55,296.18) and (300.59,287.57) .. (305.4,281.94) .. controls (306.49,280.65) and (307.8,279.63) .. (309.23,278.89) ;  
+%Shape: Arc [id:dp36590206271152703] 
+\draw  [draw opacity=0] (362.61,126.54) .. controls (362.3,127.02) and (361.95,127.49) .. (361.57,127.94) .. controls (356.76,133.58) and (348,134.11) .. (342.01,129.13) .. controls (339.29,126.87) and (337.6,123.86) .. (337.02,120.72) -- (350.71,118.93) -- cycle ; \draw   (362.61,126.54) .. controls (362.3,127.02) and (361.95,127.49) .. (361.57,127.94) .. controls (356.76,133.58) and (348,134.11) .. (342.01,129.13) .. controls (339.29,126.87) and (337.6,123.86) .. (337.02,120.72) ;  
+%Shape: Arc [id:dp6742092205856316] 
+\draw  [draw opacity=0] (358.93,39.79) .. controls (353.95,43.61) and (346.58,43.47) .. (341.33,39.11) .. controls (340.72,38.6) and (340.15,38.05) .. (339.64,37.46) -- (350.04,28.91) -- cycle ; \draw   (358.93,39.79) .. controls (353.95,43.61) and (346.58,43.47) .. (341.33,39.11) .. controls (340.72,38.6) and (340.15,38.05) .. (339.64,37.46) ;  
 
 % Text Node
-\draw (224.91,34.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+\draw (198.41,111.99) node [anchor=north west][inner sep=0.75pt]    {$B$};
 % Text Node
-\draw (115,154) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+\draw (498.46,204.01) node [anchor=north west][inner sep=0.75pt]    {$C$};
 % Text Node
-\draw (389.96,222.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+\draw (316.2,265.57) node [anchor=north west][inner sep=0.75pt]    {$x$};
 % Text Node
-\draw (222.46,307.46) node [anchor=north west][inner sep=0.75pt]   [align=left] {X};
+\draw (335.58,48.98) node [anchor=north west][inner sep=0.75pt]    {$\angle A$};
 % Text Node
-\draw (230.96,119.56) node [anchor=north west][inner sep=0.75pt]   [align=left] {I};
+\draw (305.2,131.33) node [anchor=north west][inner sep=0.75pt]    {$90^\circ + \frac{1}{2} \angle A$};
+% Text Node
+\draw (269.31,308.33) node [anchor=north west][inner sep=0.75pt]    {$180^\circ +\angle A$};
+% Text Node
+\draw (342.78,6.98) node [anchor=north west][inner sep=0.75pt]    {$A$};
 
 
 \end{tikzpicture}
+
 
 
 \pagebreak
@@ -709,47 +1038,51 @@ In $\triangle ABC$ with incenter I, the circumcenter of $\triangle BIC$ is the m
 \section{Median}
 
 \subsection{Definition}
-\vspace{30px}
+A line segment joins a vertex to the midpoint of the opposite side.
 
 \subsection{Theorem}
-Medians of triangle are concurrent. The point is called the centroid of the triangle.
-
-
-\vspace{50px}
+Medians of triangle are concurrent. The point is called the centroid of the triangle.\\
+Proof: This is a simple corollary of Inverse Ceva's Theorem.
 
 \subsection{Theorem}
 In $\triangle ABC$ with centroid G and A' as the midpoint of BC, AG=2GA'.
 
+
+
+
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-%Straight Lines [id:da28332928208796315] 
-\draw    (128.06,259.03) -- (364.06,261.03) ;
-%Straight Lines [id:da647118791580753] 
-\draw    (285.96,124.03) -- (128.06,259.03) ;
-%Straight Lines [id:da4424909815278173] 
-\draw    (285.96,124.03) -- (364.06,261.03) ;
-%Straight Lines [id:da11044244004039627] 
-\draw    (285.96,124.03) -- (246.06,260.03) ;
+%Shape: Triangle [id:dp1962076307937537] 
+\draw   (182.6,69) -- (264.6,167) -- (40,167) -- cycle ;
+%Straight Lines [id:da3638340674911742] 
+\draw    (182.6,69) -- (145.8,167.4) ;
 
 % Text Node
-\draw (287.96,127.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+\draw (140,173.2) node [anchor=north west][inner sep=0.75pt]    {$A'$};
 % Text Node
-\draw (130.06,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+\draw (177.2,50.4) node [anchor=north west][inner sep=0.75pt]    {$A$};
 % Text Node
-\draw (366.06,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+\draw (22.8,169.6) node [anchor=north west][inner sep=0.75pt]    {$B$};
 % Text Node
-\draw (248.06,263.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+\draw (268.4,166.8) node [anchor=north west][inner sep=0.75pt]    {$C$};
 % Text Node
-\draw (263,215) node [anchor=north west][inner sep=0.75pt]   [align=left] {G};
+\draw (271.2,185.6) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize m}};
+% Text Node
+\draw (22.8,186.8) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize m}};
+% Text Node
+\draw (192,64.4) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize m}};
+% Text Node
+\draw (136.8,196) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize 2m}};
+% Text Node
+\draw (258,73) node [anchor=north west][inner sep=0.75pt]    {$A:A'=1:2$};
 
 
-\end{tikzpicture}
+\end{tikzpicture}\\
+Proof: This is a simple corollary of the barycentric coordinate.
 
-
-\vspace{50px}
 
 \subsection{Median Length Formula}
 
@@ -780,8 +1113,8 @@ In $\triangle ABC$ with median AA'=m, then $\frac{1}{2}m^2=b^2+c^2-\frac{1}{2}a^
 \draw (248.06,263.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
 
 
-\end{tikzpicture}
-
+\end{tikzpicture}\\
+Proof: This is a simple corollary of Stewart's Theorem.
 \pagebreak
 
 \section{Height}
@@ -794,38 +1127,45 @@ In $\triangle ABC$ with median AA'=m, then $\frac{1}{2}m^2=b^2+c^2-\frac{1}{2}a^
 Heights of triangle are concurrent. The point is called the orthocenter of the triangle.
 
 
+
+
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-%Straight Lines [id:da28332928208796315] 
-\draw    (128.06,259.03) -- (364.06,261.03) ;
-%Straight Lines [id:da647118791580753] 
-\draw    (255.96,83.55) -- (128.06,259.03) ;
-%Straight Lines [id:da4424909815278173] 
-\draw    (255.96,83.55) -- (364.06,261.03) ;
-%Straight Lines [id:da11044244004039627] 
-\draw    (255.96,83.55) -- (258.96,258.55) ;
-%Straight Lines [id:da25307184265762905] 
-\draw    (295.96,150.55) -- (128.06,259.03) ;
-%Straight Lines [id:da47902736207552743] 
-\draw    (214.96,141.55) -- (364.06,261.03) ;
+%Shape: Triangle [id:dp23293589440504348] 
+\draw   (277,35.8) -- (381.8,216.2) -- (144.8,216.2) -- cycle ;
+%Straight Lines [id:da01681368413005635] 
+\draw    (277,35.8) -- (277.8,216.2) ;
+%Straight Lines [id:da2761783098095556] 
+\draw    (228.2,103) -- (381.8,216.2) ;
+%Straight Lines [id:da4994741922568293] 
+\draw    (322.2,114.2) -- (144.8,216.2) ;
+%Shape: Circle [id:dp8341671878060917] 
+\draw   (89.4,119.6) .. controls (89.4,57.41) and (139.81,7) .. (202,7) .. controls (264.19,7) and (314.6,57.41) .. (314.6,119.6) .. controls (314.6,181.79) and (264.19,232.2) .. (202,232.2) .. controls (139.81,232.2) and (89.4,181.79) .. (89.4,119.6) -- cycle ;
 
 % Text Node
-\draw (257.96,86.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+\draw (102.8,75.4) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize Shares same chord}};
 % Text Node
-\draw (130.06,262.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+\draw (213.2,121) node [anchor=north west][inner sep=0.75pt]   [align=left] { };
 % Text Node
-\draw (366.06,264.03) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+\draw (260,153) node [anchor=north west][inner sep=0.75pt]    {$H$};
 % Text Node
-\draw (259.46,174.05) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
-
+\draw (276.8,17.8) node [anchor=north west][inner sep=0.75pt]    {$A$};
+% Text Node
+\draw (132.4,219) node [anchor=north west][inner sep=0.75pt]    {$B$};
+% Text Node
+\draw (379.6,218.2) node [anchor=north west][inner sep=0.75pt]    {$C$};
+% Connection
+\draw    (173.04,96.4) -- (208.58,122.16) ;
+\draw [shift={(210.2,123.34)}, rotate = 215.94] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 
 \end{tikzpicture}
 
 
-\vspace{100px}
+
+\vspace{50px}
 
 \subsection{Theorem}
 
@@ -833,43 +1173,76 @@ In $\triangle ABC$ with orthocenter H, A' the midpoint of BC, and the circumcent
 
 
 
+
+
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-%Shape: Circle [id:dp9162436210882785] 
-\draw   (138,201.48) .. controls (138,120.03) and (204.03,54) .. (285.48,54) .. controls (366.93,54) and (432.96,120.03) .. (432.96,201.48) .. controls (432.96,282.93) and (366.93,348.96) .. (285.48,348.96) .. controls (204.03,348.96) and (138,282.93) .. (138,201.48) -- cycle ;
-%Straight Lines [id:da7741878669053166] 
-\draw    (156.96,274.55) -- (210.96,74.55) ;
-%Straight Lines [id:da3851763576282945] 
-\draw    (414.96,271.55) -- (156.96,274.55) ;
-%Straight Lines [id:da10655267360857046] 
-\draw    (210.96,74.55) -- (414.96,271.55) ;
-%Straight Lines [id:da08513658544714886] 
-\draw    (285.96,273.05) -- (285.48,201.48) ;
-%Straight Lines [id:da351408405309773] 
-\draw    (210.96,272.55) -- (210.96,74.55) ;
-%Straight Lines [id:da09103761919117792] 
-\draw    (282.96,143.55) -- (156.96,274.55) ;
-%Straight Lines [id:da9902153949193253] 
-\draw    (174.96,209.55) -- (414.96,271.55) ;
+%Shape: Circle [id:dp8341671878060917] 
+\draw   (50.6,149.8) .. controls (50.6,72.7) and (113.1,10.2) .. (190.2,10.2) .. controls (267.3,10.2) and (329.8,72.7) .. (329.8,149.8) .. controls (329.8,226.9) and (267.3,289.4) .. (190.2,289.4) .. controls (113.1,289.4) and (50.6,226.9) .. (50.6,149.8) -- cycle ;
+%Shape: Triangle [id:dp8889012913980656] 
+\draw   (106.2,38.2) -- (308.2,223.8) -- (71.4,223.8) -- cycle ;
+%Straight Lines [id:da671414338683672] 
+\draw    (190.2,149.8) -- (191,223.8) ;
+%Straight Lines [id:da6452369633817994] 
+\draw [color={rgb, 255:red, 0; green, 6; blue, 255 }  ,draw opacity=1 ]   (106.2,38.2) -- (107.4,185) ;
+%Straight Lines [id:da22750638406962942] 
+\draw    (71.4,223.8) -- (180.6,106.6) ;
+%Straight Lines [id:da7641975173619191] 
+\draw    (79.8,180.2) -- (308.2,223.8) ;
+%Straight Lines [id:da695640988124588] 
+\draw [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ]   (72.6,75) -- (308.2,223.8) ;
+%Straight Lines [id:da14325005216249664] 
+\draw [color={rgb, 255:red, 21; green, 0; blue, 255 }  ,draw opacity=1 ]   (72.6,75) -- (71.4,223.8) ;
+%Straight Lines [id:da22702197265707058] 
+\draw [color={rgb, 255:red, 255; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 0; blue, 0 }  ,fill opacity=1 ]   (72.6,75) -- (106.2,38.2) ;
+%Shape: Right Angle [id:dp6837172941907061] 
+\draw   (84.69,55.3) -- (90.48,53.72) -- (92.11,59.7) ;
+%Shape: Right Angle [id:dp050991571581555206] 
+\draw   (80.53,62.85) -- (86.32,61.28) -- (87.94,67.26) ;
+%Shape: Right Angle [id:dp6232542700274768] 
+\draw   (89.49,197.7) -- (95.28,196.12) -- (96.91,202.1) ;
+%Shape: Right Angle [id:dp4892912803487397] 
+\draw   (85.33,205.25) -- (91.12,203.68) -- (92.74,209.66) ;
+%Straight Lines [id:da11661336366120634] 
+\draw    (66.4,136.6) -- (76.2,136.6) ;
+%Straight Lines [id:da11214858542911155] 
+\draw    (66.4,141) -- (76.2,141) ;
+%Straight Lines [id:da8059674020255574] 
+\draw    (102.4,117.4) -- (112.2,117.4) ;
+%Straight Lines [id:da6768483822078768] 
+\draw    (102.4,121.8) -- (112.2,121.8) ;
+%Straight Lines [id:da49026108799564727] 
+\draw    (107.4,185) -- (107,223.8) ;
 
 % Text Node
-\draw (212.96,77.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+\draw (87.2,20.2) node [anchor=north west][inner sep=0.75pt]    {$A$};
 % Text Node
-\draw (158.96,277.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+\draw (55.6,228.2) node [anchor=north west][inner sep=0.75pt]    {$B$};
 % Text Node
-\draw (416.96,274.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+\draw (314,224.6) node [anchor=north west][inner sep=0.75pt]    {$C$};
 % Text Node
-\draw (211,220) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
+\draw (194.2,157.6) node [anchor=north west][inner sep=0.75pt]    {$O$};
 % Text Node
-\draw (287.48,204.48) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+\draw (110,193) node [anchor=north west][inner sep=0.75pt]    {$H$};
 % Text Node
-\draw (287.96,276.05) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+\draw (189.6,228.6) node [anchor=north west][inner sep=0.75pt]    {$A'$};
+% Text Node
+\draw (44.4,76.8) node [anchor=north west][inner sep=0.75pt]    {$x$};
+% Text Node
+\draw (430,102) node [anchor=north west][inner sep=0.75pt]    {$ \begin{array}{l}
+\ \ \ \ \ \ AO=\frac{1}{2} Bx\\
+\ \ \ \ \ \ Bx=AH\\
+\therefore \ AO=\frac{1}{2} AH
+\end{array}$};
+% Text Node
+\draw (356.8,65.6) node [anchor=north west][inner sep=0.75pt]   [align=left] {"A' the midpoint of BC" = Homothety!};
 
 
 \end{tikzpicture}
+
 
 \pagebreak
 
