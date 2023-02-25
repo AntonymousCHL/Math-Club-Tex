@@ -981,11 +981,9 @@ In $\triangle ABC$ with incenter I, the circumcenter of $\triangle BIC$ is the m
 
 
 
-
-
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1.2,xscale=1.2]
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
 %uncomment if require: \path (0,515); %set diagram left start at 0, and has height of 515
 
 %Shape: Ellipse [id:dp8341671878060917] 
@@ -1018,19 +1016,26 @@ In $\triangle ABC$ with incenter I, the circumcenter of $\triangle BIC$ is the m
 % Text Node
 \draw (498.46,204.01) node [anchor=north west][inner sep=0.75pt]    {$C$};
 % Text Node
-\draw (316.2,265.57) node [anchor=north west][inner sep=0.75pt]    {$x$};
+\draw (314.87,262.24) node [anchor=north west][inner sep=0.75pt]    {$x$};
 % Text Node
 \draw (335.58,48.98) node [anchor=north west][inner sep=0.75pt]    {$\angle A$};
 % Text Node
-\draw (305.2,131.33) node [anchor=north west][inner sep=0.75pt]    {$90^\circ + \frac{1}{2} \angle A$};
-% Text Node
-\draw (269.31,308.33) node [anchor=north west][inner sep=0.75pt]    {$180^\circ +\angle A$};
+\draw (305.2,131.33) node [anchor=north west][inner sep=0.75pt]    {$90^\circ +\frac{1}{2} \angle A$};
 % Text Node
 \draw (342.78,6.98) node [anchor=north west][inner sep=0.75pt]    {$A$};
+% Text Node
+\draw (350.33,95.73) node [anchor=north west][inner sep=0.75pt]    {$I$};
+% Text Node
+\draw (312.24,233.98) node [anchor=north west][inner sep=0.75pt]    {$180^\circ -\angle A$};
+% Text Node
+\draw (260.24,323.65) node [anchor=north west][inner sep=0.75pt]    {$180^\circ +\angle A$};
+% Text Node
+\draw (302.2,302.57) node [anchor=north west][inner sep=0.75pt]    {$y$};
 
 
-\end{tikzpicture}
-
+\end{tikzpicture}\\
+Since $ABxC$ is a cyclic quadrilateral, we know that $\angle A+\angle x=180^\circ$ (opposite angles add up to $180^\circ$). Therefore $x=180^\circ -\angle A$, and $\angle y=360^\circ - (180^\circ -\angle A)=180^\circ +\angle A$.\\
+By Theorem 5.4, $\angle BIC=90^\circ +\frac{1}{2}\angle A$. Since the circumcenter of $\triangle BIC$ is on the perpendicular bisector of $BC$, and $\angle y = 2\angle I$, the circumcenter of BIC must be on the midpoint of arc BC.
 
 
 \pagebreak
@@ -1120,7 +1125,8 @@ Proof: This is a simple corollary of Stewart's Theorem.
 \section{Height}
 
 \subsection{Definition}
-\vspace{30px}
+The height of a triangle is the perpendicular line from one vertex to its opposite side, which is arbitrarily denoted as the base. For example, in the following diagram, the height is the highlighted portion of the triangle below.
+\vspace{20px}
 
 \subsection{Theorem}
 
@@ -1131,41 +1137,67 @@ Heights of triangle are concurrent. The point is called the orthocenter of the t
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.9,xscale=.9]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
 
-%Shape: Triangle [id:dp23293589440504348] 
-\draw   (277,35.8) -- (381.8,216.2) -- (144.8,216.2) -- cycle ;
-%Straight Lines [id:da01681368413005635] 
-\draw    (277,35.8) -- (277.8,216.2) ;
-%Straight Lines [id:da2761783098095556] 
-\draw    (228.2,103) -- (381.8,216.2) ;
-%Straight Lines [id:da4994741922568293] 
-\draw    (322.2,114.2) -- (144.8,216.2) ;
-%Shape: Circle [id:dp8341671878060917] 
-\draw   (89.4,119.6) .. controls (89.4,57.41) and (139.81,7) .. (202,7) .. controls (264.19,7) and (314.6,57.41) .. (314.6,119.6) .. controls (314.6,181.79) and (264.19,232.2) .. (202,232.2) .. controls (139.81,232.2) and (89.4,181.79) .. (89.4,119.6) -- cycle ;
+%Straight Lines [id:da8043865334309586] 
+\draw    (321.2,72.07) -- (94.2,363.07) ;
+%Straight Lines [id:da9561527315905409] 
+\draw    (425.2,364.07) -- (94.2,363.07) ;
+%Straight Lines [id:da27192801087570384] 
+\draw    (320.29,71.57) -- (424.29,363.57) ;
+%Straight Lines [id:da0289227455950003] 
+\draw    (388.2,262.07) -- (95.1,363.57) ;
+%Straight Lines [id:da7841077574593995] 
+\draw    (217.2,204.07) -- (425.2,364.07) ;
+%Shape: Circle [id:dp3927232729466583] 
+\draw   (95.1,363.57) .. controls (95.1,272.66) and (168.79,198.97) .. (259.7,198.97) .. controls (350.6,198.97) and (424.29,272.66) .. (424.29,363.57) .. controls (424.29,454.47) and (350.6,528.16) .. (259.7,528.16) .. controls (168.79,528.16) and (95.1,454.47) .. (95.1,363.57) -- cycle ;
+%Straight Lines [id:da9225848977880937] 
+\draw    (321.2,72.07) -- (323.2,362.97) ;
+%Shape: Circle [id:dp4032337912717612] 
+\draw   (215.2,178.07) .. controls (215.2,119.52) and (262.65,72.07) .. (321.2,72.07) .. controls (379.74,72.07) and (427.2,119.52) .. (427.2,178.07) .. controls (427.2,236.61) and (379.74,284.07) .. (321.2,284.07) .. controls (262.65,284.07) and (215.2,236.61) .. (215.2,178.07) -- cycle ;
+%Straight Lines [id:da4705045743399143] 
+\draw    (217.2,204.07) -- (388.2,262.07) ;
+%Shape: Pie [id:dp38574678633740933] 
+\draw  [fill={rgb, 255:red, 245; green, 166; blue, 35 }  ,fill opacity=1 ] (132.38,349.91) .. controls (133.65,354.17) and (134.31,358.71) .. (134.27,363.43) -- (94.2,363.07) -- cycle ;
+%Shape: Pie [id:dp6153306022713583] 
+\draw  [fill={rgb, 255:red, 245; green, 166; blue, 35 }  ,fill opacity=1 ] (255.65,216.41) .. controls (254.11,220.57) and (251.92,224.61) .. (249.06,228.36) -- (217.2,204.07) -- cycle ;
+%Shape: Pie [id:dp9417310149274456] 
+\draw  [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ] (119.7,330.95) .. controls (125.16,335.63) and (129.63,341.77) .. (132.46,349.07) -- (95.1,363.57) -- cycle ;
+%Shape: Pie [id:dp08427696631981951] 
+\draw  [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ] (392.81,337.53) .. controls (397.72,332.29) and (404.06,328.1) .. (411.48,325.6) -- (424.29,363.57) -- cycle ;
+%Shape: Pie [id:dp24531417078429518] 
+\draw  [fill={rgb, 255:red, 208; green, 2; blue, 27 }  ,fill opacity=1 ] (289.71,258.03) .. controls (294.63,252.79) and (300.97,248.6) .. (308.39,246.1) .. controls (312.65,244.66) and (316.96,243.88) .. (321.2,243.7) -- (321.2,284.07) -- cycle ;
+%Shape: Pie [id:dp5760571202545177] 
+\draw  [fill={rgb, 255:red, 208; green, 2; blue, 27 }  ,fill opacity=1 ] (349.75,248.24) .. controls (352.6,241.64) and (357.14,235.55) .. (363.28,230.68) .. controls (366.8,227.89) and (370.59,225.7) .. (374.52,224.09) -- (388.2,262.07) -- cycle ;
 
 % Text Node
-\draw (102.8,75.4) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize Shares same chord}};
+\draw (305,53) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
 % Text Node
-\draw (213.2,121) node [anchor=north west][inner sep=0.75pt]   [align=left] { };
+\draw (86,370) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
 % Text Node
-\draw (260,153) node [anchor=north west][inner sep=0.75pt]    {$H$};
+\draw (320,370) node [anchor=north west][inner sep=0.75pt]   [align=left] {X};
 % Text Node
-\draw (276.8,17.8) node [anchor=north west][inner sep=0.75pt]    {$A$};
+\draw (427.2,367.07) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
 % Text Node
-\draw (132.4,219) node [anchor=north west][inner sep=0.75pt]    {$B$};
+\draw (337,277) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
 % Text Node
-\draw (379.6,218.2) node [anchor=north west][inner sep=0.75pt]    {$C$};
-% Connection
-\draw    (173.04,96.4) -- (208.58,122.16) ;
-\draw [shift={(210.2,123.34)}, rotate = 215.94] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-
-\end{tikzpicture}
+\draw (398,246) node [anchor=north west][inner sep=0.75pt]   [align=left] {Y};
+% Text Node
+\draw (207,187) node [anchor=north west][inner sep=0.75pt]   [align=left] {Z};
 
 
+\end{tikzpicture}\\
+To prove that the heights of triangles are concurrent, we will have to draw a line that passes through point $H$ and prove that it intersects $BC$ at a $90^\circ$ angle.\\
+Since $\angle BZC$ and $\angle BYC$ are right angles, we know that $BC$ is the diameter of the large circle. \\
+Since $\angle HZA$ and $\angle HYA$ are right angles,   we know that $AH$ is the diameter of the smaller circle. \\
+We know that $\angle ZBX=\angle YBC+\angle ZBY=\angle YZC+\angle YCZ=\angle AY=\angle AHZ$. Therefore, $\angle ZBX+\angle ZHX=180^\circ$, making it a cyclic quadrilateral. \\
+Since $XBZH$ is a cyclic quadrilateral, with $\angle BZC=90^\circ$, $\angle BXH$ must be $90^\circ$, therefore making $AX$ the height of $\triangle ABC$, and thus concurrent with the two other heights.
 
-\vspace{50px}
+
+
+
+\pagebreak
 
 \subsection{Theorem}
 
@@ -1230,11 +1262,11 @@ In $\triangle ABC$ with orthocenter H, A' the midpoint of BC, and the circumcent
 % Text Node
 \draw (189.6,228.6) node [anchor=north west][inner sep=0.75pt]    {$A'$};
 % Text Node
-\draw (44.4,76.8) node [anchor=north west][inner sep=0.75pt]    {$x$};
+\draw (44.4,76.8) node [anchor=north west][inner sep=0.75pt]    {$X$};
 % Text Node
 \draw (430,102) node [anchor=north west][inner sep=0.75pt]    {$ \begin{array}{l}
-\ \ \ \ \ \ AO=\frac{1}{2} Bx\\
-\ \ \ \ \ \ Bx=AH\\
+\ \ \ \ \ \ AO=\frac{1}{2} BX\\
+\ \ \ \ \ \ BX=AH\\
 \therefore \ AO=\frac{1}{2} AH
 \end{array}$};
 % Text Node
@@ -1242,12 +1274,62 @@ In $\triangle ABC$ with orthocenter H, A' the midpoint of BC, and the circumcent
 
 
 \end{tikzpicture}
-
-
+Since $XAC$ is a triangle with $XC$, the diameter of the circle, as it's base, $\angle XAC$ is $90^\circ$.\\
+We also know that the extended line, $BH$, goes through the orthocenter, and therefore must form a $90^\circ$ angle when intersecting $AC$.\\
+Therefore, $XA//BH$.\\\\
+Since $CX$ is the diameter of the circle, $\angle XBC$ must be $90^\circ$.\\
+Since $AH$ passes through the orthocenter, it intersects $BC$ at a $90^\circ$ angle.\\
+Therefore, $XB//AH$.\\\\
+Therefore, $AXBH$ is a parallelogram.\\
 \pagebreak
-
 \subsection{Theorem:}
 O the circumcenter,G the centroid,H the orthocenter are collinear. This line is called the Euler line of the triangle.
 
 
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,389); %set diagram left start at 0, and has height of 389
+
+%Shape: Circle [id:dp9162436210882785] 
+\draw   (138,201.48) .. controls (138,120.03) and (204.03,54) .. (285.48,54) .. controls (366.93,54) and (432.96,120.03) .. (432.96,201.48) .. controls (432.96,282.93) and (366.93,348.96) .. (285.48,348.96) .. controls (204.03,348.96) and (138,282.93) .. (138,201.48) -- cycle ;
+%Straight Lines [id:da7741878669053166] 
+\draw    (156.96,274.55) -- (210.96,74.55) ;
+%Straight Lines [id:da3851763576282945] 
+\draw    (414.96,271.55) -- (156.96,274.55) ;
+%Straight Lines [id:da10655267360857046] 
+\draw    (210.96,74.55) -- (414.96,271.55) ;
+%Straight Lines [id:da08513658544714886] 
+\draw    (285.96,273.05) -- (285.48,201.48) ;
+%Straight Lines [id:da351408405309773] 
+\draw    (210.96,272.55) -- (210.96,74.55) ;
+%Straight Lines [id:da09103761919117792] 
+\draw    (282.96,143.55) -- (156.96,274.55) ;
+%Straight Lines [id:da9902153949193253] 
+\draw    (174.96,209.55) -- (414.96,271.55) ;
+%Straight Lines [id:da22691628499294447] 
+\draw    (210.96,74.55) -- (285.96,273.05) ;
+%Straight Lines [id:da0130777312781869] 
+\draw    (285.48,201.48) -- (211.72,219.16) ;
+
+% Text Node
+\draw (212.96,77.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (158.96,277.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (416.96,274.55) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (211,220) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
+% Text Node
+\draw (287.48,204.48) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+% Text Node
+\draw (287.96,276.05) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+% Text Node
+\draw (260,185) node [anchor=north west][inner sep=0.75pt]   [align=left] {X};
+
+\end{tikzpicture}\\
+Join $AA'$ and $OH$ and let the intersection be $X$.\\
+ By Theorem 7.3, and by similar triangles, we know $A'X=2AX$.\\
+ Then by Theorem 6.3, this $X$ must be $G$, therefore $O, G, H$ colinear.
 \end{document}
