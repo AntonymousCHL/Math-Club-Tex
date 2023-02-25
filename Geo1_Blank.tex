@@ -1,0 +1,820 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tikz}
+
+\graphicspath{ {./geo1/} }
+
+\title{Geometry 1 - Basis of Geometry}
+\author{TSS Math Club}
+\date{Oct 2022}
+
+\begin{document}
+\large
+
+\maketitle
+
+\section{Parallelism and basic geometry}
+\subsection{Parallel lines}
+\subsubsection{Parallel postulate}
+If a line segment intersects two straight lines forming two interior angles on the same side that are less than two right angles, then the two lines, if extended indefinitely, meet on that side on which the angles sum to less than two right angles.
+\subsubsection{Definition}
+Two lines in two-dimensional Euclidean space are said to be parallel if they do not intersect.
+\subsubsection{Parallel Lines and Transversal}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da21139363812284984] 
+\draw    (100,102) -- (410.58,103.17) ;
+%Straight Lines [id:da7932846415944257] 
+\draw    (99.58,199.17) -- (409.58,198.17) ;
+%Straight Lines [id:da5509456601565808] 
+\draw    (283.58,69.17) -- (183.58,235.17) ;
+
+% Text Node
+\draw (279,81) node [anchor=north west][inner sep=0.75pt]   [align=left] {1};
+% Text Node
+\draw (251,82) node [anchor=north west][inner sep=0.75pt]   [align=left] {2};
+% Text Node
+\draw (239,105) node [anchor=north west][inner sep=0.75pt]   [align=left] {3};
+% Text Node
+\draw (266,105) node [anchor=north west][inner sep=0.75pt]   [align=left] {4};
+% Text Node
+\draw (217,180) node [anchor=north west][inner sep=0.75pt]   [align=left] {5};
+% Text Node
+\draw (191,180) node [anchor=north west][inner sep=0.75pt]   [align=left] {6};
+% Text Node
+\draw (183,203) node [anchor=north west][inner sep=0.75pt]   [align=left] {7};
+% Text Node
+\draw (207,204) node [anchor=north west][inner sep=0.75pt]   [align=left] {8};
+
+
+\end{tikzpicture}
+
+\begin{itemize}
+    \item Corresponding angles are equal ($\angle 1=\angle 5$)
+    \item Alternate angles are equal ($\angle 3=\angle 5$)
+    \item Co-interior angles are supplementary to each other ($\angle 4+\angle 5$=$180^{\circ}$)
+\end{itemize}
+
+\subsection{Parallel is transitive}
+
+\begin{minipage}{.6\linewidth}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da21139363812284984] 
+\draw    (100,102) -- (410.58,103.17) ;
+%Straight Lines [id:da7932846415944257] 
+\draw    (99.58,199.17) -- (409.58,198.17) ;
+%Straight Lines [id:da5509456601565808] 
+\draw    (283.58,69.17) -- (183.58,235.17) ;
+%Straight Lines [id:da3298327170129234] 
+\draw    (102.58,152.17) -- (412.58,151.17) ;
+
+% Text Node
+\draw (279,81) node [anchor=north west][inner sep=0.75pt]   [align=left] {1};
+% Text Node
+\draw (245,133) node [anchor=north west][inner sep=0.75pt]   [align=left] {2};
+% Text Node
+\draw (218,182) node [anchor=north west][inner sep=0.75pt]   [align=left] {3};
+
+
+\end{tikzpicture}
+\end{minipage}
+
+
+\subsection{Sum of the interior angles of a triangle is $180^\circ$}
+\begin{minipage}{.45\linewidth}
+    
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da0699676175520938] 
+\draw    (201,82) -- (281.72,149.17) ;
+%Straight Lines [id:da030285405179883762] 
+\draw    (201,82) -- (174.72,236.17) ;
+%Straight Lines [id:da34572122009938444] 
+\draw    (281.72,149.17) -- (174.72,236.17) ;
+%Straight Lines [id:da5559272769704977] 
+\draw    (292,95) -- (265.72,249.17) ;
+
+% Text Node
+\draw (162,236) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (285,147) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (185,66) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (295,80) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (267.72,252.17) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+
+
+\end{tikzpicture}
+\end{minipage}
+\hfill
+
+\subsection{Sum of interior angles of a n-gon is $(n-2)180^\circ$}
+\begin{minipage}{.5\linewidth}
+    
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da8100209405163055] 
+\draw    (171.72,114.16) -- (200,216) ;
+%Straight Lines [id:da5194616266478809] 
+\draw    (171.72,114.16) -- (270.72,63.16) ;
+%Straight Lines [id:da8019767973952356] 
+\draw    (270.72,63.16) -- (360.72,118.16) ;
+%Straight Lines [id:da47367808311702664] 
+\draw    (200,216) -- (296.72,236.16) ;
+%Straight Lines [id:da7032796995738642] 
+\draw    (296.72,236.16) -- (355.72,194.16) ;
+%Straight Lines [id:da8988664824053545] 
+\draw    (360.72,118.16) -- (355.72,194.16) ;
+%Straight Lines [id:da024792389830001982] 
+\draw    (200,216) -- (360.72,118.16) ;
+%Straight Lines [id:da8434062186507831] 
+\draw    (200,216) -- (355.72,194.16) ;
+%Straight Lines [id:da6287048649240963] 
+\draw    (200,216) -- (270.72,63.16) ;
+
+% Text Node
+\draw (181,216) node [anchor=north west][inner sep=0.75pt]   [align=left] {A{\scriptsize 1}};
+% Text Node
+\draw (154,101) node [anchor=north west][inner sep=0.75pt]   [align=left] {A{\scriptsize 2}};
+% Text Node
+\draw (261,44) node [anchor=north west][inner sep=0.75pt]   [align=left] {A{\scriptsize 3}};
+% Text Node
+\draw (362,106) node [anchor=north west][inner sep=0.75pt]   [align=left] {A{\scriptsize 4}};
+% Text Node
+\draw (361,188) node [anchor=north west][inner sep=0.75pt]   [align=left] {A{\scriptsize n-1}};
+% Text Node
+\draw (298.72,239.16) node [anchor=north west][inner sep=0.75pt]   [align=left] {A{\scriptsize n}};
+
+
+\end{tikzpicture}
+\end{minipage}
+\hfill
+
+
+\subsection{Exterior angle theorem}
+\begin{minipage}{.5\linewidth}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da4962210423643947] 
+\draw    (109.72,221.16) -- (424.72,221.16) ;
+%Straight Lines [id:da6506366962747094] 
+\draw    (224.72,98.16) -- (109.72,221.16) ;
+%Straight Lines [id:da04022560611735915] 
+\draw    (224.72,98.16) -- (275.72,220.16) ;
+
+% Text Node
+\draw (103,225) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (269.22,224.16) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (228,80) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (122,204) node [anchor=north west][inner sep=0.75pt]   [align=left] {a};
+% Text Node
+\draw (253,202) node [anchor=north west][inner sep=0.75pt]   [align=left] {b};
+% Text Node
+\draw (217,114) node [anchor=north west][inner sep=0.75pt]   [align=left] {c};
+% Text Node
+\draw (279,203) node [anchor=north west][inner sep=0.75pt]   [align=left] {d};
+
+
+\end{tikzpicture}
+
+    
+\end{minipage}
+\hfill
+
+\subsection{Another problem}
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Straight Lines [id:da39103308479814713] 
+\draw    (100,101) -- (445.72,101.16) ;
+%Straight Lines [id:da7355224615195692] 
+\draw    (104,240) -- (449.72,240.16) ;
+%Straight Lines [id:da0002054298491724893] 
+\draw    (200.72,61.16) -- (151.72,284.16) ;
+%Straight Lines [id:da1159047198742802] 
+\draw    (376.72,66.16) -- (111.72,281.16) ;
+%Straight Lines [id:da31819404476733126] 
+\draw    (163.72,71.16) -- (350.72,273.16) ;
+
+% Text Node
+\draw (199,84) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (400,86) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (162,243) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (310,245) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (263,161) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (208,104) node [anchor=north west][inner sep=0.75pt]   [align=left] {1};
+% Text Node
+\draw (190,117) node [anchor=north west][inner sep=0.75pt]   [align=left] {2};
+% Text Node
+\draw (172,206) node [anchor=north west][inner sep=0.75pt]   [align=left] {3};
+% Text Node
+\draw (185,220) node [anchor=north west][inner sep=0.75pt]   [align=left] {4};
+
+
+\end{tikzpicture}\\
+
+\pagebreak
+\section{Congruence}
+\subsection{Definition}
+The same shape and size.
+\subsection{Method to prove congruence}
+\subsubsection{5 Methods:}
+\includegraphics[scale=.5]{congruent-triangles.png}
+\subsubsection{How to write in a contest}
+In the $\triangle \mathrm{ABC}$ and $\triangle \mathrm{A}^{\prime} \mathrm{B}^{\prime} \mathrm{C}^{\prime}$
+$$
+\begin{aligned}
+& \left\{\begin{array}{l}
+\text { Condition } 1 \\
+\text { Condition } 2 \\
+\text { Condition } 3
+\end{array}\right. \\
+& \therefore \triangle \mathrm{ABC} \cong \triangle \mathrm{A}^{\prime} \mathrm{B}^{\prime} \mathrm{C}^{\prime}
+\end{aligned}
+$$
+\subsection{Side-Side-Angle (SSA), the ambiguous case}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1.5,xscale=1.5]
+%uncomment if require: \path (0,456); %set diagram left start at 0, and has height of 456
+
+%Straight Lines [id:da7536078114357907] 
+\draw    (203.72,34.16) -- (84.72,172.16) ;
+%Straight Lines [id:da8068675521405164] 
+\draw    (84.72,172.16) -- (184.72,171.16) ;
+%Straight Lines [id:da8688445810261354] 
+\draw    (203.72,34.16) -- (184.72,171.16) ;
+%Straight Lines [id:da0589832509310495] 
+\draw    (423.72,33.16) -- (304.72,171.16) ;
+%Straight Lines [id:da6036368217646264] 
+\draw    (304.72,171.16) -- (404.72,170.16) ;
+%Straight Lines [id:da3459836007320729] 
+\draw    (423.72,33.16) -- (404.72,170.16) ;
+%Straight Lines [id:da31704994457175983] 
+\draw    (208.72,209.16) -- (89.72,347.16) ;
+%Straight Lines [id:da29956065989182235] 
+\draw    (89.72,347.16) -- (238.72,345.16) ;
+%Straight Lines [id:da7716237120676077] 
+\draw    (208.72,209.16) -- (189.72,346.16) ;
+%Straight Lines [id:da0469601268460762] 
+\draw    (208.72,209.16) -- (238.72,345.16) ;
+%Straight Lines [id:da6549295985369503] 
+\draw    (400.72,205.16) -- (281.72,343.16) ;
+%Straight Lines [id:da5401188295697685] 
+\draw    (281.72,343.16) -- (430.72,341.16) ;
+%Straight Lines [id:da20687323955974435] 
+\draw    (400.72,205.16) -- (430.72,341.16) ;
+%Curve Lines [id:da9622511708823469] 
+\draw    (189.72,353.16) .. controls (200.5,364.92) and (217.04,371.88) .. (237.46,352.39) ;
+\draw [shift={(238.72,351.16)}, rotate = 135] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+\end{tikzpicture}
+
+\pagebreak
+
+\subsubsection{Proof related to the ambiguous case}
+Given $\mathrm{AB}=\mathrm{DE}, \mathrm{BC}=\mathrm{EF}$, angle $\mathrm{A}=$ angle $\mathrm{D}>90^{\circ}$, prove triangle $\mathrm{ABC}$ congruent to triangle DEF.
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,456); %set diagram left start at 0, and has height of 456
+
+%Straight Lines [id:da2412202289072125] 
+\draw    (99.28,123.87) -- (163.64,231.04) ;
+%Straight Lines [id:da0762023899725901] 
+\draw    (307.16,233.45) -- (163.64,231.04) ;
+%Straight Lines [id:da36331859096149155] 
+\draw    (307.16,233.45) -- (99.28,123.87) ;
+%Straight Lines [id:da424917208310148] 
+\draw    (335.28,125.87) -- (399.64,233.04) ;
+%Straight Lines [id:da6245379789708037] 
+\draw    (543.16,235.45) -- (399.64,233.04) ;
+%Straight Lines [id:da8354045334191129] 
+\draw    (543.16,235.45) -- (335.28,125.87) ;
+
+% Text Node
+\draw (155,243) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (306,244) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (86,107) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (395,242) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (541,244) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (318,110) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+
+
+\end{tikzpicture}\\
+
+\pagebreak
+\subsection{Useful congruencies}
+\begin{itemize}
+    \item Rotation
+    \item Translation
+\end{itemize}
+
+\subsection{Properties of congruence}
+\begin{itemize}
+    \item Equal side length 
+    \item Equal angles
+\end{itemize}
+
+\subsection{Problems}
+\subsubsection{Problem}
+Assume $ABD$ and $BCE$ are equilateral triangles, find angle $DFA$.
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,456); %set diagram left start at 0, and has height of 456
+
+%Shape: Triangle [id:dp28557056970026884] 
+\draw   (183.36,112) -- (328.72,357.16) -- (38,357.16) -- cycle ;
+%Shape: Triangle [id:dp6204088218917005] 
+\draw   (400.22,231.16) -- (471.72,357.16) -- (328.72,357.16) -- cycle ;
+%Straight Lines [id:da42886636780202325] 
+\draw    (183.36,112) -- (471.72,357.16) ;
+%Straight Lines [id:da08024073219320216] 
+\draw    (400.22,231.16) -- (38,357.16) ;
+%Straight Lines [id:da38494277533771926] 
+\draw [color={rgb, 255:red, 245; green, 166; blue, 35 }  ,draw opacity=1 ][line width=3]    (183.36,112) -- (328.72,357.16) ;
+%Straight Lines [id:da9375484076382308] 
+\draw [color={rgb, 255:red, 245; green, 166; blue, 35 }  ,draw opacity=1 ][line width=3]    (38,357.16) -- (328.72,357.16) ;
+%Straight Lines [id:da5007362747375794] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=3.75]    (328.72,357.16) -- (471.72,357.16) ;
+%Straight Lines [id:da989076009762959] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=3.75]    (400.22,231.16) -- (328.72,357.16) ;
+
+% Text Node
+\draw (34,365) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (321,364) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (465,366) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (177,91) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (392,214) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (341,228) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+% Text Node
+\draw (277,250) node [anchor=north west][inner sep=0.75pt]   [align=left] {G};
+
+
+\end{tikzpicture}\\
+\pagebreak
+\subsubsection{Problem}
+$\text { Given } ABCD \text { is a square, and } \angle EAF=45^{\circ} \text {, prove } AE \text { bisect } BEF \text {. }$
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,456); %set diagram left start at 0, and has height of 456
+
+%Shape: Rectangle [id:dp40270396443476963] 
+\draw   (198,73.07) -- (497.72,73.07) -- (497.72,359.07) -- (198,359.07) -- cycle ;
+%Straight Lines [id:da6518917345863742] 
+\draw    (198,73.07) -- (496.72,209.07) ;
+%Straight Lines [id:da34344101733280197] 
+\draw    (198,73.07) -- (265.72,358.07) ;
+%Straight Lines [id:da9392050452094853] 
+\draw    (496.72,209.07) -- (265.72,358.07) ;
+%Straight Lines [id:da8480244514911197] 
+\draw    (198,73.07) -- (55.72,358.07) ;
+%Straight Lines [id:da9279966987044268] 
+\draw    (55.72,358.07) -- (198,359.07) ;
+
+% Text Node
+\draw (193,50) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (496,53) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (495,371) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (191,371) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (503,202) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (261,371) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+% Text Node
+\draw (46,368) node [anchor=north west][inner sep=0.75pt]   [align=left] {E'};
+
+
+\end{tikzpicture}\\
+
+\pagebreak
+
+\subsubsection{Problem}
+Given  $AB=BC$  and angle  $ABC=90^{\circ}$, $AD=\sqrt{5}$, $BD=\sqrt{2}$, $DC=3$ , find angle $ADB$.
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Shape: Right Triangle [id:dp5392368456885055] 
+\draw   (303,155.83) -- (486.72,329.97) -- (303,329.97) -- cycle ;
+%Straight Lines [id:da9742494765553811] 
+\draw    (303,155.83) -- (336.72,268.97) ;
+%Straight Lines [id:da2965189850336305] 
+\draw    (336.72,268.97) -- (303,329.97) ;
+%Straight Lines [id:da9594379890345373] 
+\draw    (336.72,268.97) -- (486.72,329.97) ;
+%Shape: Right Triangle [id:dp6408968490039333] 
+\draw   (129.48,330.97) -- (302.24,152.97) -- (303.63,329.72) -- cycle ;
+%Straight Lines [id:da6174376234301611] 
+\draw    (129.48,330.97) -- (242.37,297.71) ;
+%Straight Lines [id:da051510717338542955] 
+\draw    (242.37,297.71) -- (303.62,329.71) ;
+%Straight Lines [id:da2447012279214884] 
+\draw    (242.37,297.71) -- (302.24,152.97) ;
+%Straight Lines [id:da4682187678291241] 
+\draw    (336.72,268.97) -- (242.37,297.71) ;
+
+% Text Node
+\draw (298,131.83) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (295,335.83) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (484,335.83) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (119,337.83) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+% Text Node
+\draw (339,253.83) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (226,276.83) node [anchor=north west][inner sep=0.75pt]   [align=left] {D'};
+
+
+\end{tikzpicture}\\
+
+\pagebreak
+\section{Similarity}
+\subsection{Definition}
+In Euclidean geometry, two objects are similar if they have the same shape, or one has the same shape as the mirror image of the other.
+\subsection{Method to Prove similar triangles}
+\includegraphics[scale=.7]{Similar-Triangles-Rules.jpg}
+\subsection{Properties of similar triangles}
+\begin{itemize}
+    \item Ratio of corresponding sides
+    \item Equal angles
+\end{itemize}
+\pagebreak
+\section{Homothety}
+\begin{minipage}{.6\linewidth}
+    \subsection{Definition}
+    \vspace{50px}
+    \subsection{Properties}
+    \vspace{200px}
+\end{minipage}
+\hfill
+\begin{minipage}{.4\linewidth}
+    
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Straight Lines [id:da4132833494130175] 
+\draw    (167.72,164.97) -- (70.72,462.97) ;
+%Shape: Rectangle [id:dp6875266857372686] 
+\draw   (167.72,164.97) -- (327.44,164.97) -- (327.44,264.11) -- (167.72,264.11) -- cycle ;
+%Shape: Rectangle [id:dp7612453265856947] 
+\draw   (129.22,281.47) -- (228.22,281.47) -- (228.22,342.92) -- (129.22,342.92) -- cycle ;
+%Straight Lines [id:da04306499360890603] 
+\draw    (327.44,164.97) -- (70.72,462.97) ;
+%Straight Lines [id:da007459425035728939] 
+\draw    (70.72,462.97) -- (167.72,264.11) ;
+%Straight Lines [id:da3006436753628292] 
+\draw    (327.44,264.11) -- (70.72,462.97) ;
+
+% Text Node
+\draw (131.22,345.92) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (62,467.83) node [anchor=north west][inner sep=0.75pt]   [align=left] {O};
+% Text Node
+\draw (230.22,345.92) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (230.22,284.47) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (131.22,284.47) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (169.72,267.11) node [anchor=north west][inner sep=0.75pt]   [align=left] {A'};
+% Text Node
+\draw (329.44,267.11) node [anchor=north west][inner sep=0.75pt]   [align=left] {B'};
+% Text Node
+\draw (329.44,167.97) node [anchor=north west][inner sep=0.75pt]   [align=left] {C'};
+% Text Node
+\draw (169.72,167.97) node [anchor=north west][inner sep=0.75pt]   [align=left] {D'};
+
+
+\end{tikzpicture}
+
+\end{minipage}
+
+\section{Quadrilaterals}
+\subsection{Parallelogram}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Straight Lines [id:da35942028032833306] 
+\draw    (145,123) -- (383.72,123.02) ;
+%Straight Lines [id:da3689932854393849] 
+\draw    (145,123) -- (84.72,230.02) ;
+%Straight Lines [id:da7016891267736529] 
+\draw    (383.72,123.02) -- (323.44,230.04) ;
+%Straight Lines [id:da28165775722869] 
+\draw    (84.72,230.02) -- (323.44,230.04) ;
+%Straight Lines [id:da026398831619073082] 
+\draw    (145,123) -- (323.44,230.04) ;
+%Straight Lines [id:da6897847573152873] 
+\draw    (84.72,230.02) -- (383.72,123.02) ;
+
+% Text Node
+\draw (135,106) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (382,105) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (318,232) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (77,234) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (230.22,156.52) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+
+
+\end{tikzpicture}
+
+\subsubsection{Definition}
+\vspace{40px}
+\subsubsection{Properties}
+\vspace{40px}
+\subsection{Rhombus}
+\subsubsection{Definition}
+\vspace{40px}
+\subsubsection{Properties}
+\vspace{40px}
+\subsection{Rectangle}
+\subsubsection{Definition}
+\vspace{40px}
+\subsubsection{Properties}
+\vspace{40px}
+
+\subsection{Square}
+\subsubsection{Definition}
+\vspace{40px}
+\subsubsection{Properties}
+\vspace{40px}
+\pagebreak
+
+\section{Midpoint}
+\subsection{Midpoint of a right triangle}
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Shape: Rectangle [id:dp5312133262353695] 
+\draw   (100,101) -- (424.72,101) -- (424.72,246.02) -- (100,246.02) -- cycle ;
+%Straight Lines [id:da961946909589342] 
+\draw    (100,101) -- (424.72,246.02) ;
+%Straight Lines [id:da1805570337034097] 
+\draw    (424.72,101) -- (100,246.02) ;
+
+% Text Node
+\draw (81,101) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (426.72,249.02) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (83,250) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (255,179) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (426.72,104) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+
+
+\end{tikzpicture}\\
+\vspace{40px}
+
+\subsection{Midsegment}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Shape: Polygon [id:ds8535954377607069] 
+\draw   (207.14,166.02) -- (424.72,344.29) -- (159.72,345.02) -- cycle ;
+%Straight Lines [id:da1323481298728899] 
+\draw    (183.43,255.52) -- (315.93,255.15) ;
+
+% Text Node
+\draw (199,146) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (152,351) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (421,347) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (166,246) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (320,242) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (211,145) node [anchor=north west][inner sep=0.75pt]   [align=left] {(O)};
+
+
+\end{tikzpicture}\\
+\vspace{40px}
+\pagebreak
+\section{Problems}
+\subsection{Problem}
+The quadrilateral formed by joining midpoint of a quadrilateral is a parallelogram.
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Shape: Polygon [id:ds11098710636502895] 
+\draw   (263.72,80.02) -- (472.72,246.02) -- (196.72,453.02) -- (132.72,190.02) -- cycle ;
+%Straight Lines [id:da2616559228752324] 
+\draw    (198.22,135.02) -- (368.22,163.02) ;
+%Straight Lines [id:da8368491190119953] 
+\draw    (164.72,321.52) -- (334.72,349.52) ;
+%Straight Lines [id:da6891842269917876] 
+\draw    (198.22,135.02) -- (164.72,321.52) ;
+%Straight Lines [id:da9229584938155542] 
+\draw    (368.22,163.02) -- (334.72,349.52) ;
+%Straight Lines [id:da3491121859206272] 
+\draw    (263.72,80.02) -- (196.72,453.02) ;
+%Straight Lines [id:da2004057111959674] 
+\draw    (132.72,190.02) -- (472.72,246.02) ;
+
+% Text Node
+\draw (119,184) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (260,62) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (475,238) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (189,458) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (183,119) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (371,148) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+% Text Node
+\draw (336.72,352.52) node [anchor=north west][inner sep=0.75pt]   [align=left] {G};
+% Text Node
+\draw (152,324) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
+
+
+\end{tikzpicture}
+\pagebreak
+\subsection{Problem}
+Given equilateral $\triangle ABC$, extend $BC$ to $D$ and $BA$ to $E$ to let $AE = BD$. Join $CE$ and $DE$. Prove $\triangle ECD =\triangle EDC$.
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1.5,xscale=1.5]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Shape: Triangle [id:dp5521074684041429] 
+\draw   (148.36,150) -- (184.72,216.02) -- (112,216.02) -- cycle ;
+%Shape: Triangle [id:dp633221432917475] 
+\draw   (205.36,46.51) -- (298.72,216.02) -- (112,216.02) -- cycle ;
+%Shape: Triangle [id:dp10333690512719018] 
+\draw   (262.36,150) -- (298.72,216.02) -- (226,216.02) -- cycle ;
+%Straight Lines [id:da27829047011923613] 
+\draw    (184.72,216.02) -- (205.36,46.51) ;
+%Straight Lines [id:da23015331486347979] 
+\draw    (205.36,46.51) -- (226,216.02) ;
+
+% Text Node
+\draw (134,136) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (103,221) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (175,219) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (218,218) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (291,220) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+% Text Node
+\draw (203,27) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+
+
+\end{tikzpicture}
+\pagebreak
+\subsection{Problem}
+In quadrilateral $ABCD$ with $AD = BC$, $E$ and $F$ are midpoints on $AB$ and $CD$, respectively. $EF$ meets $AD$ at $G$, meets $BC$ at $H$. Prove $\angle DGF = \angle CHF$.
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Straight Lines [id:da6741940764413128] 
+\draw    (136,357) -- (457.72,358.02) ;
+%Straight Lines [id:da6351245694924745] 
+\draw    (331.72,54.02) -- (136,357) ;
+%Straight Lines [id:da40106442921838736] 
+\draw    (331.72,54.02) -- (296.86,357.51) ;
+%Straight Lines [id:da39306377315538366] 
+\draw    (323.72,124.02) -- (457.72,358.02) ;
+%Straight Lines [id:da04848886360165583] 
+\draw    (235.72,200.02) -- (379.72,220.02) ;
+%Straight Lines [id:da6859886517881486] 
+\draw    (235.72,200.02) -- (457.72,358.02) ;
+%Straight Lines [id:da8545909102904259] 
+\draw    (314,212) -- (355.72,287.02) ;
+%Straight Lines [id:da37879152074454514] 
+\draw    (296.86,357.51) -- (355.72,287.02) ;
+
+% Text Node
+\draw (127,363) node [anchor=north west][inner sep=0.75pt]   [align=left] {A};
+% Text Node
+\draw (459.72,361.02) node [anchor=north west][inner sep=0.75pt]   [align=left] {B};
+% Text Node
+\draw (380,202) node [anchor=north west][inner sep=0.75pt]   [align=left] {C};
+% Text Node
+\draw (221,184) node [anchor=north west][inner sep=0.75pt]   [align=left] {D};
+% Text Node
+\draw (290,364) node [anchor=north west][inner sep=0.75pt]   [align=left] {E};
+% Text Node
+\draw (301,190) node [anchor=north west][inner sep=0.75pt]   [align=left] {F};
+% Text Node
+\draw (327,113) node [anchor=north west][inner sep=0.75pt]   [align=left] {H};
+% Text Node
+\draw (321,36) node [anchor=north west][inner sep=0.75pt]   [align=left] {G};
+% Text Node
+\draw (358,268) node [anchor=north west][inner sep=0.75pt]   [align=left] {M};
+
+
+\end{tikzpicture}\\
+
+\end{document}
