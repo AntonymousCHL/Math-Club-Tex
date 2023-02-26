@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1677374366 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1.pdf" "Geo1" 1677374371
+["pdflatex"] 1677374366 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1.pdf" "Geo1" 1677385474
   "./geo1//Similar-Triangles-Rules.jpg" 1677352938 85510 3997ccdae49daad88752c8d76584b696 ""
   "Geo1.aux" 1677374369 5577 99e9e93158393623eb2163cf3c4d0eea "pdflatex"
   "Geo1.tex" 1677374360 41592 1012f1d24a44b21d5475804d287045d3 ""
@@ -141,8 +141,8 @@
   "geo1//Similar-Triangles-Rules.jpg" 1677352938 85510 3997ccdae49daad88752c8d76584b696 ""
   "geo1//congruent-triangles.png" 1677348197 92807 0ce1b10089dcc34a45f0b516fe781b8c ""
   (generated)
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1.pdf"
-  "Geo1.aux"
+  "Geo1.pdf"
   "Geo1.log"
   "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1.log"
-  "Geo1.pdf"
+  "Geo1.aux"
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Geo1.pdf"
