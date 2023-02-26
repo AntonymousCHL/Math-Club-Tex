@@ -559,7 +559,12 @@ Let $a$, $b$, $c$, $d$ correspond to the position vectors of points A, B, C, and
 
 \subsection{Determinant}
 \subsubsection{Definition}
-The area of the parallelogram formed by 2 vectors, namely $(a,c)$ and $(b,d)$.
+The area of the parallelogram formed by 2 vectors, namely $(a,c)$ and $(b,d)$ in 
+$
+\begin{vmatrix}
+    a & b\\
+    c & d
+\end{vmatrix}$.
 \subsubsection{Formula}
 
 $
@@ -572,7 +577,14 @@ $
 
 \subsubsection{3D Determinant and Area of a Triangle}
 Definition:
-The volume of the parallelepiped formed by 3 vectors, namely $(a,d,h), (b,e,i), (c,f,j)$.\\
+The volume of the parallelepiped formed by 3 vectors, namely $(a,d,h), (b,e,i), (c,f,j)$ in 
+$
+\begin{vmatrix}
+    a & b & c\\
+    d & e & f\\
+    h & i & j
+\end{vmatrix}.
+$\\
 Formula:
 $$
 \begin{vmatrix}
@@ -609,5 +621,6 @@ $$
 Suppose the polygon $P$ has vertices $(a_1, b_1)$, $(a_2, b_2)$, ... , $(a_n, b_n)$, listed in clockwise order. Then the area ($A$) of $P$ is
 
 \[A = \dfrac{1}{2} \left|\sum_{i=1}^n{\det\begin{pmatrix}x_i&x_{i+1}\\y_i&y_{i+1}\end{pmatrix}}\right|\]
+
 
 \end{document}
