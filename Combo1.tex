@@ -22,34 +22,185 @@
 \section{Introduction to Counting}
 
 \subsection{Rule of Product}
+
 \subsubsection{Definition}
 \vspace{20px}
+\subsubsection{Tree Diagram}
+\vspace{80px}
 \subsubsection{Example 1}
 How many 4 digit numbers are there with no repeated digits?
 \vspace{20px}
+
 \subsubsection{Example 2}
+How many 5 digit odd numbers are there with no repeated digits?
+\vspace{20px}
+
+\subsubsection{Example 3}
 How many ways are there for 5 people to stand in a row?
 \vspace{20px}
+
+
+
 \subsection{Rule of Sum}
+
 \subsubsection{Definition}
+
 \vspace{20px}
+\pagebreak
 \subsubsection{Example 1}
+Calvin wants to go to Milwaukee. He can choose from 3 3 bus services or 2 2
+train services to head from home to downtown Chicago. From there, he can choose
+from 2 bus services or 3 train services to head to Milwaukee. How many ways are
+there for Calvin to get to Milwaukee?
+\vspace{30px}
 
 
 
 \subsection{Case Working}
+\subsubsection{Definition}
+\vspace{20px}
+\subsubsection{Example 1}
+How many numbers less than 10,000 are there with no repeated digits?
+\vspace{20px}
+
+\subsubsection{Example 2}
+Consider the flag:
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Shape: Rectangle [id:dp9161151772239684] 
+\draw   (100,112) -- (226.48,112) -- (226.48,196.03) -- (100,196.03) -- cycle ;
+%Shape: Rectangle [id:dp21041871757069686] 
+\draw   (226.48,112) -- (352.96,112) -- (352.96,196.03) -- (226.48,196.03) -- cycle ;
+%Shape: Rectangle [id:dp24653680549059187] 
+\draw   (100,196.13) -- (226.48,196.13) -- (226.48,280.16) -- (100,280.16) -- cycle ;
+%Shape: Rectangle [id:dp08301293915445807] 
+\draw   (226.48,196.13) -- (352.96,196.13) -- (352.96,280.16) -- (226.48,280.16) -- cycle ;
+
+
+
+
+\end{tikzpicture}\\
+If 10 colours are provided, how many ways are there to colour the flag so that no 2 adjacent regions have the same colour.
+\vspace{20px}
 
 \subsection{Indirect/Complemnetary Counting}
+\subsubsection{Example 1}
+How many positive integers less than $100$ are not a multiple of five?
+\vspace{20px}
+
+\subsubsection{Example 2}
+How many four-digit positive integers have at least one digit that is a 2 or a 3?
+\pagebreak
+
+\subsection{Venn Diagram and Inclusion-Exclusion Principle}
+
+\subsubsection{Venn Diagram}
+
+Example:
+100 students were interviewed.
+28 took PE, 31 took BIO, 42 took ENG, 9 took PE and BIO, 10 took PE and ENG, 6 took BIO and ENG, 4 took all three subjects.
+\begin{itemize}
+    \item How many students took none of the three subjects?
+    \item How many students took PE but not BIO or ENG?
+    \item How many students took BIO and PE but not ENG?
+\end{itemize}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,585); %set diagram left start at 0, and has height of 585
+
+%Shape: Rectangle [id:dp8186228115590011] 
+\draw   (63,71) -- (309.96,71) -- (309.96,263.16) -- (63,263.16) -- cycle ;
+%Shape: Circle [id:dp002176999662527823] 
+\draw   (99,142.48) .. controls (99,115.15) and (121.15,93) .. (148.48,93) .. controls (175.81,93) and (197.96,115.15) .. (197.96,142.48) .. controls (197.96,169.81) and (175.81,191.96) .. (148.48,191.96) .. controls (121.15,191.96) and (99,169.81) .. (99,142.48) -- cycle ;
+%Shape: Circle [id:dp6218005090315404] 
+\draw   (138.48,196.96) .. controls (138.48,169.63) and (160.63,147.48) .. (187.96,147.48) .. controls (215.28,147.48) and (237.44,169.63) .. (237.44,196.96) .. controls (237.44,224.28) and (215.28,246.44) .. (187.96,246.44) .. controls (160.63,246.44) and (138.48,224.28) .. (138.48,196.96) -- cycle ;
+%Shape: Circle [id:dp7933760637768881] 
+\draw   (179,141.48) .. controls (179,114.15) and (201.15,92) .. (228.48,92) .. controls (255.81,92) and (277.96,114.15) .. (277.96,141.48) .. controls (277.96,168.81) and (255.81,190.96) .. (228.48,190.96) .. controls (201.15,190.96) and (179,168.81) .. (179,141.48) -- cycle ;
+
+
+
+
+\end{tikzpicture}
+\vspace{20px}
+
+\subsubsection{Inclusion-Exclusion Principle}
+Two sets: $|A_1 \cup A_2| = |A_1| + |A_2| - |A_1\cap A_2|$.\\
+Three sets: $|A_1\cup A_2\cup A_3| = |A_1| + |A_2| + |A_3| -|A_1\cap A_2| - |A_2\cap A_3| - |A_3\cap A_1| +|A_1\cap A_2\cap A_3|$.\\
+\\
+Example:\\
+There are $20$ students participating in an after-school program offering classes in yoga, bridge, and painting. Each student must take at least one of these three classes, but may take two or all three. There are $10$ students taking yoga, $13$ taking bridge, and $9$ taking painting. There are $9$ students taking at least two classes. How many students are taking all three classes?
+\pagebreak
 
 \section{Permutation and Combination}
 
 \subsection{Factorial}
+\subsubsection{Notation/Definition}
+$n!=$
+\subsubsection{Examples}
+\begin{itemize}
+    \item $3!=$
+    \item $5!=$
+    \item $(n^2+5n+6)(n+1)!=$ 
+\end{itemize}
 
 \subsection{Permutation}
-
+\subsubsection{Definition}
+\vspace{20px}
+\subsubsection{Notation}
+$mPn=P(m,n)=$
+\subsubsection{Examples}
+\begin{itemize}
+    \item $5P3=$
+    \item $P(7,2)=$
+    \item $P(n,r)P(n-r,m)=$ 
+\end{itemize}
 \subsection{With Repetition}
+\subsubsection{No repetiotion}
+How many arrangements are there for the word MATHS?
+\vspace{20px}
+\subsubsection{With repetiotion}
+How many arrangements are there for the word TORONTO?
+\vspace{20px}
+\subsubsection{Problem}
+How many ways can 12 basketball players be assigned to four triple rooms?
+\pagebreak
 
+\subsection{Grouping}
+\subsubsection{Example}
+Math Club is taking yearbook photo one day with 20 memebers and Mr.Fraschetti and Mr.Gatti lining in a row. If Mr.Fraschetti and Mr.Gatti insist to stand together, how many arrangements are there?
+\vspace{20px}
+\subsubsection{Problem}
+At a recent conference of the 11 premiers (including the Prime Minister), find the number of different group photos possible if Lucien Bouchard and Jean Chretien
+refused to stand next to each other and if the premiers arranged themselves in a line.
+\vspace{20px}
+\subsection{Circular}
+\subsubsection{Example}
+How many arrangements are there if 8 people sitting around a circluar table?
+\vspace{20px}
+\subsubsection{Problem}
+Grace is making a bracelet with 8 beads that are all different colours. How many bracelets can she make if the bracelet has no visible clasp?
+\vspace{20px}
 \subsection{Combination}
+\subsubsection{Definition}
+\vspace{20px}
+\subsubsection{Notation}
+$mCn=C(m,n)=$
+\subsubsection{Examples}
+\begin{itemize}
+    \item $5C3=$
+    \item $C(7,2)=$
+    \item Prove $C(n,r)=C(n,n-r)$ 
+\end{itemize}
+\pagebreak
+
+\subsection{Combination Problems}
+
 
 \subsection{Star and Bars}
 
@@ -57,7 +208,7 @@ How many ways are there for 5 people to stand in a row?
 
 \subsection{Pascal Triangle}
 
-\subsection{Binomial Theorem}
+\subsection{Binomial Theorem and Multinomial Theorem}
 
 \subsection{Pascal Routes}
 
@@ -67,7 +218,9 @@ How many ways are there for 5 people to stand in a row?
 
 \subsection{Continuous}
 
+\subsection{Conditional Probability}
 
+\section{Problems}
 
 
 \end{document}
