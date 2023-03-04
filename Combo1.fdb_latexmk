@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1677900234 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.pdf" "Combo1" 1677900237
+["pdflatex"] 1677900234 "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.tex" "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.pdf" "Combo1" 1677900248
   "Combo1.aux" 1677900237 8342 02b59ad3f7b4cd7d969ade1b197f48c2 "pdflatex"
   "Combo1.tex" 1677900233 14167 0d50596845a2c5531e4c0d7c2e2fd6f2 ""
   "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.aux" 1677900237 8342 02b59ad3f7b4cd7d969ade1b197f48c2 ""
@@ -136,8 +136,8 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1606336531 2549468 6a97027fa328ef62eb40bdc4381ccaff ""
   "c:/texlive/2020/texmf.cnf" 1606336332 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "Combo1.log"
-  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.log"
-  "Combo1.aux"
   "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.pdf"
+  "c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.log"
   "Combo1.pdf"
+  "Combo1.aux"
+  "Combo1.log"
