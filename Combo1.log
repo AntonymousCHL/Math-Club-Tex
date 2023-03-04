@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  28 FEB 2023 22:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.25)  3 MAR 2023 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -332,10 +332,19 @@ File: pgfmodulematrix.code.tex 2020/11/23 v3.1.7 (3.1.7)
 \tikz@expandcount=\count286
  (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/11/23 v3.1.7 (3.1.7)
-))) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+))) (c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen266
+\ar@mcellbox=\box61
+\extrarowheight=\dimen267
+\NC@list=\toks37
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box62
+) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count287
-\l__pdf_internal_box=\box61
+\l__pdf_internal_box=\box63
 ) (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.aux)
 \openout1 = `Combo1.aux'.
 
@@ -391,16 +400,16 @@ LaTeX Font Info:    ... okay on input line 17.
 (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
-\scratchdimen=\dimen266
-\scratchbox=\box62
+\scratchdimen=\dimen268
+\scratchbox=\box64
 \nofMPsegments=\count289
 \nofMParguments=\count290
-\everyMPshowfont=\toks37
+\everyMPshowfont=\toks38
 \MPscratchCnt=\count291
-\MPscratchDim=\dimen267
+\MPscratchDim=\dimen269
 \MPnumerator=\count292
 \makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks38
+\everyMPtoPDFconversion=\toks39
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -427,20 +436,20 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 193.
 
-[5] [6] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.aux) ) 
+[5] [6] [7] [8] [9] [10] [11] (c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.aux) ) 
 Here is how much of TeX's memory you used:
- 13582 strings out of 479485
- 263729 string characters out of 5875909
- 522744 words of memory out of 5000000
- 30357 multiletter control sequences out of 15000+600000
+ 13658 strings out of 479485
+ 264854 string characters out of 5875909
+ 528731 words of memory out of 5000000
+ 30430 multiletter control sequences out of 15000+600000
  541589 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,6n,85p,444b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,7n,85p,470b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.pdf (6 pages, 127138 bytes).
+Output written on c:/Users/zhaoh/Documents/GitHub/Math-Club-Tex/Combo1.pdf (11 pages, 145924 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
