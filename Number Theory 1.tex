@@ -170,7 +170,7 @@ If $a$ is congruent to $b$ modulo $m$ ($a \equiv b$ $(m)$) or ($a \equiv b$ (mod
 
 \subsection{Congruences and Remainder}
 \subsubsection{Theorem}
-Every integer is congruent ($m$) to exactly one of $0, 1, ... , m-1$.
+Every integer is congruent $m$ to exactly one of $0, 1, ... , m-1$.
 \vspace{40px}
 
 \subsubsection{Theorem}
@@ -185,8 +185,62 @@ $a \equiv b$ ($m$) iff $a$ and $b$ leave the same remainder on division by $m$.
     \item If $a \equiv b \ (m)$ and $c \equiv d \ (m)$, then $a+b \equiv c+d \ (m)$.
     \item If $a \equiv b \ (m)$ and $c \equiv d \ (m)$, then $ab \equiv cd \ (m)$.
 \end{itemize}
+\vspace{60px}
+\subsubsection{Theorem}
+If $ac \equiv bc \ (m)$ and $(c,m)=1$, then $a \equiv b \ (m)$
+\vspace{50px}
+\subsubsection{Theorem}
+If $ac \equiv bc \ (m)$ and $(c,m)=d$, then $a \equiv b \ (m/d)$
+\vspace{50px}
+\subsection{Problems}
+\subsubsection{Problem}
+Find the least residue of 1492 (mod 4), (mod 10), (mod 101).
+\vspace{40px}
+\subsubsection{Problem}
+Solve $2x \equiv 4 \ (6)$.
+\vspace{40px}
+\subsubsection{Problem}
+Prove $m^2 \equiv \text{ 0 or 1 } (4)$
+\vspace{40px}
+\subsubsection{Problem}
+Show every integer is congruent to (mod 9) to the sum of its digits.
+\pagebreak
+
 \section{Linear Congruences}
+We will try to solve the linear equation $ax \equiv b \pmod{m}$ in this section.
+\subsection{General Theory}
+\subsubsection{Theorem}
+If $(a, m) \nmid b$, then $ax \equiv b \ (m)$ has no solutions.
+\vspace{50px}
+\subsubsection{Theorem}
+If $(a, m) \nmid 1$, then $ax \equiv b \ (m)$ has exactly one solution mod $m$.
+\vspace{50px}
+\subsubsection{Theorem}
+If $(a, m) \nmid d$, then $ax \equiv b \ (m)$ has exactly one solution mod $m/d$.
+\vspace{50px}
+\subsection{Problems}
+\subsubsection{Problem}
+Solve $2x\equiv 1 \ (17)$
+\vspace{40px}
+\subsubsection{Problem}
+Solve $3x\equiv 1 \ (17)$
+\vspace{40px}
+\subsubsection{Problem}
+Solve $15x+16y=17$
+\vspace{40px}
+\subsection{Chinese Remainder Theorem (CRT)}
+If the $n_{i}$ are pairwise coprime, and if $a_1, ..., a_k$ are any integers, then the system
+$$\begin{aligned}
+    x & \equiv a_{1} \quad\left(\bmod n_{1}\right) \\
+    & \vdots \\
+    x & \equiv a_{k} \quad\left(\bmod n_{k}\right)
+    \end{aligned}$$
+has one solution mod $N=n_1 n_2 ... n_k$.
+\subsubsection{Example}
+Solve:
+\[x\equiv 1 \pmod 2\]\[4x\equiv 3 \pmod 5\]
+\vspace{50px}
 
-
+\section{Wilson's, Fermat's, Euler's Theorems}
 
 \end{document}
