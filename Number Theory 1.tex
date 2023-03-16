@@ -240,7 +240,52 @@ has one solution mod $N=n_1 n_2 ... n_k$.
 Solve:
 \[x\equiv 1 \pmod 2\]\[4x\equiv 3 \pmod 5\]
 \vspace{50px}
+\subsubsection{Problem}
+Find the remainder when divided by 10 of the following:
+$$4^{4^{4^{4^{4^{4^{4{...^4}}}}}}}$$
+(There are 2023 4's in total).
+\vspace{50px}
 
 \section{Wilson's, Fermat's, Euler's Theorems}
+\subsection{Wilson's Theorem}
+A natural number $n > 1$ is a prime number if and only if the product of all the
+positive integers less than n is one less than a multiple of $n$ or 
+$$(n-1) ! \equiv-1 \quad(\bmod n).$$
+
+\subsection{Fermat's Little Theorem}
+If $a$ is not divisible by the prime $p$, then 
+$$a^{p-1} \equiv 1 \pmod{p}$$
+
+\subsubsection{Example}
+What is the least residue of $1945^8 \pmod{7}$
+\vspace{30px}
+\subsubsection{Example}
+What is the least residue of $2025^22 \pmod{11}$
+\vspace{30px}
+
+
+\subsection{Euler's Theorem}
+\subsubsection{Euler's Totient Function}
+Euler's totient function $ \varphi(n)$ counts the positive integers up to a given integer $n$ that are relatively prime to $n$.
+
+\subsubsection{Example}
+Find $ \varphi(24)$
+\vspace{30px}
+\subsubsection{Euler's Totient Function is Multiplicative}
+If $(a,b)=1$, then $\varphi(ab)=\varphi(a)\varphi(b)$.
+
+\subsubsection{Example}
+Find $ \varphi(2)$, $ \varphi(5)$, $ \varphi(10)$.
+\vspace{40px}
+\subsubsection{Euler's Totient Function for $p^n$}
+$ \varphi(p^n)=p^n-p^{n-1}$
+\vspace{30px}
+\subsubsection{Euler's Totient Function General Formula}
+\vspace{50px}
+\subsubsection{Euler's Theorem}
+If $(a,m)=1$, then 
+$$a^{\varphi(m)} \equiv 1 \pmod{m}$$
+\subsubsection{Example}
+What is the least residue of $2023^{41} \pmod{100}$
 
 \end{document}
